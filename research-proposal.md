@@ -2,9 +2,9 @@
 
 ## 1. Target Audience
 
-This handbook is intended for small and medium-sized marketing and advertising agencies in Arnhem and the wider Gelderland region, with approximately 10–50 employees.
+This handbook is intended for small and medium-sized marketing and advertising agencies in Arnhem and within the Gelderland region, with approximately 10–50 employees.
 
-These agencies provide services such as branding, social media marketing, graphic design, website development, advertising campaigns and content creation for other businesses.
+These agencies provide services such as branding, digital marketing, graphic design, website development, advertising campaigns and content creation for other businesses.
 
 Our initial example company is **Reklaame, based in Arnhem**. The company represents the type of creative SME that our research will focus on.
 
@@ -18,11 +18,11 @@ Our initial assumption is that AI could reduce the time employees spend on tasks
 
 ## 2. What These SMEs Need to Know
 
-Small marketing and advertising agencies need practical information that helps them decide whether AI adoption creates real business value.
+Small marketing and advertising agencies need practical and real-time information that helps them decide whether AI adoption creates real business value.
 
-The Draghi report highlights Europe's need to improve productivity, innovation and the adoption of digital technologies in order to remain competitive. For small businesses, however, adopting new technology can be difficult because they have fewer financial and technical resources than large organisations.
+The Draghi report highlights Europe's need to improve productivity, innovation and the adoption of digital technologies in order to remain competitive. For small businesses, however, adopting new technology can be tricky and this is because they have fewer financial and technical resources compared to large organisations.
 
-For a small marketing agency, AI may offer opportunities to complete certain tasks more quickly, increase creative output and serve more clients without increasing staff at the same rate.
+For a small marketing agency, AI may offer opportunities to complete certain tasks more quickly, which eventually increases creative output without spending hefty amount of time and serve more clients without increasing staff at the same rate.
 
 At the same time, AI creates several risks.
 
