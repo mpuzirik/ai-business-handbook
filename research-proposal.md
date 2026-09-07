@@ -12,7 +12,7 @@ Marketing agencies are already exposed to generative AI tools such as ChatGPT, i
 
 The real business decision is:
 
-**Which parts of the agency's workflow should use AI to increase productivity, and which parts should remain primarily human in order to protect quality, originality and client trust?**
+**Which parts of the agency's workflow should use AI to increase productivity, and which parts should remain primarily human in order to protect & ensure quality, originality and client trust?**
 
 Our initial assumption is that AI could reduce the time employees spend on tasks such as research, brainstorming, first drafts of content, summarising client briefs and preparing variations of marketing materials. However, this assumption must be tested through desk research and a company visit.
 
@@ -26,13 +26,13 @@ For a small marketing agency, AI may offer opportunities to complete certain tas
 
 At the same time, AI creates several risks.
 
-AI-generated information can be inaccurate. Generated content may be generic or inconsistent with a client's brand. Agencies also need to consider copyright, privacy, confidential client information, transparency and the effect of AI on employees' creative skills.
+AI-generated information can be inaccurate. Generated content may be generic or inconsistent with a client's brand. Agencies also need to consider copyright, privacy, confidential client information, transparency and the effect of AI on employees' creative skills & thought process. 
 
-Therefore, the handbook should help an owner decide:
+Therefore, the handbook should help an owner to decide:
 
 * where AI can create useful productivity improvements;
 * which tasks should not be fully automated;
-* what risks need to be controlled;
+* what risks need to be controlled and assessed beforehand;
 * which skills employees need;
 * what costs and implementation effort are involved;
 * and how an agency can test AI on a small scale before making a larger investment.
@@ -65,7 +65,7 @@ The handbook should be judged using the following criteria.
 
 A good handbook page must:
 
-* use clear English that a non-technical SME owner can understand;
+* use clear and simple English that is easy for a non-technical SME owner to understand;
 * answer a real business decision rather than only explain AI technology;
 * be based on reliable and relevant evidence;
 * distinguish facts, research findings and assumptions;
@@ -101,9 +101,9 @@ Sources may include:
 * reliable technology and business publications;
 * Dutch regional business sources.
 
-Desk research will investigate current AI applications in marketing, adoption trends, business opportunities, productivity effects, copyright, privacy, responsible AI and other external risks.
+Desk research will investigate current AI applications in marketing, adoption trends, ease of use, business opportunities, productivity effects, copyright, privacy, responsible AI and other external risks.
 
-Both Dutch and English sources will be used.
+English sources will be used primarily with the exception of using Dutch sources where applicable. 
 
 Sources will be evaluated for authority, relevance, date, evidence quality and possible bias before being included in the handbook.
 
@@ -111,7 +111,7 @@ Sources will be evaluated for authority, relevance, date, evidence quality and p
 
 One SME visit will take place during weeks 2–4.
 
-The preferred case company is a small marketing or advertising agency in Arnhem, with Reklaame as the initial target.
+The preferred case company is a small marketing or advertising agency in Arnhem, with Reklaame as the first company to approach. However, other companies in the same field are also being considered and can be contacted if Reklaame is not available or cannot participate.
 
 A semi-structured interview will be conducted with an owner, manager or employee who understands the company's workflows.
 
