@@ -234,6 +234,26 @@ We currently assume that:
 * Markdown will be a suitable working format;
 * the SME visit will provide useful internal information that cannot be obtained from desk research alone.
 
+## 8. Architectural Blueprint and Build Plan
+
+This section outlines the technical approach and phased execution plan to build the research platform using an agentic CLI[cite: 2].
+
+### Architectural Blueprint
+The system relies on a modular pipeline managed by an agentic CLI, passing data through sequential automated stages with built-in human intervention points[cite: 2]. 
+* **Input Layer:** Handles ingestion of URLs, PDFs, and transcripts[cite: 2].
+* **Processing Layer:** Manages language identification and creates English translations or working summaries of Dutch texts while preserving the original source[cite: 2].
+* **Analysis Layer:** Appraises sources (authority, relevance, recency, bias) and extracts claims or statistics connected to specific research questions[cite: 2].
+* **Output Layer:** Generates English Markdown drafts and pushes approved pages to the existing course wiki[cite: 2].
+
+### Phased Build Plan
+
+| Phase & Focus | Key Tasks & Sub-Tasks | Deployment / Checkpoint |
+| :--- | :--- | :--- |
+| **Phase 1: Foundation** | 1. Select and configure the agentic CLI environment.<br>2. Set up manual fallbacks for data entry[cite: 2].<br>3. Connect output pipeline to the existing wiki[cite: 2]. | **Deployment:** CLI successfully authenticates and can push a manual Markdown page to the wiki. |
+| **Phase 2: Ingestion & Translation** | 1. Build document/URL ingestion.<br>2. Implement language detection[cite: 2].<br>3. Integrate translation API to process Dutch sources into English summaries[cite: 2]. | **Checkpoint:** System can ingest a Dutch regional article and output an English summary linked to the original[cite: 2]. |
+| **Phase 3: Extraction & Drafting** | 1. Prompt engineering for source appraisal (bias, authority)[cite: 2].<br>2. Build evidence extraction linked to external/internal research questions[cite: 2].<br>3. Generate first handbook-page draft[cite: 2]. | **Checkpoint:** System turns a translated interview transcript into a structured draft addressing responsible AI. |
+| **Phase 4: Review & Finalization** | 1. Build human-in-the-loop review interface/prompts[cite: 2].<br>2. Implement automated pre-publication checks (clarity, missing citations)[cite: 2].<br>3. End-to-end testing by a non-coder[cite: 2]. | **Deployment:** Full pipeline is operational; team publishes the first official handbook page[cite: 2]. |
+
 ### Open Questions
 
 The team still needs to determine:
