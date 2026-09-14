@@ -1,272 +1,278 @@
-# AEL Product Requirements Document — First Draft
+# AEL Product Requirements Document — Revised Draft
+
+*Revised after module-owner questions. The open questions in this document will be revisited in the Week 2 technical blueprint.*
 
 ## 1. Problem and Users
 
-The purpose of the platform is to support our research team in researching, writing and publishing an evidence-based handbook about the practical use of AI in small marketing and advertising agencies.
+The purpose of the platform is to support our research team in researching, writing, reviewing and publishing an evidence-based handbook about the practical use of AI in small marketing and advertising agencies.
 
-The platform will help transform raw research material into one new published handbook page each week.
-
-There are two main user groups.
+The platform should help transform reliable research material into one reviewed handbook page each week while reducing repetitive research and writing work.
 
 ### Primary User: Research Team
 
-The research team uses the platform to:
+The research team will use the platform to:
 
-* collect sources;
+* add and organise sources;
 * process Dutch and English information;
-* evaluate sources;
+* appraise source quality;
 * extract useful evidence;
-* organise research;
-* create draft handbook pages;
-* review the output;
-* and publish approved pages.
+* connect evidence to research questions;
+* create a first handbook-page draft;
+* check the draft for problems;
+* review and edit the output;
+* and prepare approved content for publication.
 
-The platform should reduce repetitive research and writing work while keeping researchers responsible for final decisions.
+The platform supports the researchers but does not replace their judgement.
 
 ### Downstream User: SME Owner
 
 The final reader is an owner or manager of a small marketing or advertising agency.
 
-The SME owner does not directly need to operate the research platform.
+The SME owner will not operate the research platform directly. Instead, the platform helps the research team produce handbook pages that support practical decisions about where AI could create business value and where its use may introduce unacceptable risks.
 
-Instead, they receive the handbook produced using the platform.
+---
 
-The handbook should help them make practical decisions about where AI could create business value and where its use may introduce unacceptable risks.
+## 2. Core User Workflow
 
-## 2. What the Platform Must Let a User Do
+The platform must support the following path from research material to a reviewed handbook page.
 
-The platform must support the complete path from raw research material to a published handbook page.
+### 1. Add Source Material
 
-The expected workflow is:
-
-**1. Add source material**
-
-The user can provide material such as:
+The researcher can add material such as:
 
 * URLs;
 * reports;
 * PDFs;
 * research papers;
-* Dutch or English articles;
+* Dutch and English articles;
 * company information;
-* interview transcripts;
-* interview notes.
+* approved research notes.
 
-**2. Identify and process the source**
+### 2. Identify the Source
 
-The platform identifies:
+The platform should capture basic source information, including:
 
-* source title;
+* title;
 * author or organisation;
 * publication date;
 * source type;
 * original language.
 
-**3. Translate when necessary**
+### 3. Translate When Necessary
 
-If the source is in Dutch, the platform creates an English translation or English working summary while keeping access to the original Dutch content.
+If a source is in Dutch, the platform may create an English working translation or summary while keeping the original Dutch source available.
 
-**4. Appraise the source**
+Important claims must remain traceable to the original material.
 
-The platform helps evaluate the source based on:
+### 4. Appraise the Source
+
+The platform should assist the researcher in evaluating a source according to:
 
 * authority;
 * relevance;
 * recency;
 * evidence quality;
-* potential bias.
+* possible bias.
 
-The researcher must still be able to manually change or reject the appraisal.
+The platform may suggest an appraisal, but the researcher must be able to change or reject it.
 
-**5. Extract evidence**
+### 5. Extract Evidence
 
-The platform identifies claims, statistics, examples and findings that may help answer the research questions.
+The platform should identify potentially useful:
 
-Evidence should stay connected to its original source.
+* claims;
+* statistics;
+* examples;
+* findings.
 
-**6. Organise evidence by research question**
+Every extracted item must remain linked to its original source.
 
-The platform helps connect evidence to:
+### 6. Organise Evidence
 
-* external-analysis questions;
-* internal-analysis questions;
+Evidence should be connected to relevant:
+
+* research questions;
 * handbook topics;
+* external or internal analysis;
 * responsible-AI issues.
 
-**7. Generate a handbook-page draft**
+### 7. Generate a First Draft
 
-The platform uses the selected evidence to produce a first English-language draft.
+The platform may generate a first English-language handbook-page draft using only selected evidence.
 
-**8. Check the draft**
+### 8. Check the Draft
 
-Before publication, the platform should help check:
+Before human approval, the platform should help identify:
 
-* clarity;
-* factual support;
-* missing citations;
-* responsible-AI coverage;
-* usefulness to the SME owner;
-* unsupported claims.
+* unsupported claims;
+* missing or weak citations;
+* unclear wording;
+* possible factual inconsistencies;
+* missing responsible-AI considerations;
+* content that is not useful to the SME owner.
 
-**9. Human review**
+### 9. Human Review and Publication
 
-A team member reviews and edits the draft.
+A researcher must review and approve the final page.
 
-No page should be published automatically without human approval.
+**No handbook page may be published automatically without human approval.**
 
-**10. Publish**
+---
 
-The approved page is added to the existing course wiki/site.
+## 3. Required Output Quality
 
-The project will reuse the existing infrastructure rather than create a new publishing system.
+A good handbook page must:
 
-## 3. Output Qualities
-
-A good handbook page produced by the platform must:
-
-* use clear English for a non-technical SME owner;
-* address a concrete business question;
+* use clear English suitable for a non-technical SME owner;
+* answer a practical business question;
 * use reliable and relevant evidence;
 * provide traceable sources for important claims;
-* clearly distinguish evidence from assumptions;
-* contain practical examples relevant to small marketing agencies;
-* explain opportunities as well as limitations;
-* cover responsible-AI issues when relevant;
+* distinguish evidence from assumptions;
+* include realistic examples for small marketing agencies;
+* explain both opportunities and limitations;
+* address responsible-AI issues where relevant;
 * avoid unsupported AI-generated claims;
-* explain business implications rather than only describing technology;
-* include practical actions, recommendations or decision questions;
-* remain concise and easy to scan.
+* explain business implications rather than only technology;
+* provide useful actions, recommendations or decision questions;
+* and remain concise and easy to scan.
 
-These output qualities correspond directly with the quality criteria defined in the AIBS research proposal.
+These requirements correspond with the quality criteria in the AIBS research proposal.
 
-## 4. Known Constraints
+---
 
-The project has several known constraints.
+## 4. Constraints and Boundaries
 
-### Agentic CLI
+### Existing Website
 
-The team will direct an agentic CLI rather than manually coding the entire system.
+The project will reuse the existing course website/wiki.
 
-The focus is therefore on defining workflows, instructions, inputs, outputs and checks rather than creating complex infrastructure from scratch.
+A new CMS or website will not be created.
 
-### Existing Wiki and Website
+### Non-Coder Accessibility
 
-The platform must reuse the existing wiki and course website.
+The main workflow must be usable by a team member without programming experience.
 
-A new content-management system or website will not be developed.
-
-### Non-coder Accessibility
-
-A team member without programming experience must be able to operate the main research workflow.
-
-The system should therefore use simple commands, clear instructions and understandable outputs.
+Commands and outputs should therefore be simple and understandable.
 
 ### Human Oversight
 
-The platform assists researchers but does not replace them.
+Important decisions remain human responsibilities, including:
 
-Important decisions such as accepting a source, interpreting interview findings, approving recommendations and publishing handbook content remain human responsibilities.
+* accepting or rejecting a source;
+* changing a source appraisal;
+* interpreting research findings;
+* approving recommendations;
+* and approving publication.
 
-### Manual Fallbacks
+### Interview and Confidential Material
 
-Every automated stage must have a manual fallback.
+Raw interview recordings, identifiable interview transcripts and confidential company information must **not be sent to an external or free-tier AI model service**.
 
-For example:
+If interview evidence is later used in the research workflow, it must first follow the agreed consent, anonymisation and data-handling process.
 
-* if automatic source retrieval fails, the researcher can paste or upload the content manually;
-* if automatic translation fails, translated text can be entered manually;
-* if automatic source appraisal is incorrect, the researcher can edit it;
-* if evidence extraction fails, the researcher can select evidence manually;
-* if page generation fails, the researcher can write or edit the Markdown manually;
-* if automatic publishing fails, the final Markdown can be copied into the wiki manually.
+This boundary will be shown explicitly in the Week 2 technical blueprint.
 
-## 5. Dutch-Language Source Handling
+### Manual Fallback
 
-Support for Dutch-language research is a core requirement of the platform.
+Important automated steps must have a manual alternative.
 
-Important information about Dutch SMEs may come from sources such as CBS, KVK, sector organisations, regional media and company websites.
+For example, if automatic extraction, translation or drafting fails, the researcher must still be able to continue the workflow manually.
 
-The company interview may also be partly or completely in Dutch.
+---
 
-The platform must therefore:
+## 5. Why Use an Agentic CLI?
 
-1. automatically identify whether material is Dutch or English;
-2. retain the original Dutch text;
-3. create an English translation or working summary;
-4. keep translated information linked to the original source;
-5. clearly indicate that content has been translated;
-6. allow the researcher to compare important translated claims with the original;
-7. evaluate the reliability of the original source rather than treating the translation as a new source;
-8. process Dutch interview transcripts or notes using the same workflow.
+The team will use an agentic CLI where it provides useful coordination across multiple research steps.
 
-This ensures that every team member can research Dutch sources even if they do not speak Dutch.
+The important capabilities are not simply generating text. The platform needs to be able to:
 
-Translation should support access to evidence, but important claims should remain traceable to their Dutch originals.
+* follow a repeatable multi-step workflow;
+* read project context and research criteria;
+* process different source files;
+* extract structured information;
+* apply the same source-appraisal criteria consistently;
+* connect evidence to research questions;
+* create files in agreed formats;
+* run checks before drafting or publication;
+* and preserve links between evidence and sources.
 
-## 6. Out of Scope, for Now
+Tasks involving judgement, such as deciding whether a source is trustworthy or whether a claim is sufficiently supported, must not be delegated completely to the agent.
 
-The first version will deliberately not include:
+The agent may make a recommendation, but a researcher must make the final decision.
 
-* a completely new website or CMS;
-* fully autonomous research without human review;
-* automatic publication without approval;
-* training our own AI model;
-* advanced custom machine-learning models;
-* real-time monitoring of every AI development;
-* automatic implementation of AI inside the selected SME;
-* direct integration with the SME's confidential business systems;
-* a commercial customer-facing AI chatbot;
-* support for every language;
-* advanced user accounts and permissions.
+---
 
-The first version focuses on creating a reliable research-to-publication workflow.
+## 6. Hypothesis and Success Measures
 
-## 7. Open Questions and Assumptions
+### Hypothesis
 
-### Assumptions
+**Using the research platform will reduce repetitive work in the research-to-draft process while maintaining or improving the traceability and quality of evidence used in handbook pages.**
 
-We currently assume that:
+### Baseline
 
-* small marketing agencies can benefit from some forms of generative AI;
-* useful regional and sector-specific information can be found in Dutch and English;
-* the existing wiki can accept the output generated by the platform;
-* researchers will review every page before publication;
-* Markdown will be a suitable working format;
-* the SME visit will provide useful internal information that cannot be obtained from desk research alone.
+Before relying on the platform, the team will record how long it takes to complete the main stages manually for a handbook page:
 
-## 8. Architectural Blueprint and Build Plan
+* finding and processing sources;
+* appraising sources;
+* extracting evidence;
+* organising evidence;
+* preparing a first draft;
+* checking citations and claims.
 
-This section outlines the technical approach and phased execution plan to build the research platform using an agentic CLI[cite: 2].
+### Success Measures
 
-### Architectural Blueprint
-The system relies on a modular pipeline managed by an agentic CLI, passing data through sequential automated stages with built-in human intervention points[cite: 2]. 
-* **Input Layer:** Handles ingestion of URLs, PDFs, and transcripts[cite: 2].
-* **Processing Layer:** Manages language identification and creates English translations or working summaries of Dutch texts while preserving the original source[cite: 2].
-* **Analysis Layer:** Appraises sources (authority, relevance, recency, bias) and extracts claims or statistics connected to specific research questions[cite: 2].
-* **Output Layer:** Generates English Markdown drafts and pushes approved pages to the existing course wiki[cite: 2].
+The platform will be considered useful if:
 
-### Phased Build Plan
+1. it reduces the amount of manual repetitive work compared with the recorded baseline;
+2. the team can produce the required weekly handbook page within the available working time;
+3. important factual claims in the final page remain traceable to an original source;
+4. no handbook page is published without human review;
+5. unsupported or unverifiable claims identified during review are removed or corrected;
+6. a non-coder team member can complete the main workflow using the instructions provided.
 
-| Phase & Focus | Key Tasks & Sub-Tasks | Deployment / Checkpoint |
-| :--- | :--- | :--- |
-| **Phase 1: Foundation** | 1. Select and configure the agentic CLI environment.<br>2. Set up manual fallbacks for data entry[cite: 2].<br>3. Connect output pipeline to the existing wiki[cite: 2]. | **Deployment:** CLI successfully authenticates and can push a manual Markdown page to the wiki. |
-| **Phase 2: Ingestion & Translation** | 1. Build document/URL ingestion.<br>2. Implement language detection[cite: 2].<br>3. Integrate translation API to process Dutch sources into English summaries[cite: 2]. | **Checkpoint:** System can ingest a Dutch regional article and output an English summary linked to the original[cite: 2]. |
-| **Phase 3: Extraction & Drafting** | 1. Prompt engineering for source appraisal (bias, authority)[cite: 2].<br>2. Build evidence extraction linked to external/internal research questions[cite: 2].<br>3. Generate first handbook-page draft[cite: 2]. | **Checkpoint:** System turns a translated interview transcript into a structured draft addressing responsible AI. |
-| **Phase 4: Review & Finalization** | 1. Build human-in-the-loop review interface/prompts[cite: 2].<br>2. Implement automated pre-publication checks (clarity, missing citations)[cite: 2].<br>3. End-to-end testing by a non-coder[cite: 2]. | **Deployment:** Full pipeline is operational; team publishes the first official handbook page[cite: 2]. |
+The first measured workflow will establish the baseline. After that baseline exists, the team can set a realistic percentage target for time reduction rather than inventing a target without evidence.
 
-### Open Questions
+---
 
-The team still needs to determine:
+## 7. Content Risks and Mitigations
 
-* which agentic CLI will be used for the final workflow;
-* how sources will be stored and referenced;
-* how source reliability should be scored;
-* how interview recordings and transcripts will be handled;
-* how much translation should be automated;
-* what exact page format the existing wiki requires;
-* how citations will be generated and checked;
-* which parts of the workflow should be automated first;
-* which marketing agency will participate in the SME visit;
-* and how the team will test whether the platform is easy enough for a non-coder to use.
+| Risk                                                          | Mitigation                                                                                                                                 |
+| ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| AI invents or changes a fact                                  | Important claims must be checked against the original source before publication.                                                           |
+| AI creates a citation that does not support the claim         | Citations must remain linked to the source evidence and receive human verification.                                                        |
+| Weak or biased sources are treated as reliable                | Sources are appraised using authority, relevance, recency, evidence quality and possible bias. Human researchers can reject the appraisal. |
+| Translation changes the meaning of a Dutch source             | Original Dutch content is retained and important translated claims can be compared with it.                                                |
+| Drafting overstates what the evidence proves                  | The final review checks whether conclusions match the strength and scope of the evidence.                                                  |
+| AI output becomes generic or unsuitable for an SME owner      | The page is checked against the handbook quality criteria before approval.                                                                 |
+| Confidential information is exposed to an external AI service | Raw confidential and identifiable interview material does not cross the defined data boundary.                                             |
 
-These questions will be refined as the project develops and as the team receives feedback from the SME visit and peer review.
+---
+
+## 8. Assumptions and Consequences
+
+| Assumption                                                             | If the assumption is wrong                                                                                                                   |
+| ---------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| Small marketing agencies can benefit from some forms of generative AI. | The handbook must report that evidence honestly and avoid recommending AI where business value cannot be demonstrated.                       |
+| Enough useful Dutch and English sources can be found.                  | The research scope will expand to suitable European or international sources while keeping relevance to Dutch SMEs clear.                    |
+| The existing website can accept the platform's final output.           | The output format will be changed to whatever format the existing website requires.                                                          |
+| Researchers will review every page before publication.                 | Publication must remain blocked until a human review step has been completed.                                                                |
+| Markdown is a suitable working format.                                 | Another simple structured format will be selected and the relevant platform output changed.                                                  |
+| The SME visit will provide useful internal information.                | Internal conclusions will be limited to evidence actually collected, with greater reliance on desk research and documented comparable cases. |
+
+---
+
+## 9. Open Questions and Next Steps
+
+| Open Question                                         | Next Step                                                                                                   | Responsible Role          | Target                                     |
+| ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------- | ------------------------------------------ |
+| Which agentic CLI will be used?                       | Compare the available option against the required workflow and choose the simplest suitable tool.           | Developer                 | Week 2                                     |
+| How will sources and extracted evidence be stored?    | Define a simple structured file format and show it in the technical blueprint.                              | Developer                 | Week 2                                     |
+| How will source reliability be assessed consistently? | Convert the AIBS quality criteria into a repeatable appraisal checklist.                                    | Research team             | Week 2                                     |
+| How will confidential interview material be handled?  | Define the consent, anonymisation and model-service boundary before field research is processed.            | Whole team                | Before SME interview material is processed |
+| How much translation should be automated?             | Test a Dutch source and compare the automated working summary with the original.                            | Research team             | Week 2–3                                   |
+| How will citations be generated and checked?          | Define how extracted evidence keeps its source reference and how humans verify it.                          | Developer + research team | Week 2                                     |
+| Which parts should be automated first?                | Prioritise the steps that remove repetitive work without removing human judgement.                          | Whole team                | Week 2                                     |
+| How will non-coder usability be tested?               | Have a non-coder team member complete the workflow using only the written instructions and record problems. | Non-coder tester          | Week 3                                     |
+
+These open questions will be revisited in the technical blueprint and later project documents as decisions are made.
+
