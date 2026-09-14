@@ -73,16 +73,23 @@ Where an important claim was found, we tried to compare it with evidence from an
 
 ### Stanford AI Index 2025
 
-**Source:** Stanford Institute for Human-Centered Artificial Intelligence — *The 2025 AI Index Report*
+### Stanford AI Index 2026
+
+**Source:** Stanford Institute for Human-Centered Artificial Intelligence — *The 2026 AI Index Report*
 
 **Why we selected it:**
-The AI Index is produced by Stanford University and provides a broad international comparison of AI research, model development, investment and adoption. It publishes its methodology and separates different indicators instead of treating AI leadership as a single measure.
+The Stanford AI Index provides a broad international comparison of AI research, model development, infrastructure, investment and adoption. It is particularly useful for this research because it separates different dimensions of AI leadership rather than treating leadership as a single ranking.
 
 **Relevant evidence:**
-The report found that U.S.-based institutions produced 40 notable AI models in 2024, compared with 15 in China and three in Europe. It also found that China leads in the total volume of AI research publications, while the United States remains stronger in highly influential research. The report also shows that the performance gap between leading U.S. and Chinese models has narrowed significantly.
+The 2026 report shows that China leads in AI publication volume, citations and patent grants, while the United States continues to lead in notable model development. U.S.-based institutions produced 59 notable AI models in 2025 compared with 35 from China.
+
+The report also finds that the performance gap between leading U.S. and Chinese models has effectively closed. U.S. and Chinese models exchanged the lead several times during 2025, and by March 2026 the leading U.S. model held only a small performance advantage.
+
+**Compute evidence:**
+The report also identifies a major infrastructure advantage for the United States. The U.S. hosts 5,427 data centres, more than ten times the number in any other individual country. At the same time, the report highlights an important international dependency: most leading AI chips are fabricated by TSMC in Taiwan. This means that even U.S. AI leadership depends on a geographically concentrated semiconductor supply chain.
 
 **Limitations:**
-Its measurements depend on the definitions used for terms such as “notable AI model,” so individual indicators should not be interpreted as a complete measure of AI dominance.
+Indicators such as the number of notable models, publications, citations and data centres measure different dimensions of AI capability. None of these measures alone proves overall AI dominance.
 
 ### OECD — AI Venture Capital Investment
 
