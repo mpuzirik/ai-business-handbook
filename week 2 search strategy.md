@@ -73,8 +73,6 @@ Where an important claim was found, we tried to compare it with evidence from an
 
 ### Stanford AI Index 2025
 
-### Stanford AI Index 2026
-
 **Source:** Stanford Institute for Human-Centered Artificial Intelligence — *The 2026 AI Index Report*
 
 **Why we selected it:**
@@ -104,20 +102,22 @@ In 2025, U.S. AI firms received approximately 75% of global AI venture-capital d
 **Limitations:**
 Venture-capital investment measures access to private capital but does not directly measure model quality, research strength, state investment or business adoption.
 
-### WIPO — Generative AI Patent Landscape
+### WIPO — Patent Trends Update in GenAI 2026
 
-**Source:** World Intellectual Property Organization — *Patent Landscape Report: Generative Artificial Intelligence*
+**Source:** World Intellectual Property Organization — *Patent Trends Update in GenAI*, 2026.
 
 **Why we selected it:**
-WIPO is a United Nations specialised agency responsible for international intellectual-property systems. Its patent analysis is based on patent-family data rather than company marketing claims.
+WIPO is a United Nations specialised agency responsible for international intellectual-property systems. Its 2026 report provides updated patent evidence through 2025 and allows us to compare where generative-AI inventions are being developed.
 
 **Relevant evidence:**
-WIPO found that inventors based in China were responsible for more than 38,000 GenAI patent families between 2014 and 2023, compared with around 6,300 in the United States. China has published more GenAI patent families annually than all other countries combined since 2017.
+The 2026 update shows that global GenAI patent activity is accelerating rapidly. Published GenAI patent families increased from approximately 14,000 in 2023 to more than 37,000 in 2025.
 
-An update from WIPO indicated that China remained the leader in GenAI patent applications during 2024-2025, while other countries, including the United States, Germany and Japan, also concentrated their patent activities.
+China remains the largest source of GenAI patent activity. China-based inventors published more than 43,000 GenAI patent families during 2024 and 2025 alone, exceeding China's entire output during the previous decade.
+
+However, the report also shows that the landscape is becoming more competitive. U.S. GenAI patent families increased from approximately 1,185 in 2023 to more than 4,380 in 2025. Germany has also become the leading European location for GenAI inventions.
 
 **Limitations:**
-The volume of patents does not always correspond to successful commercialisation or advanced technology. Different patenting systems and filing strategies also play a role in these comparisons.
+Patent volume measures inventive activity rather than actual model performance or commercial success. WIPO also notes that Chinese applicants frequently file domestically, meaning that raw patent-family counts should not automatically be interpreted as evidence of technological dominance.
 
 ### European Commission — Draghi Report on EU Competitiveness
 
