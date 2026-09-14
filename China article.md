@@ -1,25 +1,31 @@
-###Does China Dominate AI? A One-Page Assessment
-China does not outright dominate the entire field of artificial intelligence, but it is a co-leader with the United States in a sharply bifurcated global landscape. The two countries excel in different layers of the AI stack: the U.S. leads in frontier “brains” (top-tier large language models, advanced chips, and venture capital), while China leads in “bodies” (robotics, drones) and in research volume, patents, and real-world deployment.
-###Where China Leads
-Research output and patents: China now produces more AI research papers than the U.S., UK, and EU combined, and commands over 40% of global citation attention in AI. It also dominates AI-related patent filings, with some indicators showing China outpacing the U.S. by up to tenfold. In generative AI inventions alone, China’s ~38,000 filings are about six times the U.S. total.
+# Does China Dominate AI? A One-Page Assessment
 
-Industrial and consumer deployment: Chinese firms excel at rapidly integrating AI into products, public services, and manufacturing, leveraging vast domestic data and a regulatory environment that favors fast scaling. This “fast-follower” strategy translates research into widespread adoption across the real economy.
+China does not outright dominate the entire field of artificial intelligence, but it is a co-leader with the United States in a sharply divided global landscape. The two countries excel in different areas of AI. The U.S. leads in frontier models, advanced chips and venture capital, while China is particularly strong in research volume, patents, robotics and real-world deployment.
 
-Robotics and physical AI: China has a clear edge in AI-enabled hardware—humanoid robots, drones, and automation systems—giving it leadership in the “bodies” side of AI.
+## Where China Leads
 
-###Where the U.S. Leads
-Frontier models and performance: Closed, state-of-the-art models from U.S. firms (e.g., OpenAI, Google, Anthropic) still dominate overall performance benchmarks and account for roughly 70% of total model downloads. Experts broadly agree American models outperform Chinese rivals at the frontier.
+China now produces more AI research papers than the U.S., UK and EU combined, and it has a strong position in AI-related patent filings. In generative AI inventions, China also has a large number of patent filings.
 
-Compute and capital: The U.S. retains decisive advantages in high-end GPUs/accelerators, cloud infrastructure, and private investment, enabling larger training runs and faster iteration on cutting-edge systems.
+Chinese firms excel at integrating AI into products, public services and manufacturing. This allows AI technologies to spread quickly across the economy.
 
-Talent and ecosystem depth: The U.S. attracts top global AI researchers and maintains a dense network of leading labs, startups, and tech giants driving foundational breakthroughs.
+China also has a strong position in AI-enabled hardware, including humanoid robots, drones and automation systems.
 
-###Constraints on China’s Path to Full Dominance
-Chip restrictions: U.S. export controls on advanced semiconductors limit China’s access to the most powerful training hardware, creating a persistent gap in compute for frontier models.
+## Where the U.S. Leads
 
-Capital and model quality: While Chinese open-source models lead in downloads, the performance gap with top U.S. closed models persists, partly due to compute and funding constraints.
+The U.S. remains stronger in frontier AI models. Companies such as OpenAI, Google and Anthropic are leading the development of advanced generative AI models.
 
-Global integration: Despite leading in publications, China relies less on reciprocal international collaboration, which can slow cross-pollination of ideas at the very frontier.
+The U.S. also has major advantages in high-end GPUs, cloud infrastructure and private investment. These advantages support the development of cutting-edge AI systems.
 
-###Bottom Line
-China dominates specific, strategically important slices of AI—especially research volume, patents, industrial deployment, and robotics—but does not dominate the field as a whole. The global AI order is increasingly split: the U.S. sets the pace in frontier models and infrastructure, while China leads in scaling, diffusion, and physical AI. Whether either side pulls decisively ahead will depend on how chip constraints, capital flows, and real-world adoption evolve over the next few years
+The U.S. also attracts many leading AI researchers and has a strong ecosystem of technology companies, startups and research laboratories.
+
+## Constraints on China's Path to Full Dominance
+
+U.S. export controls on advanced semiconductors limit China's access to some of the most powerful AI hardware. This creates challenges for China when developing frontier AI models.
+
+China also faces a gap in some areas of model performance compared with the strongest U.S. models.
+
+## Bottom Line
+
+China dominates some important areas of AI, especially research volume, patents, industrial deployment and robotics. However, it does not dominate the field as a whole.
+
+The global AI landscape is divided, with the U.S. stronger in frontier models and computing infrastructure, while China is particularly strong in large-scale deployment and physical AI.
