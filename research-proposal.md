@@ -1,39 +1,41 @@
 # AIBS Research Proposal — Revised Draft
 
-*Revised after peer/module-owner feedback. See the response table at the end for what changed and why.*
+*Revised after module-owner questions. The response section at the end explains what changed and why.*
 
 ## 1. Target Audience
 
-This handbook is intended for small and medium-sized marketing and advertising agencies with approximately 10–50 employees, providing services such as branding, digital marketing, graphic design, website development, advertising campaigns and content creation for other businesses.
+This handbook is intended for **small marketing and advertising agencies in the Netherlands with approximately 10–50 employees**, providing services such as branding, digital marketing, graphic design, website development, advertising campaigns and content creation for other businesses.
 
-Our case company is **Reklaame, based in Arnhem**. Arnhem is the location used to arrange access to a case company; it is not treated as a research variable in itself (see Section 5).
+Our preferred case company is **Reklaame, based in Arnhem**. Arnhem is used as the location for arranging access to a suitable case company; it is **not treated as a research variable in itself**. The findings are therefore not intended to describe marketing agencies in Gelderland specifically.
 
-Marketing agencies are already exposed to generative AI tools such as ChatGPT, image-generation tools and AI-assisted design or content platforms. However, the important question for an agency owner is not simply which AI tools are available.
+Marketing agencies are increasingly exposed to generative AI tools such as ChatGPT, image-generation tools, and AI-assisted design and content platforms. However, the important question for an agency owner is not simply which AI tools are available.
 
-The real business decision is:
+The main business decision is:
 
-**Which parts of the agency's workflow should use AI to increase productivity, and which parts should remain primarily human in order to protect & ensure quality, originality and client trust?**
+**Which parts of a marketing agency's workflow should use AI to improve productivity, and which parts should remain primarily human in order to protect quality, originality and client trust?**
 
-Our initial assumption is that AI could reduce the time employees spend on tasks such as research, brainstorming, first drafts of content, summarising client briefs and preparing variations of marketing materials. This assumption will be tested through desk research and a company visit, not assumed.
+Our initial assumption is that AI could reduce the time employees spend on activities such as research, brainstorming, first drafts of content, summarising client briefs and preparing variations of marketing materials. This assumption will be tested through desk research and field research rather than treated as a fact.
 
 ## 2. What These SMEs Need to Know
 
-Small marketing and advertising agencies need practical, real-world information that helps them decide whether AI adoption creates real business value.
+Small marketing and advertising agencies need practical and evidence-based information that helps them decide whether adopting AI can create real business value.
 
-The Draghi report highlights Europe's need to improve productivity, innovation and the adoption of digital technologies in order to remain competitive. For small businesses, adopting new technology is harder because they have fewer financial and technical resources than large organisations.
+The Draghi report highlights Europe's need to improve productivity, innovation and the adoption of digital technologies in order to remain competitive. For small businesses, adopting new technologies can be more difficult because they usually have fewer financial, technical and human resources than larger organisations.
 
-AI may offer opportunities to complete certain tasks more quickly, increasing creative output and client capacity without a proportional increase in staff or cost.
+Generative AI may offer opportunities to complete certain tasks more quickly, increase creative output and support a larger number of clients without a proportional increase in staff or costs.
 
-At the same time, AI creates risks: AI-generated information can be inaccurate, generated content may be generic or inconsistent with a client's brand, and agencies must consider copyright, privacy, confidential client information, transparency, and the effect of AI on employees' creative skills and thought process. Where a given AI tool is built, and under which jurisdiction's data and copyright rules it operates, affects what these risks actually require of the agency in practice.
+At the same time, the use of AI introduces risks. AI-generated information may be inaccurate, generated content may be generic or inconsistent with a client's brand, and agencies need to consider copyright, privacy, confidential client information, transparency and the possible effect of AI on employees' creative skills and working practices.
 
-The handbook should help an owner decide:
+The responsible use of an AI tool can also depend on **where the provider is based, where relevant data is processed, and which privacy, data-protection and copyright rules are relevant to the agency's use of the tool**. These factors may affect whether an agency can safely use a particular tool with client information.
 
-* where AI can create useful productivity improvements;
+The handbook should therefore help an owner decide:
+
+* where AI could create useful productivity improvements;
 * which tasks should not be fully automated;
-* what risks need to be controlled and assessed beforehand;
-* which skills employees need;
-* what costs and implementation effort are involved;
-* how an agency can test AI on a small scale before making a larger investment.
+* which risks should be assessed and controlled before adoption;
+* which skills employees need to use AI responsibly;
+* what costs and implementation effort may be involved;
+* and how AI can be tested on a small scale before making a larger investment.
 
 ## 3. Research Question
 
@@ -43,51 +45,168 @@ The handbook should help an owner decide:
 
 ### External Analysis Sub-questions
 
-1. Which current AI applications and developments are most relevant to small marketing and advertising agencies?
-2. What external risks and requirements should marketing agencies consider when using generative AI, particularly regarding copyright, privacy, data protection, accuracy and responsible AI — including the jurisdiction under which a given AI tool operates?
+1. Which current generative AI applications and developments are most relevant to small marketing and advertising agencies?
+
+2. What external risks and requirements should marketing agencies consider when using generative AI, particularly regarding copyright, privacy, data protection, accuracy and responsible AI, including the provider's location, relevant data-processing arrangements and applicable rules?
+
 3. How is the increasing use of AI affecting competition, client expectations and the services offered by marketing agencies?
 
 ### Internal Analysis Sub-questions
 
 4. Which activities in the selected SME currently require the most employee time and could plausibly benefit from AI support?
-5. What AI knowledge, digital capabilities, data and resources does the selected SME demonstrably have?
+
+5. What AI knowledge, digital capabilities, data and resources can the selected SME **demonstrate in practice**?
+
 6. Which potential AI use cases provide the best balance between business value, implementation effort, creative quality and risk for the selected SME?
 
 ## 4. Quality Criteria for the Handbook
 
-A good handbook page must: use clear and simple English that is easy for a non-technical SME owner to understand; answer a real business decision rather than only explain AI technology; be based on reliable and relevant evidence; distinguish facts, research findings and assumptions; provide sources for important claims; explain both opportunities and limitations of AI; discuss responsible-AI issues including privacy, copyright, accuracy and human oversight where relevant; provide practical examples that are realistic for a small marketing agency; explain expected business value rather than only describing AI features; avoid recommending AI where there is insufficient evidence that it would be useful; give the owner clear actions or questions to consider after reading the page; and remain concise enough to be useful to a busy business owner.
+A good handbook page must:
 
-These criteria will also be used to evaluate pages produced by the AEL platform.
+* use clear and simple English that a non-technical SME owner can understand;
+* answer a real business decision rather than only explain AI technology;
+* be based on reliable and relevant evidence;
+* distinguish clearly between facts, research findings and assumptions;
+* provide traceable sources for important claims;
+* explain both opportunities and limitations of AI;
+* discuss responsible-AI issues such as privacy, copyright, accuracy and human oversight where relevant;
+* provide practical examples that are realistic for a small marketing agency;
+* explain expected business value rather than only describing AI features;
+* avoid recommending AI where there is insufficient evidence that it would be useful;
+* provide clear actions, recommendations or questions for the owner to consider;
+* and remain concise enough to be useful to a busy business owner.
+
+These criteria will also be used to evaluate handbook pages produced with support from the AEL platform.
 
 ## 5. Methodology
 
-The research will use a combination of desk research and field research.
+The research will combine **desk research and field research**.
 
 ### Desk Research
 
-Desk research will mainly answer the external-analysis questions and provide background evidence for the internal analysis. Sources may include the Draghi report, European Commission publications, CBS, KVK, sector organisations, academic research, professional reports, and reliable technology and business publications, in English with Dutch sources used where applicable. Sources will be evaluated for authority, relevance, date, evidence quality and possible bias before inclusion.
+Desk research will mainly answer the external-analysis questions and provide supporting evidence for the internal analysis.
 
-Desk research will investigate current AI applications in marketing, adoption trends, ease of use, business opportunities, productivity effects, copyright, privacy, responsible AI and other external risks. Two tasks are added in this revision:
+Possible sources include:
 
-* for each AI tool identified as relevant, establish where its data is processed and under which jurisdiction's copyright and privacy rules it operates, and what that means practically for client confidentiality;
-* identify 2–4 documented cases of small agencies — not limited to any one region — that have already piloted generative AI, successfully or not, to supply practical examples that don't depend solely on the case-company visit.
+* the Draghi report;
+* European Commission publications;
+* CBS;
+* KVK;
+* sector organisations;
+* academic research;
+* professional and industry reports;
+* reliable technology and business publications;
+* and relevant Dutch-language sources.
+
+Sources will be evaluated before inclusion based on:
+
+* authority;
+* relevance;
+* recency;
+* evidence quality;
+* and possible bias.
+
+Desk research will investigate current AI applications in marketing, adoption trends, ease of use, business opportunities, productivity effects, copyright, privacy, responsible AI and other external risks.
+
+Two additional research tasks are included in response to the module-owner questions.
+
+First, for important AI tools identified during the research, we will examine:
+
+* where the provider is based;
+* where relevant user or client data may be processed;
+* which privacy, data-protection and copyright considerations may apply;
+* and what these factors mean practically for a marketing agency handling client information.
+
+Second, we will identify **2–4 documented cases of comparable small marketing or advertising agencies** that have already tested or adopted generative AI. These cases may include both successful and unsuccessful examples.
+
+The cases will be used to provide practical examples and comparison points independently of the selected case company.
 
 ### Field Research
 
-One SME visit will take place during weeks 2–4. The preferred case company is Reklaame; other agencies of comparable size and services will be approached if Reklaame is unavailable or cannot participate.
+One SME visit is planned during weeks 2–4.
 
-A semi-structured interview will be conducted with an owner, manager or employee who understands the company's workflows, covering: how work currently moves from a client brief to a finished output; which activities require the most employee time; whether AI is already being used; problems or frustrations in the current workflow; attitudes towards AI-generated creative work; concerns about copyright, privacy and client information; and which AI applications the company would realistically consider testing.
+The preferred case company is **Reklaame**. If Reklaame is unavailable or unable to participate, another marketing or advertising agency with a comparable size and service profile will be approached.
 
-Questions on AI familiarity are framed around specific recent use ("what did you use AI for last week, and how") rather than general self-rated knowledge, and will ask for an example output where possible — people tend to overstate familiarity with tools they have only tried briefly.
+A semi-structured interview will be conducted with an owner, manager or employee who understands the company's workflows.
 
-*Scope note: the interview describes this SME's internal picture only and cannot support claims about marketing agencies in general — that role belongs to the desk research and the comparable-agency cases above. Field and desk findings will be compared to separate what is theoretically possible from what is realistic for this SME.*
+The interview will cover:
 
-## Response to Feedback: Open Questions and What Changed
+* how work currently moves from a client brief to a finished output;
+* which activities require the most employee time;
+* whether and how AI is currently being used;
+* problems or frustrations in the existing workflow;
+* attitudes towards AI-generated creative work;
+* concerns about copyright, privacy and confidential client information;
+* and which AI applications the company would realistically consider testing.
 
-**Is the Arnhem/Gelderland boundary substantive, or just practical for arranging the Reklaame interview?** Region was dropped from the research question; Arnhem is kept only as the recruitment location for the case company (Sections 1 and 5). None of the sub-questions tested anything regionally specific, such as local funding schemes or regional adoption data, so keeping "Gelderland" in the RQ implied a claim the research design couldn't actually support.
+Questions about AI knowledge will focus on **demonstrated recent use rather than general self-assessment**.
 
-**Does the plan distinguish between AI tools built under EU rules and those built elsewhere?** A desk-research task was added to identify where each relevant AI tool processes data and under which jurisdiction's copyright and privacy rules it operates (Section 5). Jurisdiction changes what "responsible AI" requires in practice — for example, how client data may be handled under GDPR — and this was previously implied but not planned as an actual task.
+Instead of only asking:
 
-**How will self-reported AI knowledge be checked against demonstrated knowledge, and what does one company tell us about agencies in general?** Interview questions were reworded from "which tools do you know or use" to specific recent use, with an example output requested where possible, since self-report tends to inflate familiarity and behavioural recall is harder to overstate. A generalisability caveat was also added directly to the methodology, keeping sub-question 5 honest about scope: it describes the selected SME, not the sector as a whole.
+> "Which AI tools do you know?"
 
-**Where will realistic practical examples come from if Reklaame has barely used AI?** A desk-research task was added to identify 2–4 documented cases of small agencies that have already piloted generative AI, successfully or not. None of the six sub-questions previously sourced examples independent of the single interview, so this closes that gap and gives a comparison point for the internal analysis.
+we will ask questions such as:
+
+> "What did you use AI for recently, and how did you use it?"
+
+Where appropriate, we will also ask the participant to describe or show an example of an output they produced.
+
+This helps distinguish between someone who has only heard about or briefly tried a tool and someone who understands how to use it in practice.
+
+### Scope and Generalisability
+
+The field research represents the internal situation of **one selected SME**.
+
+It will therefore **not be used to make general claims about all small marketing agencies**.
+
+Broader claims about the sector will be supported through desk research, external evidence and the comparable-agency cases.
+
+The case-company findings will instead be used to understand what AI adoption looks like in practice within one real SME and to compare that situation with what external research suggests is possible.
+
+## 6. Response to Module-Owner Questions
+
+### 1. Is the Arnhem/Gelderland boundary substantive, or mainly practical?
+
+The regional boundary has been removed from the research scope.
+
+The handbook is now aimed at small marketing and advertising agencies in the Netherlands rather than agencies specifically in Gelderland.
+
+Arnhem remains relevant only because Reklaame is located there and may be used as the case company.
+
+The original research questions did not investigate regional differences such as local funding, labour-market conditions or AI adoption rates. Therefore, presenting Gelderland as a research variable would imply a regional comparison that the research design does not actually conduct.
+
+### 2. Does the research distinguish between AI tools built or operated under different jurisdictions?
+
+Yes.
+
+The desk-research methodology now includes a specific task to investigate, for relevant AI tools:
+
+* where the provider is based;
+* where relevant data may be processed;
+* and which privacy, data-protection and copyright considerations are relevant to the agency's use of the tool.
+
+This is important because responsible AI use is not only about what a tool can do. It also depends on how the tool handles data and what this means for confidential client information and other legal or business risks.
+
+### 3. How will self-reported AI knowledge be distinguished from actual ability?
+
+The interview methodology has been changed.
+
+Instead of relying mainly on questions such as "Which AI tools do you know or use?", participants will be asked about **specific recent use**, for example:
+
+> "What did you use AI for recently, and how?"
+
+Where appropriate, they will also be asked to describe or show an example of an output.
+
+This provides stronger evidence of practical familiarity than self-reported knowledge alone.
+
+The proposal also makes clear that one company's internal capabilities cannot be used to represent marketing agencies in general.
+
+### 4. Where will practical examples come from if the selected SME has little AI experience?
+
+Desk research will identify **2–4 documented cases of comparable small marketing or advertising agencies** that have already piloted or adopted generative AI.
+
+These cases can include both successful and unsuccessful attempts.
+
+This ensures that the handbook can still provide practical examples even if the selected case company has limited experience with AI.
+
+The examples will also provide useful comparison points between what external research suggests and what appears realistic for the selected SME.
