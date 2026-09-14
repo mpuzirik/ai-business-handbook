@@ -107,20 +107,20 @@ WIPO is a United Nations specialised agency responsible for international intell
 **Relevant evidence:**
 WIPO found that inventors based in China were responsible for more than 38,000 GenAI patent families between 2014 and 2023, compared with around 6,300 in the United States. China has published more GenAI patent families annually than all other countries combined since 2017.
 
-A newer WIPO update shows that China continued to lead GenAI patenting in 2024–2025, while patent activity also accelerated significantly in the United States, Germany, Japan and other countries.
+An update from WIPO indicated that China remained the leader in GenAI patent applications during 2024-2025, while other countries, including the United States, Germany and Japan, also concentrated their patent activities.
 
 **Limitations:**
-Patent volume does not necessarily equal commercial success or technological superiority. Different national patent systems and filing strategies can also affect comparisons.
+The volume of patents does not always correspond to successful commercialisation or advanced technology. Different patenting systems and filing strategies also play a role in these comparisons.
 
 ### European Commission — Draghi Report on EU Competitiveness
 
 **Source:** European Commission — *The Future of European Competitiveness*, commonly known as the Draghi Report.
 
 **Why we selected it:**
-The report was commissioned by the European Commission to analyse structural challenges affecting European competitiveness, innovation and digital development.
+The report has been commissioned by the European Commission for investigating structural issues influencing Europe’s competitiveness, innovation and digital development.
 
 **Relevant evidence:**
-The report argues that Europe needs significantly stronger investment and innovation capacity to remain competitive in digital technologies and other strategic industries. It is useful for understanding why Europe has strong research and regulation but struggles to commercialise technology at the same scale as the United States.
+The findings of the report claim that Europe should improve its investment and innovation capabilities in order to be competitive in the field of digital technologies and other leading industries.
 
 **Limitations:**
 The report is primarily a policy and competitiveness document rather than a dedicated measurement of global AI leadership. It should therefore be used together with more specialised AI datasets.
