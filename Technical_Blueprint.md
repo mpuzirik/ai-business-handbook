@@ -1,4 +1,4 @@
-# AEL Technical Blueprint, Revision 3
+# AEL Technical Blueprint, Revision 1
 
 **Project:** Evidence-Based AI Adoption Handbook for Small Marketing and Advertising Agencies (10 to 50 FTE)
 **Document:** Technical architecture, tooling, scoring logic and confidential data handling
