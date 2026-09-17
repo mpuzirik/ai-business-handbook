@@ -28,9 +28,9 @@
 **1. What a part is — roles that own stages.** A part is a stage on the production line. Each stage is *built and owned* by one of the four AEL roles.
 
 | Stage | What happens | Built/owns it (AEL role) |
-|---|---|---|---|
+|---|---|---|
 | Ingest | Fetch a source, save a fixed snapshot, record where it came from | Developer |
-| Appraise | Score reliability by hand against a fixed rubric; a script does the arithmetic | Whoever's researching | Developer (built the scoring script) |
+| Appraise | Score reliability by hand against a fixed rubric; a script does the arithmetic | Developer (built the scoring script) |
 | Translate | Produce an English working summary of a Dutch source, original kept alongside it | Developer |
 | Extract Evidence | Pull individual claims out and tag each to a research question | Developer |
 | Draft | Assemble a page from evidence that has passed Appraise only | Developer |
