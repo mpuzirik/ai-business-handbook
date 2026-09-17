@@ -62,5 +62,4 @@ The Product Manager doesn't own a box in this table as their job is owning the P
 | Generate first draft from selected evidence only | Draft | none |
 | Check draft for unsupported claims, weak citations, unclear wording, factual inconsistencies, missing responsible-AI content, usefulness to owner | Check + Tester review | **Departure.** Script checks only the first two (attribution); the other four move to the Tester's read in Decision 6, because a script cannot judge truth or usefulness. |
 | Human review and approval; no auto-publish | Publish | none |
-| Non-coder accessible workflow | cross-cutting | none |
 | Interview/confidential material off any external AI service | The line (Decision 5) | none |
