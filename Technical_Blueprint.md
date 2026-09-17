@@ -25,7 +25,7 @@
 
 ## The Six Decisions
 
-**1. What a part is — roles that own stages.** A part is a stage on the production line. Each stage is *built and owned* by one of the four AEL roles.
+**1. What roles that own stages.** A part is a stage on the production line. Each stage is built and owned by one of the four AEL roles.
 
 | Stage | What happens | Built/owns it (AEL role) |
 |---|---|---|
@@ -41,13 +41,13 @@ The Product Manager doesn't own a box in this table as their job is owning the P
 
 **2. Who decides what happens next**
 
-**3. The one named seam and its contract — Ingest → Appraise, the source record.** One file per source, created by Ingest and completed by Appraise: an identifier and title; where it came from, when published, when retrieved; the original language; a fingerprint of the exact snapshot read, so appraisal can be checked against what was actually fetched; once appraised, the five scores, the resulting tier, and who scored it; an English working summary in the researcher's own words; and a short list of extracted claims, each pointing to a research question. No later stage may use a source whose record is incomplete.
+**3. The one named seam and its contract.** One file per source, created by Ingest and completed by Appraise: an identifier and title; where it came from, when published, when retrieved; the original language; a fingerprint of the exact snapshot read, so appraisal can be checked against what was actually fetched; once appraised, the five scores, the resulting tier, and who scored it; an English working summary in the researcher's own words; and a short list of extracted claims, each pointing to a research question. No later stage may use a source whose record is incomplete.
 
 **4. Where shared context lives? One context file every part reads.** Target SME (10–50 FTE marketing/creative agencies, NL), the quality criteria from the AIBS proposal §4, what is out of scope, and house style live in one file every stage reads before it runs. Nothing is duplicated into a stage's own instructions, because that is exactly how six pages stop agreeing with each other.
 
 **5. The line.** Raw interview recordings and unredacted transcripts never reach a model service. The material never enters the platform at all. A person redacts by hand, outside the repository, into a thematic note and it is then allowed anywhere in a model.
 
-**6. Being wrong — two readers, not one.** A checking part reads the draft first, but it can only test *attribution* (is every claim tagged to a real, appraised source), not *truth*. The Tester reads it second, against the remaining AIBS §4 criteria a script cannot judge — wording, factual accuracy, responsible-AI completeness, usefulness to the owner. Publish is blocked until both have passed. Nothing is left as "nothing yet" here, because the PRD requires human approval before every page regardless.
+**6. Two readers, not one.** A checking part reads the draft first, but it can only test attribution, not truth. The Tester reads it second, against the remaining AIBS §4 criteria a script cannot judge wording, factual accuracy, responsible-AI completeness, usefulness to the owner. Publish is blocked until both have passed. Nothing is left as "nothing yet" here, because the PRD requires human approval before every page regardless.
 
 ---
 
