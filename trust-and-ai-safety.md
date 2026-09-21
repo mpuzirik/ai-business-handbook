@@ -1,8 +1,8 @@
-## Trust and AI Safety for Small Marketing Agencies
+# Trust and AI Safety for Small Marketing Agencies
 
 Generative AI can help marketing agencies with research, brainstorming, writing and other tasks. However, an agency should think carefully about what information it gives to AI, what AI is allowed to do and how employees use it.
 
-# 1. What leaves the building when you use AI?
+## 1. What leaves the building when you use AI?
 
 When employees enter information into an external AI service, that information may be processed by the service. Therefore, companies should know what type of information they are sharing and whether it contains personal or confidential information.
 
@@ -13,7 +13,7 @@ For a small marketing agency, this means that confidential client information, p
 Source: European Commission — GDPR principles and Application of the GDPR.
 Why we trust it: These are official European Commission sources explaining EU data-protection requirements.
 
-# 2. When should AI act and when should it only advise?
+## 2. When should AI act and when should it only advise?
 
 AI can be useful for suggestions, research, brainstorming and creating first drafts. However, important decisions should not automatically be delegated to AI.
 
@@ -28,7 +28,7 @@ For example, AI can create a first version of an advertisement or client email. 
 Source: European Commission — AI Act and guidance on high-risk AI systems.
 Why we trust it: These sources explain the EU rules and responsibilities for organisations using AI systems.
 
-# 3. What if employees use AI without saying so?
+## 3. What if employees use AI without saying so?
 
 Employees should know which AI tools they are allowed to use and what information they can enter. The company should have clear internal rules instead of leaving every employee to decide individually.
 
@@ -39,7 +39,7 @@ For a marketing agency, employees should therefore follow company rules about AI
 Source: European Commission — Transparency obligations under Article 50 of the AI Act.
 Why we trust it: It is official EU guidance explaining the transparency requirements and their application.
 
-What should the owner do?
+# What should the owner do?
 
 1. Classify information as public, internal or confidential.
 2. Create a list of approved AI tools for employees.
@@ -48,7 +48,7 @@ What should the owner do?
 5. Create simple AI rules for employees so everyone knows what they can and cannot do.
 6. Review AI providers regularly, because their services, terms and conditions can change.
 
-How this page was created
+# How this page was created
 
 AI drafted: the initial structure and explanations.
 
