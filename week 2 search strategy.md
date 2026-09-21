@@ -6,27 +6,119 @@ Before searching for reports, we defined the criteria that we would use to decid
 
 A good-quality source should meet the following criteria:
 
-* **Authority:** The author or organisation must be clearly identifiable and have relevant expertise. We prioritise government institutions, universities, recognised research organisations, international organisations and established industry bodies.
+- **Authority:** The author or organisation must be clearly identifiable and have relevant expertise.
 
-* **Evidence:** Important claims should be supported by data, references or a clearly explained research method.
+- **Evidence:** Important claims should be supported by data, references or a clearly explained research method.
 
-* **Recency:** We prioritise recent sources because AI capabilities, investment, regulation and adoption are changing quickly.
+- **Recency:** We prioritise recent sources because AI capabilities, investment, regulation and adoption are changing quickly.
 
-* **Transparency:** The source should explain where its data comes from and, where relevant, how indicators were measured.
+- **Transparency:** The source should explain where its information comes from and, where relevant, how indicators were measured.
 
-* **Relevance:** The source must provide information that helps compare the United States, China or Europe in an important part of the AI ecosystem.
+- **Relevance:** The source must provide information that directly or indirectly helps answer one of our research questions.
 
-* **Comparability:** Statistics should clearly identify the country or region, measurement period and indicator being measured so that they are not compared out of context.
+- **Comparability:** Statistics should clearly identify the country or region, measurement period, definition and indicator being measured so that different figures are not compared out of context.
 
-* **Independence and bias:** We consider the interests of the organisation publishing the information. Claims made by AI vendors about their own technology are not treated as independent evidence.
+- **Independence and bias:** We examine relevant interests for every publisher, including companies, governments, state-funded institutes, universities and industry organisations. An official or government source is not automatically independent simply because it is authoritative. Claims about a country's own AI leadership require examination of the method and, where possible, independent corroboration.
 
-* **Traceability:** Important claims used in our final handbook should be traceable back to their original source.
+- **Traceability:** Important claims used in our final handbook should be traceable back to the original source, including the relevant section, table or passage where possible.
 
-* **Cross-checking:** Important or disputed claims should, where possible, be checked against a second independent source.
+- **Cross-checking:** Important, disputed or self-interested claims should, where possible, be checked against another independent source. Two publications repeating the same original dataset do not count as two independent confirmations.
 
 We do not define AI leadership using a single measurement. Instead, we consider several dimensions, including frontier AI models, research, investment, computing capacity, patents, business adoption and regulation.
 
-These criteria were defined before conducting the main search so that sources could be selected according to their quality rather than according to whether they supported a conclusion we already expected.
+These criteria were defined so that sources are selected according to their quality and relevance rather than according to whether they support a conclusion we already expect.
+
+### 1.1 Source-Appraisal Rubric
+
+Following the Socratic feedback, we made the source-appraisal method explicit.
+
+The authoritative version of the rubric is maintained in this section of `week 2 search strategy.md`. The AEL technical blueprint and source-record structure must refer to this same rubric so that the research method and the platform use the same quality criteria.
+
+**Rubric version: 1.0**
+
+Five of the nine quality criteria receive a numerical score.
+
+Each scored criterion has equal weight and receives **0, 1 or 2 points**.
+
+| Criterion | 0 points | 1 point | 2 points |
+|---|---|---|---|
+| **Authority** | The author or relevant expertise cannot be established. | The author is identifiable but relevant expertise is only partly established. | Relevant expertise or responsibility is clearly established. |
+| **Evidence** | The intended claim has no verifiable supporting evidence. | Some supporting evidence exists but important limitations remain. | Evidence clearly supports the intended claim and the method is explained where relevant. |
+| **Recency** | The information is outdated for the intended use. | Older information remains useful, but its limitations must be stated. | The information is sufficiently current for the research question. |
+| **Relevance** | The source does not help answer a research question. | The source provides useful background. | The source directly addresses a named research question. |
+| **Independence and bias** | Relevant interests or one-sided presentation are not addressed. | Relevant interests are identified but some concerns remain. | Relevant interests and limitations are documented and independent checking is completed where necessary. |
+
+**Maximum score: 10 points.**
+
+### Provisional source tiers
+
+- **8–10 points — Tier A:** eligible for use as core evidence, subject to the additional checks below.
+- **5–7 points — Tier B:** suitable mainly for background or limited claims, with limitations stated.
+- **0–4 points — Tier C:** not accepted as supporting evidence for the handbook.
+
+The four remaining criteria are treated as additional checks rather than extra numerical scores:
+
+- **Transparency:** Are the source's data, definitions and methods sufficiently visible?
+- **Comparability:** Are the geography, period, units and definitions genuinely comparable with the evidence being compared?
+- **Traceability:** Can the supporting passage, table or section be located?
+- **Cross-checking:** Has an important, disputed or self-interested claim been independently checked?
+
+A high numerical score does not override these checks.
+
+For example, a prestigious source cannot be used to support a claim that is not actually present in the source. A failed comparability check means that two statistics should not be directly compared even when both sources have high scores.
+
+A researcher assigns the scores and records the reason for each score. A script may calculate the total and provisional tier, but the script does not decide whether a claim is true or whether it should be published.
+
+The source record should therefore store:
+
+- rubric version;
+- five individual scores;
+- total score;
+- provisional tier;
+- transparency result;
+- comparability result;
+- traceability information;
+- cross-checking status;
+- reviewer;
+- review date;
+- intended use of the source;
+- final human decision.
+
+### 1.2 Appraising Dutch-Language Sources
+
+The Socratic feedback identified a problem in our original pipeline: it placed appraisal before translation even though not every team member can necessarily evaluate a Dutch source in Dutch.
+
+We therefore distinguish between an **initial source check** and a **full evidence appraisal**.
+
+The revised process is:
+
+**Ingest → initial eligibility and privacy check → translate if required → human appraisal**
+
+During the initial check, the researcher can record information that does not require detailed interpretation of the content, such as:
+
+- publisher;
+- author;
+- publication date;
+- source type;
+- original language;
+- accessibility;
+- whether the source is permitted within the project's privacy boundary.
+
+A researcher who understands Dutch may appraise the original Dutch source directly.
+
+If the reviewer cannot adequately understand the Dutch source, an English working translation must be produced before completing the full evidence appraisal.
+
+The translation must include the relevant evidence, definitions, methods and limitations. A short summary containing only the main conclusion is not sufficient for assessing Evidence or Comparability.
+
+The original Dutch source must remain available and important translated claims must remain linked to the original passage.
+
+Translation does not create a new source and does not make the original source more reliable.
+
+If an important Dutch claim cannot be checked adequately, the claim remains pending and should not be treated as verified evidence.
+
+The existing privacy boundary still applies. Translation does not allow confidential or restricted material to be sent to a model or service that is not permitted to receive it.
+
+---
 
 ## 2. Search Strategy
 
@@ -43,134 +135,299 @@ Instead of searching only for a general answer to the question “Who leads AI?�
 7. regulation and government policy;
 8. strategic dependence on foreign AI technologies.
 
-We prioritised primary and institutional sources because these are more suitable for evidence-based comparison than opinion articles or AI-generated summaries.
+We prioritised primary and institutional sources because these are generally more useful for evidence-based comparison than unsupported opinion articles or AI-generated summaries.
 
-The main organisations we searched included:
+However, following the Socratic feedback, we no longer treat government or institutional status as automatic evidence of independence. The intended claim, method, institutional interest and possible bias must still be assessed.
 
-* Stanford Institute for Human-Centered Artificial Intelligence;
-* OECD;
-* World Intellectual Property Organization (WIPO);
-* European Commission;
-* official public-sector and research organisations.
+The main organisations used in the first search round included:
 
-Example search queries included:
+- Stanford Institute for Human-Centered Artificial Intelligence;
+- OECD;
+- World Intellectual Property Organization (WIPO);
+- European Commission;
+- official public-sector and research organisations.
 
-* “US China Europe AI competition report”
-* “Stanford AI Index US China Europe”
-* “China US Europe AI patents WIPO”
-* “AI investment US China EU OECD”
-* “Draghi report AI Europe competitiveness”
-* “AI compute capacity US China Europe”
-* “AI research publications China US Europe”
-* “EU AI Act general purpose AI providers”
+Example queries from the first search round included:
 
-We also searched by individual dimension rather than expecting one report to answer the complete geopolitical question.
+- `US China Europe AI competition report`
+- `Stanford AI Index US China Europe`
+- `China US Europe AI patents WIPO`
+- `AI investment US China EU OECD`
+- `Draghi report AI Europe competitiveness`
+- `AI compute capacity US China Europe`
+- `AI research publications China US Europe`
+- `EU AI Act general purpose AI providers`
+
+We searched by individual dimension rather than expecting one report to answer the complete geopolitical question.
 
 This approach was chosen because AI leadership is multidimensional. A country or region may lead in model development but not in patents, investment, regulation or industrial deployment.
 
-Where an important claim was found, we tried to compare it with evidence from another institution or report before using it in the handbook.
+Where an important claim was identified, we attempted to compare it with evidence from another institution or dataset before using it in the handbook.
+
+### 2.1 Product-Level Search for European Alternatives — E3
+
+The Socratic feedback showed that our original search strategy was too focused on national-level indicators to answer E3:
+
+**Are there European alternatives that a Dutch agency can realistically use?**
+
+Model counts, patents and investment statistics cannot answer this question by themselves.
+
+We therefore added a separate product-level search strategy.
+
+Example queries include:
+
+- `Mistral AI business assistant pricing Netherlands`
+- `Mistral AI Dutch language marketing content`
+- `Mistral AI business data processing EU`
+- `Mistral AI marketing case study`
+- `European generative AI assistant small business Netherlands`
+- `European AI tool marketing agency business alternative ChatGPT`
+
+A named provider in a query is a research candidate, not an automatic recommendation.
+
+For each possible European alternative, the research should investigate:
+
+- provider and country;
+- relevant product and subscription plan;
+- availability to a Dutch SME;
+- price;
+- language support;
+- relevant marketing capabilities;
+- data-processing arrangements;
+- retention and export possibilities;
+- business or administrative controls;
+- evidence of practical performance.
+
+Provider documentation can be used as a primary source for the provider's own pricing, features and contractual terms.
+
+However, a provider's own statements about the quality or superiority of its product are not treated as independent evidence of performance.
+
+Practical suitability therefore requires either independent evidence or a documented test.
+
+### 2.2 Dutch-Language, Regional and Sector-Specific Searches — E5 and E6
+
+Our first search round was mostly in English and concentrated on international institutions.
+
+This did not adequately reflect the Dutch, regional and marketing-sector evidence needs identified in E5 and E6.
+
+We therefore added Dutch-language searches in three areas:
+
+1. **AI adoption and responsible use by Dutch SMEs;**
+2. **AI adoption within the Dutch marketing sector;**
+3. **regional support, funding and implementation opportunities relevant to a company in Arnhem/Gelderland.**
+
+Example searches include:
+
+- `KVK generatieve AI mkb`
+- `KVK AI beleid bedrijf`
+- `KVK generatieve AI marketing`
+- `DDMA generatieve AI marketing onderzoek Nederland`
+- `marketingsector AI gebruik Nederland onderzoek`
+- `Oost NL AI mkb Gelderland`
+- `Oost NL digitalisering AI ondernemers`
+- `provincie Gelderland digitalisering mkb subsidie`
+- `Gelderland AI mkb ondersteuning`
+- `Gelderland innovatie digitalisering subsidie mkb`
+
+These searches have a different purpose from the international searches.
+
+International sources are used mainly to understand the wider geopolitical AI ecosystem.
+
+Dutch and regional sources are used to investigate practical adoption, local support, sector experience and implementation conditions that may matter to a Dutch marketing agency.
+
+A regional source is not used as evidence about the entire Dutch marketing sector or about global AI leadership unless its scope supports that conclusion.
+
+Similarly, one marketing-company example cannot be generalised to all agencies.
+
+### 2.3 What Changes When We Search in Dutch?
+
+Running part of the research in Dutch changes both the evidence base and the appraisal process.
+
+For example:
+
+- international investment reports may tell us where AI capital is concentrated;
+- Dutch marketing-sector research may tell us how AI is actually being used by marketing organisations in the Netherlands;
+- KVK guidance may help identify practical governance concerns for Dutch SMEs;
+- regional organisations such as Oost NL may identify local programmes or implementation support;
+- provincial sources may identify current funding opportunities or eligibility conditions.
+
+The search therefore becomes more useful to the SME because it combines global geopolitical evidence with local implementation evidence.
+
+It also makes the Translate stage of our platform meaningful: the team can include relevant Dutch evidence even when not every researcher speaks Dutch fluently.
+
+### 2.4 Search Record
+
+To make the search repeatable, future searches will be recorded using the following structure:
+
+| Search date | Research question | Search location | Exact query | Source selected | Include/exclude reason |
+|---|---|---|---|---|---|
+
+This makes it possible for another team to see not only which sources we selected, but also how we reached them.
+
+---
 
 ## 3. Selected Sources and Initial Appraisal
+
+The numerical scores below apply to the **specific intended use of each source**, not to the organisation as a whole.
 
 ### Stanford AI Index 2026
 
 **Source:** Stanford Institute for Human-Centered Artificial Intelligence — *The 2026 AI Index Report*
 
-**Why we selected it:**
-The Stanford AI Index provides a broad international comparison of AI research, model development, technical performance, computing infrastructure, investment and adoption. It is particularly useful for this research because it separates different dimensions of AI leadership rather than treating leadership as a single ranking.
+**Why we selected it:**  
+The Stanford AI Index provides a broad international comparison of AI research, model development, technical performance, computing infrastructure, investment and adoption. It separates different dimensions rather than treating AI leadership as one measurement.
 
-**Relevant evidence:**
-The 2026 report shows that China leads in AI publication volume, citations and patent grants, while the United States continues to lead in notable AI model development. U.S.-based institutions produced **59 notable AI models in 2025 compared with 35 from China**.
+**Relevant evidence:**  
+The report shows that China leads in AI publication volume, citations and patent grants, while the United States continues to lead in notable AI model development. U.S.-based institutions produced **59 notable AI models in 2025 compared with 35 from China**.
 
-The report also finds that the performance gap between leading U.S. and Chinese models has effectively closed. U.S. and Chinese models exchanged the lead several times during 2025, and by March 2026 the leading U.S. model held only a small performance advantage.
+The report also finds that the performance gap between leading U.S. and Chinese models has become very small.
 
-**Compute evidence:**
-The report identifies a major computing-infrastructure advantage for the United States. The U.S. hosts **5,427 data centres**, more than ten times the number in any other individual country.
+The report identifies a major computing-infrastructure advantage for the United States and also highlights international dependence in advanced semiconductor production.
 
-At the same time, the report highlights an important international dependency: TSMC in Taiwan fabricates most leading AI chips. This means that even the U.S. AI ecosystem depends on a geographically concentrated semiconductor supply chain.
+**Limitations:**  
+Indicators such as notable models, publications, citations and infrastructure measure different dimensions. None alone demonstrates overall AI dominance.
 
-**Limitations:**
-Indicators such as the number of notable models, publications, citations and data centres measure different dimensions of AI capability. None of these measures alone proves overall AI dominance. Model-performance benchmarks can also change quickly and may not capture every type of real-world capability.
+**Initial rubric score:**
+
+- Authority: 2
+- Evidence: 2
+- Recency: 2
+- Relevance: 2
+- Independence and bias: 1
+- **Total: 9/10 — Tier A**
+
+**Additional checks:**  
+The institution is U.S.-based, so comparative claims about U.S. leadership should still be checked against other international evidence. Relevant measurements are cross-checked where possible using OECD and WIPO.
 
 ### OECD — AI Venture Capital Investment
 
 **Source:** OECD — *Venture capital investments in artificial intelligence through 2025*
 
-**Why we selected it:**
-The OECD is an international public organisation that publishes comparable economic data and explains the methodology and data behind its analysis.
+**Why we selected it:**  
+The OECD publishes comparable cross-country economic data and describes the methodology behind the analysis.
 
-**Relevant evidence:**
+**Relevant evidence:**  
 In 2025, U.S. AI firms received approximately **75% of global AI venture-capital deal value, around USD 194 billion**. EU27 firms received around **6%, or USD 15.8 billion**, while China received around **5%, or USD 13.9 billion**.
 
-This provides strong evidence that the United States currently has a major advantage in access to private AI investment.
+**Limitations:**  
+Venture-capital investment measures private capital but does not directly measure model performance, public investment, research strength or adoption.
 
-**Limitations:**
-Venture-capital investment measures access to private capital but does not directly measure model quality, research strength, government investment, business adoption or technological capability. Investment levels may also change significantly from year to year.
+**Initial rubric score:**
+
+- Authority: 2
+- Evidence: 2
+- Recency: 2
+- Relevance: 2
+- Independence and bias: 2
+- **Total: 10/10 — Tier A**
+
+**Additional checks:**  
+The figures are suitable for investment comparison only and are not used as a general ranking of technological capability.
 
 ### WIPO — Patent Trends Update in GenAI 2026
 
 **Source:** World Intellectual Property Organization — *Patent Trends Update in GenAI*, 2026
 
-**Why we selected it:**
-WIPO is a United Nations specialised agency responsible for international intellectual-property systems. Its 2026 update provides patent evidence through 2025 and allows comparison of where generative-AI inventions are being developed.
+**Why we selected it:**  
+WIPO is a United Nations specialised agency responsible for international intellectual-property systems. Its analysis provides comparable patent-family evidence.
 
-**Relevant evidence:**
-The 2026 update shows that global GenAI patent activity is accelerating rapidly. Published GenAI patent families increased from approximately **14,000 in 2023 to more than 37,000 in 2025**.
+**Relevant evidence:**  
+Global generative-AI patent activity increased rapidly through 2025.
 
-China remains the largest source of GenAI patent activity. China-based inventors published **more than 43,000 GenAI patent families during 2024 and 2025 alone**, exceeding China's entire output during the previous decade.
+China remains the largest source of GenAI patent activity, while the United States is also increasing its activity.
 
-The United States remains the second-largest inventor location. U.S. GenAI patent families increased from approximately **1,185 in 2023 to more than 4,380 in 2025**.
+**Limitations:**  
+Patent volume measures inventive activity rather than commercial success or model performance. Filing practices differ between countries.
 
-The report also shows increasing activity in other countries, including Japan and Germany.
+**Initial rubric score:**
 
-**Limitations:**
-Patent volume measures inventive activity rather than actual model performance or commercial success. Filing practices also differ between countries. A large number of patents therefore cannot automatically be interpreted as evidence of technological dominance.
+- Authority: 2
+- Evidence: 2
+- Recency: 2
+- Relevance: 2
+- Independence and bias: 2
+- **Total: 10/10 — Tier A**
+
+**Additional checks:**  
+Patent counts are never interpreted on their own as proof that one country has better AI technology.
 
 ### European Commission — Draghi Report on EU Competitiveness
 
 **Source:** European Commission — *The Future of European Competitiveness*, commonly known as the Draghi Report
 
-**Why we selected it:**
-The report was commissioned by the European Commission to analyse structural challenges affecting Europe's competitiveness, innovation and digital development.
+**Why we selected it:**  
+The report was commissioned to analyse structural challenges affecting European competitiveness, investment and innovation.
 
-**Relevant evidence:**
-The report argues that Europe needs stronger investment and innovation capacity to remain competitive in digital technologies and other strategic industries. It is useful for understanding why Europe can have strong research capabilities while facing difficulties in scaling technology companies and attracting investment at the same level as the United States.
+**Relevant evidence:**  
+The report argues that Europe requires stronger investment and innovation capacity to remain competitive in digital technologies and other strategic industries.
 
-**Limitations:**
-The Draghi Report is primarily a policy and competitiveness document rather than a dedicated measurement of global AI leadership. It should therefore be used together with more specialised AI datasets.
+**Limitations:**  
+This is a European policy and competitiveness report, not a neutral global AI ranking.
+
+Because it was commissioned by the European Commission and is concerned specifically with European competitiveness, its institutional context is relevant to the bias assessment.
+
+**Initial rubric score:**
+
+- Authority: 2
+- Evidence: 2
+- Recency: 1
+- Relevance: 2
+- Independence and bias: 1
+- **Total: 8/10 — Tier A**
+
+**Additional checks:**  
+Claims about Europe's relative position are compared with external quantitative sources such as Stanford and OECD rather than accepted solely because they appear in the Draghi Report.
 
 ### European Commission — EU AI Act
 
-**Source:** European Commission — information and guidance on the EU Artificial Intelligence Act and obligations for general-purpose AI providers
+**Source:** European Commission — official information and guidance about the EU Artificial Intelligence Act
 
-**Why we selected it:**
-The European Commission is the relevant EU institution for official information about the implementation of the AI Act. This makes it a primary source for understanding how European AI regulation affects providers and businesses using AI in the EU.
+**Why we selected it:**  
+For questions about what EU regulation requires, the European Commission is an appropriate primary institutional source.
 
-**Relevant evidence:**
-Obligations for providers of general-purpose AI models began applying on **2 August 2025**. These include requirements related to technical documentation, copyright compliance and information about training content. Providers of models with systemic risk face additional requirements.
+**Relevant evidence:**  
+The source explains obligations affecting general-purpose AI providers and the implementation of the AI Act in the European market.
 
-This is relevant because many European businesses use AI systems provided by companies based outside the EU. European rules can therefore influence how global AI providers operate when offering their products in the European market.
+**Limitations:**  
+An official EU source is appropriate for identifying EU rules, but it is not independent evidence that European regulation is superior or that Europe leads technologically.
 
-**Limitations:**
-Regulatory influence is different from technological or commercial leadership. The existence of strong AI regulation does not mean that Europe leads in model development, investment or computing capacity.
+**Initial rubric score:**
+
+- Authority: 2
+- Evidence: 2
+- Recency: 2
+- Relevance: 2
+- Independence and bias: 1
+- **Total: 9/10 — Tier A**
+
+**Additional checks:**  
+The source is used for regulatory facts, not as evidence of European technological superiority.
+
+---
 
 ## 4. Why These Sources Are Stronger Than the Assignment 1 Articles
 
 The AI-generated articles from Assignment 1 gave confident answers about which region leads in AI, but the evidence behind many claims was unclear or inconsistent.
 
-The sources selected here improve on that approach because each important claim can be linked to an identifiable organisation, dataset and measurement method.
+The sources selected here improve on that approach because important claims can be linked to identifiable organisations, datasets and measurement methods.
 
-They also show why the question “Who dominates AI?” is too simple. The answer changes depending on the indicator used:
+They also show why the question **“Who dominates AI?”** is too simple.
 
-* the United States currently has the strongest evidence of leadership in private AI investment, notable model development and computing infrastructure;
-* China leads in AI research publication volume, citations and generative-AI patent activity and is increasingly competitive in frontier-model performance;
-* the EU has a much smaller share of global private AI investment but has significant influence through regulation and its position as a major market.
+Different indicators produce different pictures:
 
-This makes it more useful to compare specific dependencies and areas of strength than to identify one overall winner.
+- the United States has strong evidence in private AI investment, notable model development and computing infrastructure;
+- China has strong evidence in research activity and generative-AI patenting and is increasingly competitive in frontier models;
+- Europe has a smaller private AI investment scale but significant regulatory influence and a large market in which global AI providers operate.
+
+These statements describe different dimensions and are not combined into a single overall ranking.
+
+The new appraisal rubric also means that authority alone is no longer enough. A government, company, university or international organisation can still have interests or methodological limitations that must be recorded.
+
+---
 
 ## 5. First AI-Assisted Analysis
 
-After selecting and appraising the sources, we used AI to compare the United States, China and Europe using the evidence from those sources rather than asking the model to decide independently who dominates AI.
+After selecting and appraising the initial international sources, we used AI to compare the United States, China and Europe using only the evidence supplied from those sources rather than asking the model to independently decide who dominates AI.
 
 The instruction used for the analysis was:
 
@@ -178,115 +435,233 @@ The instruction used for the analysis was:
 
 ### United States
 
-The strongest evidence for U.S. leadership is currently in frontier-model development, private investment and computing infrastructure.
+The strongest evidence for the U.S. position is currently in frontier-model development, private investment and computing infrastructure.
 
-According to the Stanford AI Index 2026, U.S.-based institutions produced **59 notable AI models in 2025 compared with 35 from China**. Stanford also reports that the performance gap between leading U.S. and Chinese models has become very small, meaning that the larger number of U.S.-produced notable models should not be interpreted as proof that U.S. models are always technically superior.
+According to the Stanford AI Index 2026, U.S.-based institutions produced **59 notable AI models in 2025 compared with 35 from China**.
 
-The investment difference is much larger. OECD data for 2025 shows that AI firms based in the United States attracted approximately **75% of global AI venture-capital deal value, equal to around USD 194 billion**. The EU27 received around 6%, while China received around 5%.
+However, Stanford also reports that the performance gap between leading U.S. and Chinese models has become very small. Therefore, the number of notable models should not automatically be interpreted as proof that U.S. models are always technically superior.
 
-This gives the United States a major advantage in access to private capital for AI infrastructure, companies and model development.
+OECD data shows a much larger difference in private investment. In 2025, U.S.-based AI firms attracted approximately **75% of global AI venture-capital deal value**.
 
-The United States also has a major computing-infrastructure advantage. Stanford reports that it hosts **5,427 data centres**, more than ten times the number in any other individual country.
+The United States also has a substantial data-centre presence.
 
-However, this infrastructure also demonstrates international dependence. Stanford identifies TSMC in Taiwan as the manufacturer of most leading AI chips. Therefore, even a country with a large domestic AI ecosystem may depend on technology and production located elsewhere.
+At the same time, advanced AI supply chains remain internationally dependent, including dependence on semiconductor manufacturing outside the United States.
 
-The evidence therefore supports a strong U.S. position, but it does not show that the United States leads every measure of AI activity.
+The evidence therefore supports a strong U.S. position in several dimensions but does not establish U.S. leadership in every area of AI.
 
 ### China
 
-China's strongest position appears in research output, patents and increasingly competitive AI models.
+China's strongest position appears in research activity, patenting and increasingly competitive AI models.
 
-The Stanford AI Index 2026 reports that China leads in **AI publication volume, citations and patent grants**. It also shows that Chinese frontier models have become increasingly competitive with U.S. models. The performance gap between leading models from the two countries has effectively closed, with U.S. and Chinese models exchanging the lead during 2025.
+The Stanford AI Index reports strong Chinese research activity and a much smaller performance gap between leading U.S. and Chinese models than in previous years.
 
-Patent evidence shows a particularly strong Chinese position. WIPO's 2026 update reports that China-based inventors published **more than 43,000 GenAI patent families during 2024 and 2025 alone**, exceeding China's entire output during the previous decade.
+WIPO's patent evidence also shows very high levels of Chinese generative-AI patent activity.
 
-The United States remains the second-largest inventor location, and its annual GenAI patent-family output increased from approximately **1,185 in 2023 to more than 4,380 in 2025**.
+However, patent volume should not automatically be interpreted as technological or commercial dominance.
 
-This evidence shows that China is extremely strong in AI-related research and inventive activity. However, patent volume should not automatically be interpreted as technological or commercial dominance.
-
-Patent counts do not show whether an invention becomes a successful product, how economically important the invention is, or whether it contributes to the performance of a frontier AI model.
+Patent counts do not show whether an invention becomes commercially successful, how economically significant it is, or whether it directly improves frontier-model performance.
 
 ### Europe
 
 Europe has a different position from the United States and China.
 
-The evidence reviewed in this assignment shows a particularly large gap in private AI investment. OECD data shows that EU27 AI firms attracted approximately **USD 15.8 billion in AI venture capital in 2025**, compared with approximately USD 194 billion in the United States.
+OECD evidence shows a large difference in private AI venture-capital investment between the EU and the United States.
 
-However, private venture capital represents only one dimension of the AI ecosystem and does not include all government, corporate or research investment.
+The Draghi Report identifies Europe's difficulty in converting research and innovation into globally scaled technology businesses as a competitiveness challenge.
 
-The Draghi Report identifies Europe's broader difficulty in converting research and innovation into globally scaled technology companies as an important competitiveness challenge. This helps explain why Europe may have strong universities, researchers and digital expertise without producing technology companies at the same scale as the largest U.S. firms.
+Europe also has significant regulatory influence through the EU AI Act.
 
-Europe also has significant influence through regulation.
+However, regulatory influence is different from technological or commercial leadership.
 
-Under the EU AI Act, obligations for general-purpose AI model providers started applying on **2 August 2025**. These include requirements involving technical documentation, copyright compliance and transparency about training content.
+The EU's official sources are therefore used to identify European rules and policy, not as independent proof that Europe leads the global AI industry.
 
-This does not demonstrate technological dominance. Instead, it shows that Europe's position in the AI race also comes from its ability to establish rules that companies must consider when providing AI services in the European market.
+### European Alternatives and Dutch Context
+
+The Socratic feedback showed that our first analysis did not adequately answer whether a Dutch marketing agency has practical European alternatives or what Dutch and regional evidence means for implementation.
+
+We therefore added separate E3, E5 and E6 search routes in Section 2.
+
+These searches focus on:
+
+- specific European products and providers;
+- practical availability and business conditions;
+- Dutch SME guidance;
+- Dutch marketing-sector evidence;
+- regional implementation support;
+- and relevant funding opportunities.
+
+Findings from these searches should be added to this analysis only after the sources have been appraised using the same rubric.
+
+---
 
 ## 6. Comparison
 
 The evidence does not support the idea that one country or region dominates every part of artificial intelligence.
 
-Instead, each has different strengths and weaknesses:
+Instead, the evidence points to different strengths across different indicators.
 
-* **United States:** strongest evidence in notable AI model development, private AI investment and computing infrastructure;
-* **China:** strongest evidence in AI research volume, citations and generative-AI patent activity, while its frontier models have become increasingly competitive with U.S. models;
-* **Europe/EU:** much smaller private AI investment scale, but significant influence through regulation and its position in the European market.
+- **United States:** particularly strong in notable model development, private AI investment and computing infrastructure.
+- **China:** particularly strong in research activity and generative-AI patenting, with increasingly competitive frontier models.
+- **Europe/EU:** smaller private AI investment scale but significant regulatory influence and a major market for AI services.
 
-This differs from the AI-generated articles in Assignment 1. Those articles started from a requested conclusion — that the United States, China or Europe dominates AI — and then produced arguments supporting that position.
+This differs from the AI-generated articles in Assignment 1.
 
-In this analysis, the conclusion comes after comparing evidence across several different indicators.
+Those articles began with a requested conclusion and then generated an argument supporting it.
 
-The main finding is therefore that **“AI leadership” depends on what is being measured**. Model development, technical performance, investment, research publications, patents, computing infrastructure and regulation are different indicators and should not be combined into a single ranking without explanation.
+In this analysis, the intended process is the reverse:
 
-The analysis also shows that even the strongest AI countries are internationally dependent. For example, the United States has major advantages in model development, investment and data-centre infrastructure, but much of the advanced chip manufacturing used by the AI industry is concentrated in Taiwan.
+**define the criteria → search → appraise the sources → compare the evidence → then draw a conclusion.**
 
-This makes geopolitical dependencies relevant even for businesses that do not operate internationally themselves.
+The main finding is therefore that **“AI leadership” depends on what is being measured**.
+
+Model development, performance, investment, publications, patents, computing infrastructure, adoption and regulation are different indicators and should not be combined into a single ranking without explanation.
+
+---
 
 ## 7. Relevance to Our SME
 
-For our target audience — **small marketing and advertising agencies in the Netherlands** — the geopolitical question becomes more practical. Our preferred case company, **Reklaame**, is based in Arnhem.
+For our target audience — **small marketing and advertising agencies in the Netherlands** — the geopolitical question becomes more practical.
 
-An agency owner is unlikely to need a definitive answer to whether the United States, China or Europe “wins” the AI race.
+Our preferred case company, **Reklaame**, is based in Arnhem.
 
-The more important question is:
+An agency owner is unlikely to need a simple answer about whether the United States, China or Europe “wins” the AI race.
 
-**Which companies and countries control the AI services the agency depends on, and what could happen to the agency if those dependencies change?**
+The more useful questions are:
+
+- Which AI services does the agency depend on?
+- Where are the providers based?
+- What data and contractual conditions apply?
+- Are realistic European alternatives available?
+- Could important work be moved to another provider?
+- Which Dutch rules and guidance apply?
+- Is relevant regional support available?
 
 A small marketing agency may depend on foreign providers for:
 
-* generative text;
-* image generation;
-* AI-assisted design tools;
-* cloud services;
-* productivity software;
-* and other digital infrastructure.
+- generative text;
+- image generation;
+- AI-assisted design;
+- cloud services;
+- productivity tools;
+- and other digital infrastructure.
 
-If a provider changes its prices, usage conditions, data-processing policies or access to a model, the agency may need to change its workflow quickly.
+Changes in pricing, access conditions, data-processing policies or regulation may therefore affect the agency even if it does not operate internationally.
 
-European regulation is also relevant because a Dutch marketing agency operates within the EU. Even when an AI provider is based outside Europe, EU rules may affect how its services can be offered or used in the European market.
+The international research helps identify geopolitical dependencies.
 
-The evidence from this assignment will therefore be used in the handbook page to investigate:
+The E3 product-level research will help investigate practical alternatives.
 
-* where important AI vendors are based;
-* which foreign providers and infrastructure a small agency may depend on;
-* how European regulation affects the use of these services;
-* what could happen if a provider changes its prices, access conditions or data policies;
-* whether important information or workflows can be moved to another provider;
-* and what practical steps a small marketing agency can take to avoid unnecessary dependence on a single AI vendor.
+The E5 and E6 Dutch and regional searches will help determine what is relevant to the selected SME's local business environment.
 
-For the SME, this is more useful than simply deciding which country is the overall leader in AI.
+Regional evidence will not be generalised to all Dutch marketing agencies unless its scope supports that conclusion.
+
+---
 
 ## 8. Initial Conclusion
 
-The first evidence-based analysis suggests that the United States currently has the strongest position in several commercially important parts of the AI ecosystem, especially notable model development, private investment and computing infrastructure.
+The first evidence-based analysis suggests that the United States has a strong position in several commercially important dimensions of the AI ecosystem, particularly notable model development, private investment and computing infrastructure.
 
-China has a particularly strong position in AI research activity and generative-AI patenting, while its leading models have become increasingly competitive with U.S. models.
+China has a strong position in research and generative-AI patent activity, while its leading models have become increasingly competitive.
 
-Europe has substantially less private AI investment than the United States but remains important through its research base, regulation and position as a major market for AI services.
+Europe has less private AI investment at the scale measured by the OECD but remains important through research, regulation and its position as a major market.
 
-The main lesson is therefore not that one region should be labelled the overall winner.
+However, the Socratic feedback demonstrated that this international comparison alone is not sufficient for our full research proposal.
 
-Instead, businesses increasingly depend on an AI ecosystem in which technology, capital, computing infrastructure, semiconductor production and regulation are distributed across different countries and organisations.
+To answer the questions that matter to a Dutch marketing agency, the next search layer must also investigate:
 
-For our handbook audience, **understanding these dependencies and knowing how to respond if they change is more useful than deciding which country “dominates AI.”**
+- usable European alternatives;
+- Dutch SME practice;
+- the Dutch marketing sector;
+- and relevant regional support.
 
+The purpose of the research is therefore not to declare one country the overall winner.
+
+For the handbook audience, the more useful outcome is to understand **which dependencies exist, which alternatives are realistic, and what the SME can do if those dependencies change.**
+
+---
+
+## 9. Response to Socratic Feedback
+
+### Question 1 — Where does the scoring rubric live and which five criteria does it use?
+
+The rubric now lives in **Section 1.1 of `week 2 search strategy.md`** and is labelled version 1.0.
+
+The five scored criteria are:
+
+1. Authority;
+2. Evidence;
+3. Recency;
+4. Relevance;
+5. Independence and bias.
+
+Transparency, Comparability, Traceability and Cross-checking remain mandatory additional checks.
+
+The technical blueprint and source-record contract must refer to this same rubric rather than define a different one.
+
+### Question 2 — How can a Dutch source be appraised before translation?
+
+The workflow has been clarified.
+
+The first step is now only an initial eligibility and privacy check.
+
+Full evidence appraisal occurs after translation when the reviewer cannot adequately understand Dutch.
+
+A Dutch-speaking reviewer may appraise the original directly.
+
+The original source remains linked to the translation, and uncertain claims remain pending rather than being treated as verified.
+
+The technical blueprint must therefore change from:
+
+**Ingest → Appraise → Translate**
+
+to:
+
+**Ingest → eligibility/privacy check → Translate if required → Human Appraise**
+
+### Question 3 — How are government and state-funded sources treated?
+
+Government status no longer automatically results in a source being treated as independent.
+
+Government, state-funded, corporate, academic and industry sources are all assessed for relevant interests and institutional context.
+
+An official source may be the strongest primary source for what a government programme or regulation says.
+
+However, a government source claiming that its own country leads AI requires methodological examination and independent corroboration before being treated as evidence of leadership.
+
+### Question 4 — How will E3 be searched directly?
+
+A new product-level search strategy has been added in Section 2.1.
+
+Instead of only searching national indicators such as investment or patents, E3 searches named providers and products and investigates practical factors such as pricing, language support, availability, data processing and exportability.
+
+European providers identified in the search are candidates for appraisal and testing, not automatically recommendations.
+
+### Question 5 — Where are the Dutch, regional and sector-specific searches?
+
+A new Dutch-language search strategy has been added in Sections 2.2 and 2.3.
+
+The new search routes include:
+
+- KVK for Dutch SME guidance;
+- Dutch marketing-sector research;
+- Oost NL for regional AI and digitalisation support;
+- Province of Gelderland sources for relevant programmes and funding.
+
+These sources answer a different question from international AI-leadership reports and will therefore be used specifically for Dutch SME, sector and regional context.
+
+The new searches also provide a practical reason for the platform's Dutch-language translation workflow.
+
+---
+
+## AI Use and Human Review
+
+AI was used to support drafting, restructuring and the first analysis.
+
+The team remains responsible for:
+
+- checking the original sources;
+- confirming rubric scores;
+- conducting and documenting the new E3, E5 and E6 searches;
+- verifying translated evidence;
+- deciding which claims are suitable for the handbook;
+- and recording changes resulting from the Socratic feedback.
