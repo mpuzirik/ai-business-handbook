@@ -99,13 +99,46 @@ The same criteria are used to judge pages drafted with support from the AEL plat
 
 ### Desk research
 
-Answers the external questions and supplies evidence for the internal analysis. Sources: the Draghi report, European Commission publications, CBS, KVK, Oost NL, sector bodies, academic literature, industry reports, reputable technology and business press, and Dutch-language sources. Each source is appraised on authority, relevance, recency, evidence quality and bias before use.
+Desk research answers the external research questions and supplies evidence for the internal analysis.
 
-Three specific tasks are included:
+Sources may include the Draghi report, European Commission publications, CBS, KVK, Oost NL, provincial sources, sector organisations, academic literature, industry reports, reputable technology and business publications, provider documentation and Dutch-language sources.
 
-1. **Tool jurisdiction mapping.** For each significant tool: provider establishment, data-processing location, training-data and copyright position, business-tier data handling, and the practical consequence for an agency holding client material. This produces a comparison table for the handbook.
-2. **Comparable cases.** 2 to 4 documented cases of similar small agencies that have piloted or adopted generative AI, including failures. These supply practical examples independently of the case company.
-3. **Readiness factors.** Desk evidence on sector-level financial capacity, skills shortage and innovation support, used as the benchmark against which the case company is read.
+All selected sources are appraised using **rubric version 1.0 from `week 2 search strategy.md`**.
+
+The five scored criteria are:
+
+1. Authority;
+2. Evidence;
+3. Recency;
+4. Relevance;
+5. Independence and bias.
+
+Transparency, Comparability, Traceability and Cross-checking are mandatory additional checks.
+
+Government, state-funded, commercial, academic and industry sources are all assessed for relevant interests and possible bias. An official source is not automatically treated as independent evidence.
+
+The desk research is organised into the following routes:
+
+1. **Tool jurisdiction and vendor dependency — E2.**  
+   For important AI tools, investigate the provider's establishment, relevant data-processing arrangements, business-tier data handling, copyright and privacy conditions, and the practical consequences for an agency handling client material.
+
+2. **European alternatives and sector champions — E3.**  
+   Search for specific European AI products and providers that a Dutch marketing agency could realistically use. Compare practical factors such as availability, pricing, language support, data handling, export possibilities and evidence of practical performance. Provider documentation may establish stated features and terms, but provider claims about product quality are not treated as independent evidence.
+
+3. **Comparable agency cases — E3 and E4.**  
+   Identify 2 to 4 documented cases of comparable small marketing or advertising agencies that have tested or adopted generative AI, including unsuccessful examples where available.
+
+4. **Dutch and regional innovation environment — E5.**  
+   Search Dutch-language and regional sources including KVK, Oost NL and Province of Gelderland sources for digitalisation support, networks, funding and implementation opportunities relevant to a 10–50 employee agency. Programme availability and eligibility must be checked before inclusion.
+
+5. **Sector HR and skills capacity — E6.**  
+   Use Dutch labour-market, sector and professional sources to investigate which AI-related marketing, copy, design and digital skills are available or reported as lacking.
+
+Dutch-language sources follow the same quality criteria as English-language sources.
+
+If the reviewer can adequately understand Dutch, the original source can be appraised directly. If not, an English working translation is prepared before full appraisal. The original Dutch source remains linked to the translated evidence, and uncertain claims are not treated as verified.
+
+Regional evidence is reported as regional context and is not generalised to the whole Dutch marketing sector unless the scope of the source supports that conclusion.
 
 ### Field research
 
