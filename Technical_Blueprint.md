@@ -5,33 +5,8 @@
 ---
 
 ## The Production Line
+<img width="664" height="621" alt="Untitled Diagram drawio (6)" src="https://github.com/user-attachments/assets/13ca91b8-fbce-4d6c-89b5-f627f7fc6848" />
 
-```text
- [context file: SME, research questions, quality criteria, scope]
-                         |
-                         v
- +--------+   +--------------------+   +----------------------+   +---------------+
- | Ingest |-->| Eligibility /      |-->| Translate if needed  |-->| Human Appraise|
- +--------+   | Privacy Check      |   +----------------------+   +---------------+
-              +--------------------+                                  |
-                                                                      v
-                                                              +----------------+
-                                                              | Extract        |
-                                                              | Evidence       |
-                                                              +----------------+
-                                                                      |
-                                                                      v
-                                                                  +-------+
-                                                                  | Draft |
-                                                                  +-------+
-                                                                      |
-                                                                      v
-                                                                  +-------+
-                                                                  | Check |
-                                                                  +-------+
-                                                                      |
-                                                                      v
-                                                                  Publish
 
 # The Six Decisions
 
