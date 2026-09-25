@@ -18,46 +18,14 @@ My role this week consisted mainly in gathering and analyzing various opinions o
 
 # Portfolio Entry — Week 3
 
-In the current week, our team carried on with the progress of the handbook on artificial intelligence for small marketing and advertising companies in the Netherlands. The primary theme was related to trust and safety of AI and whether SMEs can trust AI with their data, responses and in the uses of AI by their subordinates.
+In the current week, our team carried on with the progress of the handbook on artificial intelligence for small marketing and advertising companies in the Netherlands. The primary theme was related to trust and safety of AI.
 
-With respect to AEL, we worked on the issue of Knowledge Architecture in respect to our research platform. The task was to determine what kind of information the platform shall have access to and where it shall be stored as well as how the platform will find authentic materials for producing the materials for the handbook.
+My main contribution was the work on **AEL Knowledge Architecture**, where I concentrated on determining how the platform should process different sorts of information, including project context, original research material, source appraisals, evidence and handbook drafts.
 
-My main contribution for the present week was the work on **AEL Knowledge Architecture** where I concentrated on determining how the platform was to process the different sorts of information – project context, original research material, appraisal of the source, proof documents and drafts of the handbook.
+One of the major decisions I had to make was to opt for **evidence retrieving**, rather than letting the platform rely solely on AI-generated summaries. The platform should first find appraised evidence and retrieve the original material and its source. This keeps important claims connected to their original evidence and reduces the risk of AI-generated content being treated as proof.
 
-One of the major decisions I had to make was to opt for **evidence retrieving**, rather than letting the platform rely solely on AI-generated summaries or information from model existences. The platform creates a section of the handbook; first, it finds appraised evidence and retrieves the original materials and the source.
+Another important issue was the treatment of field-research information. We kept the safety boundary from our Technical Blueprint: raw interview recordings, consent documents and identifiable SME information remain in protected storage and cannot be sent to an external AI model. Only reviewed and anonymised notes can enter the AI-assisted research workflow.
 
-The work I had to do also involved the division between original sources, proofs and generated content. I believe it is significant since it can be that an AI-generated draft can be treated as proof due to its existence in the system.
+By the time I wrote this reflection, we had not yet received the Socratic Tutor questions regarding the Technical Blueprint or feedback on the Knowledge Architecture. Therefore, I did not create any false feedback.
 
-By the time I wrote this compilation we had not yet got the Socratic Tutor tasks regarding the Technical Blueprint nor any feedback as to the Knowledge Architecture. Therefore I did not create any false feedback.
-
-Developing Knowledge Architecture I found several issues from the earlier work that need to be solved in a clear way. One of them is traceability. During the second week we met various AI-generated articles.
- could make confident claims using different statistics and interpretations. Because of this, we decided that our own platform should keep every important claim connected to its original evidence.
-
-Another important issue was the treatment of field-research information. We kept the safety boundary from our Technical Blueprint and made it clearer in the architecture: raw interview recordings, consent documents and identifiable SME information remain in protected storage and cannot be sent to an external AI model. Only reviewed and anonymised notes can enter the AI-assisted research workflow.
-
-When the tutor feedback becomes available, we will compare the questions with these decisions and update the architecture where necessary.
-
-My main build output this week was the **first draft of the Knowledge Architecture and the first entry in our Decision Log**.
-
-The architecture defines a process in which the platform first understands the project context, then searches appraised evidence, retrieves relevant original passages and only then provides this information to the drafting component. After a draft is produced, its claims should be checked against the evidence before human review and publication.
-
-I also considered an alternative architecture based mainly on pre-generated source summaries. Although this would be simpler, I decided that it would create a greater risk of losing context and making it difficult to trace claims back to original evidence. For this reason, summaries may help with navigation, but original evidence records remain the main source for drafting.
-
-This week helped me understand that knowledge architecture is not only about where files are stored. It determines whether the platform can explain where an answer came from and whether a researcher can verify it. This is especially important for our project because the handbook itself is supposed to help SME owners make informed decisions about whether AI systems can be trusted.
-
-
-I also made my contribution to Assignment 2 by coming up with criteria for assessing the quality of our sources and a search strategy we could use to locate them. Rather than relying on AI-generated answers, we figured out the definition of the concept of quality source and only after that began our search. We searched for the information provided by such institutions as Stanford HAI, WIPO, OECD and European Institutions, and I helped compare several pieces of evidence from different countries in such areas as frontier AI models, research, patents, investment, computing infrastructure and regulation.
-
-One of the crucial lessons I learned from this week’s experience is that there is no single answer to the question **“Who is an AI leader?”** as the answer depends on the kind of metric used in measuring AI performance. Thus, I realized that there is a significant difference between using AI in order to answer a question and employing it in analyses of evidence that has been selected and assessed in advance. 
-
-The process of gathering feedback provided us with an opportunity to evaluate the quality and reliability of our evidence. Once we got the feedback, we figured out several areas in which our research could be improved., we updated our Stanford evidence to the 2026 AI Index, included newer WIPO patent information, added evidence about compute and infrastructure, and considered official European sources for the EU AI Act.
-
-We also changed the geographical scope of our target audience from marketing agencies specifically in Arnhem and Gelderland to small marketing and advertising agencies across the Netherlands. Arnhem can still be relevant for our field research and potential SME partner, but the handbook itself can now be useful to a broader group of Dutch SMEs.
-
-These changes showed me that feedback is not only about correcting mistakes. It can also reveal where the scope, evidence or assumptions of a project are too narrow and need to be reconsidered.
-
-My work this week contributed to the research process that the AEL platform will eventually need to support. In particular, I worked on defining how sources should be searched for, evaluated and compared before they are used to generate handbook content.
-
-This connects directly to our PRD and technical blueprint because the platform should not simply collect information and ask an AI model to summarise it. It needs to preserve the source, evaluate its quality, keep claims traceable to evidence and allow conflicting information to be identified. The comparison of the three AI-generated articles demonstrated why these checks are necessary.
-
-My main output from this week was therefore not only content for the handbook, but also a clearer understanding of the research workflow that our platform needs to implement. Going into the next week, I want to focus more on how this evidence and source information should be stored and passed between different parts of the platform, while keeping the process understandable for non-technical users.
+My main build output this week was the **first draft of the Knowledge Architecture and the first entry in our Decision Log**. This work helped me understand that knowledge architecture is not only about where files are stored. It also determines whether the platform can explain where an answer came from and whether a researcher can verify it.
