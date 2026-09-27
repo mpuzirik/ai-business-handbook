@@ -16,3 +16,17 @@ Like Marija, I still do not fully understand how an agentic CLI works in practic
 I have already begun transitioning into Week 2 tasks to keep our momentum going:
 *   **Proposal Refinement:** I reviewed the questions provided by our teacher, added my own insights, and further refined our research proposal based on that feedback.
 *   **Blueprint & AI Logic:** Maksim and I collaborated to draft the project blueprint. Together, we integrated a number-based matrix for the AI, which will help the system make more logical, structured, and convenient decisions.
+## Week 2 Portfolio
+
+**What did I contribute?**
+This week, my focus was divided between refining our research foundation and laying the groundwork for our technical architecture:
+*   **Research Proposal Refinement (AIBS):** I improved our research proposal by incorporating insights from the in-class brainstorming session. I explicitly answered the Socratic questions and sharpened our main problem statement and sub-statements to ensure our research direction is precise and actionable.
+*   **AI Maturity Assessment:** I took the AI maturity level test to understand where I am in terms of using AI effectively, and my progress is standing at the "integrating" stage.
+*   **Technical Blueprint (AEL):** I started working on the first version of our Technical Blueprint. A contribution was generating the visual workflow chart, which maps out exactly how each steps will flow through our system.
+
+## Week 3 Portfolio
+
+**What did I contribute as Deployer?**
+In Week 3, the project transitioned from theoretical planning to active building, allowing me to fully step into my Deployer role alongside the Developer. 
+*   **Desk Research Agent Development:** Maksim and I took joint responsibility for actually building the automated tools we designed in the blueprint. 
+*   **Deploying Version 0 (v0):** We successfully developed and finished v0 of our desk research agent. This initial build establishes the core functionality for processing and extracting research data, and we have fully prepped it for a live demonstration this coming Monday.
