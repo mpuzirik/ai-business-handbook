@@ -30,7 +30,7 @@ By the time I wrote this reflection, we had not yet received the Socratic Tutor 
 
 My main build output this week was the **first draft of the Knowledge Architecture and the first entry in our Decision Log**. This work helped me understand that knowledge architecture is not only about where files are stored. It also determines whether the platform can explain where an answer came from and whether a researcher can verify it.
 
-Portfolio Entry — Week 4
+# Portfolio Entry — Week 4
 
 What did your team publish?
 
