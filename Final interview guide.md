@@ -1,14 +1,20 @@
-# Final SME Interview Guide — Reklaame
+# Final SME Interview Guide - Reklaame
 
 ## Purpose
 
-The purpose of this interview is to understand how Reklaame currently works, how AI is already being used, where AI could realistically create value, and what risks or limitations would need to be managed.
+The purpose of this interview is to understand:
+
+1. how Reklaame currently works and where AI may create useful opportunities;
+2. what Reklaame currently knows and does not know about AI;
+3. how AI may change the agency's services, clients and competitive position;
+4. what AI adoption could mean for employees and skills;
+5. which AI use cases are realistic for the company.
 
 Our main research question is:
 
 **How can small marketing and advertising agencies in the Netherlands use generative AI to improve productivity while maintaining creative quality, originality and client trust?**
 
-The interview focuses on Reklaame as one case company. The findings will not be treated as representative of the whole marketing sector.
+Reklaame is one case company. The interview findings will not be treated as representative of the entire marketing sector.
 
 ---
 
@@ -18,216 +24,258 @@ Thank you for taking the time to speak with us.
 
 We are researching how small marketing and advertising agencies can use generative AI in a practical and responsible way.
 
-We are interested in your actual work processes, current AI use, challenges, concerns and possible future use cases.
+We are interested in your actual experience, including your current work, how AI may be changing your business, what you already know about AI, what is still unclear, and what you might realistically want to use AI for in the future.
 
-There are no right or wrong answers. Please do not share confidential client information, passwords, personal data or anything you are not comfortable discussing.
+There are no right or wrong answers.
+
+Please do not share confidential client information, passwords, personal data or anything you are not comfortable discussing.
 
 ---
 
-# 1. Role and Company
+# 1. Role, Company and Market Changes
 
 ### 1. Could you briefly explain your role at Reklaame and your main responsibilities?
 
-Possible follow-up:
+Optional follow-up:
 - Which parts of the company or workflow are you most involved in?
 
-### 2. What are the main services Reklaame provides to clients?
+### 2. What are the main services Reklaame provides to clients today?
 
-Possible follow-up:
-- Which services require the most employee time?
+Optional follow-up:
+- Which services are most important to the company?
 
----
+### 3. How are your clients' expectations changing because of AI?
 
-# 2. Workflow and Time
+Optional follow-ups:
+- Are clients asking for faster or cheaper work?
+- Are clients asking specifically about AI?
+- Are clients now doing things themselves that they previously hired an agency to do?
 
-### 3. Can you walk us through a typical project from receiving a client brief to delivering the final result?
+### 4. Do you think AI could change what Reklaame offers clients, rather than only making existing tasks faster?
 
-Possible follow-ups:
-- Who is involved at each stage?
-- Where are the main handovers?
-- Which stages take the longest?
-
-### 4. Which tasks currently require the most employee time?
-
-Possible prompts if needed:
-- research
-- brainstorming
-- writing
-- design
-- revisions
-- client communication
-- reporting
-- administration
-
-### 5. Which tasks feel repetitive or inefficient?
-
-Possible follow-up:
-- Which task would you most like to make faster or easier?
+Optional follow-ups:
+- Could it create new services?
+- Could some existing services become less valuable?
+- Are there things clients may expect from agencies in the future that they do not expect today?
 
 ---
 
-# 3. Current AI Use
+# 2. Current Workflow and Current AI Use
 
-### 6. What have you or your colleagues actually used AI for recently?
+### 5. Can you walk us through a typical project from receiving a client brief to delivering the final result?
 
-Possible follow-ups:
-- Which tool did you use?
+Optional follow-ups:
+- Which stages take the most time?
+- Where do problems or delays usually happen?
+
+### 6. Which parts of the current workflow feel repetitive, inefficient or difficult?
+
+Optional follow-up:
+- Which part would you most like to improve?
+
+### 7. What have you or your colleagues actually used AI for recently?
+
+Optional follow-ups:
+- Which tool?
 - What was the task?
-- How was the output used?
+- What happened to the AI output afterwards?
 
-### 7. Can you describe a specific example where AI was useful?
+### 8. Can you describe one example where AI worked well and one where it did not work well?
 
-Possible follow-ups:
-- What did the AI produce?
-- What did a person still need to change or check?
-- Did it actually save time?
-
-### 8. Have you tried any AI tools or use cases that did not work well?
-
-Possible follow-ups:
-- What was the problem?
-- Quality?
-- Accuracy?
-- Cost?
-- Difficulty?
-- Client suitability?
+Optional follow-ups:
+- What made the successful example useful?
+- What was wrong with the unsuccessful example?
+- Did someone need to correct or significantly change the result?
 
 ---
 
-# 4. Quality and Human Work
+# 3. AI Knowledge and Knowledge Gaps
 
-### 9. Which parts of your work do you think AI could support without reducing quality?
+### 9. How do you currently keep up with what AI can do?
 
-Possible prompts:
-- research
-- brainstorming
-- first drafts
-- variations
-- summaries
-- administration
+Optional follow-ups:
+- Clients?
+- Other agencies?
+- AI vendors?
+- Social media?
+- Courses?
+- Colleagues?
+- Industry organisations?
 
-### 10. Which parts of the work should remain mainly human?
+### 10. What parts of AI do you currently feel confident about, and what parts are still unclear?
 
-Possible follow-ups:
+Optional follow-ups:
+- technical capabilities
+- privacy
+- copyright
+- costs
+- choosing tools
+- using client information
+- measuring whether AI creates value
+
+### 11. Is there a decision about AI that Reklaame is currently postponing because you do not know enough yet?
+
+Optional follow-ups:
+- What is the decision?
+- What information is missing?
+- What would you need to know before making the decision?
+- Who would you trust to provide that information?
+
+This question is especially important for identifying a practical knowledge gap for the handbook.
+
+---
+
+# 4. Quality, Trust and Responsible Use
+
+### 12. Which parts of your work do you think AI can support, and which parts should remain mainly human?
+
+Optional follow-ups:
 - Why?
-- Creativity?
-- Client understanding?
-- Brand knowledge?
-- Final judgement?
+- Where is human creativity most important?
+- Where is client understanding important?
+- Where would AI mistakes create the biggest problem?
 
-### 11. What would make you trust an AI-generated result enough to use it in client work?
+### 13. What would make you trust an AI-generated result enough to use it in client work?
 
-Possible follow-ups:
+Optional follow-ups:
 - human review
 - source checking
-- company rules
-- approved tools
 - testing
+- company guidelines
+- approved tools
+
+### 14. Are there types of client or company information that you would never put into an AI tool?
+
+Optional follow-ups:
+- Do client contracts or NDAs influence this?
+- Does it matter where the provider stores or processes the data?
+- Do employees currently know what they are allowed to enter into AI systems?
+
+### 15. Do copyright, ownership or disclosure questions affect how comfortable you are using AI-generated work?
+
+Optional follow-ups:
+- Should clients be told when AI was used?
+- Should employees be required to disclose their AI use internally?
 
 ---
 
-# 5. Privacy, Client Data and Copyright
+# 5. People, Skills and Learning
 
-### 12. Are there types of client or company information that you would never put into an AI tool?
+### 16. When someone at Reklaame starts using a new AI tool, how do they learn to use it, and what gets in the way?
 
-Possible follow-ups:
-- Are there client contracts or NDAs that affect this?
-- Do employees currently have guidance about what is allowed?
+Optional follow-ups:
+- Is there formal training?
+- Do employees mostly learn by themselves?
+- Is lack of time a problem?
+- Is it difficult to know which information about AI is reliable?
 
-### 13. How important is it for you to know where an AI provider stores or processes data?
+### 17. If AI starts producing more of the first drafts or basic creative work, what could that mean for junior employees and how they learn the job?
 
-Possible follow-up:
-- Would the location of the provider influence which tool you choose?
+Optional follow-ups:
+- Are there skills juniors normally learn through these tasks?
+- Could AI remove useful learning opportunities?
+- Would training need to change?
 
-### 14. Do copyright or ownership questions affect how comfortable you are using AI-generated text, images or designs?
+### 18. What do you actually want AI to give Reklaame?
 
-Possible follow-ups:
-- Have clients asked about AI use?
-- Should employees disclose when AI was used?
+For example:
+- more output;
+- lower costs;
+- faster delivery;
+- higher quality;
+- more time for creative work;
+- new services;
+- something else.
+
+Optional follow-up:
+- Who in the team should have a say in deciding this?
 
 ---
 
-# 6. Vendor Dependency
+# 6. Choosing and Testing AI Use Cases
 
-### 15. What would happen if an AI tool your team relied on suddenly became more expensive, changed its terms or became unavailable?
+### 19. If Reklaame could test AI on only one new use case in the next month, what would you choose?
 
-Possible follow-ups:
-- Could you switch easily?
-- Would important prompts, files or workflows be lost?
-- Do you keep important work outside the AI tool?
+This does not have to be a current task.
 
-### 16. What matters most when choosing an AI tool for the company?
+Optional follow-ups:
+- Why this use case?
+- Could it change the service you offer rather than just make an existing task faster?
+- What would be the main risk?
 
-Possible factors:
-- quality
-- price
+### 20. What would need to be true before Reklaame would seriously adopt that use case?
+
+Optional follow-ups:
+- acceptable quality
 - privacy
-- ease of use
+- cost
+- employee skills
+- client acceptance
 - reliability
-- language support
-- integration
-- data location
-- ability to export work
-
----
-
-# 7. Budget, Skills and Responsibility
-
-### 17. How much time and money could the company realistically invest in testing a new AI tool?
-
-Possible follow-ups:
-- Would you prefer a small pilot first?
-- Who would approve the spending?
-
-### 18. If Reklaame wanted to use AI more seriously, who should be responsible for it internally?
-
-Possible follow-ups:
-- management
-- one AI champion
-- individual employees
-- external specialist
-
-### 19. Do employees currently have enough skills and time to learn new AI workflows?
-
-Possible follow-ups:
-- What skills are missing?
-- Would training be necessary?
-
----
-
-# 8. Priorities and Success
-
-### 20. If you could test AI on only one task next month, which task would you choose?
-
-Possible follow-ups:
-- Why that task?
-- What could go wrong?
 
 ### 21. How would you decide whether the AI test was successful?
 
-Possible measures:
+Optional follow-ups only if needed:
 - time saved
-- fewer repetitive tasks
-- same or better quality
-- fewer corrections
-- lower cost
-- positive staff feedback
-- positive client feedback
+- amount of correction needed
+- quality
+- cost
+- employee experience
+- client feedback
+- ability to create a new service
 
-### 22. Would you be willing to compare the same task with and without AI to measure the difference?
+If appropriate, ask:
 
-Possible follow-up:
-- Which task would be suitable for such a comparison?
+**Would comparing the same task with and without AI be a useful way to measure this?**
 
 ---
 
-# 9. Closing
+# 7. Vendor Dependency and Practical Adoption
 
-### 23. What is your biggest concern about using more AI at Reklaame?
+### 22. What would happen if an AI tool Reklaame relied on suddenly became more expensive, changed its rules or became unavailable?
 
-### 24. What is the biggest opportunity AI could create for Reklaame?
+Optional follow-ups:
+- Could you switch easily?
+- Would important prompts or work be lost?
+- What would matter when choosing an alternative provider?
 
-### 25. Is there anything important about AI use in your company that we have not asked about?
+### 23. If Reklaame decided to use AI more seriously, who should be responsible for deciding which tools and use cases are allowed?
+
+Optional follow-ups:
+- management
+- one internal AI champion
+- individual employees
+- another person or team
+
+---
+
+# 8. Closing Questions
+
+### 24. What is the biggest opportunity AI could create for Reklaame over the next few years?
+
+### 25. What is your biggest concern about AI changing the marketing-agency business?
+
+### 26. Is there something important about AI, your employees or your clients that we have not asked about?
+
+---
+
+## Interview Priorities
+
+The interviewer does not need to ask every optional follow-up.
+
+The core questions should be asked first. Prompt lists should only be used when the participant needs help understanding the question or when the conversation stalls.
+
+The most important topics to cover are:
+
+1. changes in client expectations;
+2. current and possible future AI use cases;
+3. AI knowledge and knowledge gaps;
+4. decisions being postponed because information is missing;
+5. how employees learn AI;
+6. effects on junior staff and other employees;
+7. what Reklaame wants AI to achieve;
+8. privacy, trust and human responsibility;
+9. which AI use case the company would realistically test first.
 
 ---
 
@@ -238,10 +286,15 @@ The team will record:
 - interview date;
 - participant role;
 - main themes;
-- important findings;
-- unanswered questions;
+- current AI uses;
+- unexpected AI opportunities;
+- identified knowledge gaps;
+- decisions the company is postponing;
+- employee and skills concerns;
+- changing client expectations;
+- promising use cases;
 - claims that need external verification;
-- possible follow-up questions.
+- unanswered questions.
 
 The interview represents one case company and will not be used to make general claims about the entire marketing sector.
 
