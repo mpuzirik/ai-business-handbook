@@ -1,121 +1,145 @@
-# What Does a Small Marketing Agency Need to Know About AI?
+# What Do Small Marketing Agencies Still Need to Know About AI?
 
 ## Why This Matters
 
-AI has become part of the business routine, not merely an experimental technology any more. In 2025, 20% of businesses in the EU used AI technologies, while the figure for 2024 was 13%. For SMEs, AI use was around 19%. The main applications include text analysis as well as creation of text content and images, videos, and sounds.
+Artificial intelligence is becoming increasingly common in business. According to Eurostat's *Digitalisation in Europe 2026*, 20% of EU businesses used AI technologies in 2025, compared with 13% in 2024. Among SMEs, AI adoption reached approximately 19%.
 
-For a small agency, these functions are a straight application of work in such processes as content development, research, campaign building, and communication with clients.
+For small marketing and advertising agencies in the Netherlands, AI offers opportunities in content creation, campaign planning, research and customer communication. However, knowing that AI tools exist does not automatically mean knowing how to use them effectively.
 
-Nonetheless, knowing about the existence of AI and knowing when exactly to apply the technology for business purposes is different. Thus, before applying more AI instruments, the agency owner should fill in several knowledge blanks.
+The main challenge is identifying **what an agency already understands about AI, what knowledge is missing and what information is necessary before investing in new tools**.
 
-Source evaluation: Eurostat is a statistical office of the European Union. Its figures on AI in businesses are derived from the unified business surveys making the data suitable for measuring the degree of AI use across EU business community.
+*Source appraisal: Eurostat is the official statistical office of the European Union. Its harmonised business surveys provide reliable comparative evidence about AI adoption. However, these statistics do not establish the AI knowledge or practices of individual Dutch marketing agencies.*
 
-## 1. Where Does AI Actually Create Value?
+## 1. What Do We Already Know?
 
-The initial challenge involves discovering which tasks will truly benefit from AI.
+Existing research confirms that AI adoption is growing, particularly in activities involving text analysis and the generation of written and visual content.
 
-Potentially, a marketing firm can apply generative AI for idea generation, the creation of first drafts, conducting research, writing content variations, and assisting in visual production. However, just because a task can be automated, it doesn't guarantee its automation will create any value for the business.
+For marketing agencies, potential applications include developing campaign ideas, drafting social media content, summarising market research and generating creative variations.
 
-Therefore, the owner should first comprehend how the staff is expending time on work tasks and where AI could help them lessen repetitiveness without hampering creativity.
+However, these are **potential applications, not evidence that a particular agency currently uses AI successfully**.
 
-Instead of asking:
+Our research has not yet established which AI tools employees at our selected SME use, how frequently they use them or whether those tools improve productivity.
 
-"Which AI tools should we purchase?"
+These questions require field research rather than assumptions based on general industry trends.
 
-The more relevant question is:
+## 2. Where Are the Main Knowledge Gaps?
 
-"Which components of the workflow make us spend considerable time or money making the use of AI worthwhile?"
+### Business Value and Productivity
 
-## 2. What Information Can Employees Give to AI?
+The first potential knowledge gap concerns understanding which tasks genuinely benefit from AI.
 
-All marketing agencies keep dealing with customer briefs, campaign blueprints, consumer data, unpublicized content, and organizational strategy.
+An agency might use AI to create content more quickly, but this does not necessarily mean that overall productivity improves. Employees may still spend significant time editing, correcting or checking the results.
 
-As a result, there is a considerable knowledge gap in data.
+Before investing, an agency needs to know how long a task currently takes, how much AI could realistically reduce that time and whether the resulting work meets client expectations.
 
-Dutch Data Protection Authority has given concrete guidance for the organizations that have an interest in generative AI use. Among other recommendations, it calls for determining whether the entity is willing and capable, and whether it is legally allowed to start operating the generative AI. This may be particularly important in situations when the AI service gets hold of the documentation and data of the organization.
+The key question is not simply which AI tool to purchase, but **which business problem is worth solving with AI**.
 
-Therefore, the agency should be aware of what is done with the data entered into its AI systems and which data should remain private and not be disclosed by its professionals without the authority to do so.
+### Data Privacy and Client Confidentiality
 
-## 3. How Reliable Does the Output Need to Be?
+Marketing agencies handle client briefs, customer data, unpublished campaigns and internal business information.
 
-While AI can create realistic content, it may not have assurance that every statement is accurate.
+The Dutch Data Protection Authority provides guidance on assessing whether an organisation can use generative AI responsibly and in accordance with data-protection requirements.
 
-The degree of verification needed may differ for each task. For example, leveraging AI to generate 10 campaign ideas offers a different level of responsibility compared to using AI to provide factual information to the client.
+An agency therefore needs to understand where information entered into AI systems is processed, which employees may access the tools and what confidential material must remain protected.
 
-This indicates that the agency has to identify avenues for employing AI and situations requiring human verification.
+*Source appraisal: Autoriteit Persoonsgegevens is the independent Dutch data-protection regulator and a primary source for GDPR-related guidance. Its guidance establishes relevant considerations, but does not tell us which privacy controls our selected SME currently has.*
 
-An excellent principle describes the situation as follows:
+### Reliability and Human Oversight
 
-AI creates a first draft while humans are responsible for the output destined for clients.
+Another potential knowledge gap is understanding when AI-generated work requires human verification.
 
-This means that the agency should develop a clear process for checking all factual data, sources, brand consistency, and quality of the AI-supported output before sending it to clients.
+Generating campaign ideas is different from producing factual advertising claims that will be published for a client. Incorrect information, misleading statements or content that does not match the client's brand could damage trust.
 
-## 4. Do Employees Know How to Use AI Properly?
+Agencies therefore need clear processes for checking accuracy, sources, brand consistency and final creative quality.
 
-There is a different knowledge gap which is not of a technology-related nature.
+AI may support the production of first drafts, but the agency should establish who remains responsible for approving client-facing work.
 
-Employees can be using AI even when an organization has not introduced it officially. Different employees may apply different software, personal accounts, and different criteria for checking the work done by AI.
+### Employee Skills and AI Policies
 
-KVK advises SMEs to create a clear AI policy that determines what software is permitted for employees to use, for what purposes, what type of information shouldnt’ be used, and what are the standards for checking the output of AI.
+Employees may use different AI tools, accounts or methods without consistent organisational guidelines.
 
-Being AI literate has become part of regulation in Europe. Under the AI Act, organizations using AI must take necessary measures to foster AI literacy among their employees.
+KVK recommends that businesses establish clear rules about permitted AI tools, acceptable uses, information that employees may enter and the checking of AI-generated content.
 
-Thus, it is crucial for a business owner to ask not only:
+The EU AI Act also includes AI-literacy requirements for organisations using AI systems.
 
-“Are my employees aware of how to work in ChatGPT?”
+This means that an agency owner should understand not only whether employees can operate AI tools, but also whether they recognise the tools' limitations and understand when human judgement is required.
 
-but also:
+*Source appraisal: KVK provides practical business guidance for Dutch SMEs. The European Commission provides primary institutional information about the EU AI Act. These sources identify responsibilities and recommended practices, but cannot establish whether a particular agency's employees currently possess the necessary skills.*
 
-“Do they know when to use AI, what to input, what possible risks exist, and when human control is required?”
+### Costs and Implementation
 
-## 5. What Does the AI Tool Really Cost?
+The subscription price is only one part of AI adoption.
 
-The subscription cost is not the only expense related to the implementation of AI.
+Training employees, reviewing generated content, updating workflows and introducing internal policies also require time and resources.
 
-The agency may need to invest time in training employees, validating results, introducing internal policies, streamlining processes and coordinating multiple tools.
+An agency therefore needs to calculate whether the benefits of an AI tool justify its total implementation effort.
 
-Therefore, the business case should analyze the total costs incurred and compare them to the benefits generated.
+A small pilot is more informative than introducing several AI tools without measuring their impact.
 
-For instance, if one AI solution reduces the time spent on drafting repetitive documents by a number of hours every week, it is reasonable to believe that the investment is justified. However, if employees spend almost the same amount of time correcting the AI output as they did when completing the work manually, the benefits are vague.
+## 3. Which Knowledge Gaps Matter Most?
 
-Hence, the agency should evaluate a particular use case before using AI across the board.
+For a small marketing agency, we propose the following initial priorities.
 
-What Should the Owner Do?
+| Priority | Knowledge gap | Why it matters |
+|---|---|---|
+| High | Client data and confidentiality | Mistakes could expose sensitive client or business information. |
+| High | Reliability and human oversight | Incorrect client-facing content can damage reputation and trust. |
+| High | Business value | AI investment should solve an identifiable business problem. |
+| Medium | Employee AI skills | Staff need consistent practices and an understanding of limitations. |
+| Medium | Total implementation cost | Owners need to know whether expected benefits justify the investment. |
 
-You ought to have answers for the following five questions prior to trying yet another AI tool:
+These priorities are **our preliminary assessment**, not confirmed findings from an SME interview. Their order may change when we learn more about the company's existing tools, workflows and concerns.
 
-What business issue are we attempting to resolve?
+## 4. What Do We Still Need to Learn from the SME?
 
-What kind of company or customer information will be processed by AI?
+Our desk research provides an understanding of general AI opportunities and risks. However, it cannot tell us how a particular marketing agency currently operates.
 
-Who evaluates AI output before the customer sees it?
+The SME interview should help us establish:
 
-Do our personnel employees understand the advantages and limitations of the?
+- Which AI tools, if any, employees currently use and for which tasks.
+- Which activities take the most time and where employees experience difficulties.
+- Whether the company has rules for confidential client information and reviewing AI-generated content.
+- What employees understand about AI limitations and whether they have received training.
+- Which AI opportunities the owner considers worthwhile and what would prevent adoption.
 
-How are we going to assess whether the AI tool actually reduces time spent, saves costs, or improves quality?
+Comparing the interview findings with our desk research will help us distinguish between **the problems an SME identifies itself and the additional risks or opportunities revealed by external evidence**.
 
-If all of these questions cannot be answered right away, the owner must fill the knowledge gap to avoid increasing the company’s reliance on AI. 
+This distinction is important because the handbook should respond to real business needs rather than assume that every small agency has the same knowledge gaps.
 
-The first step would be to select one of the repetitive low-risk processes, measure how much time it takes at the moment, evaluate the AI technology performance and compare results.
+## 5. What Should the Owner Do?
+
+Before purchasing another AI tool, an agency owner should choose one specific workflow and assess its current performance.
+
+For example, the company could investigate the preparation of social media captions. The owner could record the time required to produce and approve content manually, then test AI-assisted drafting with non-confidential material.
+
+The agency should compare the time required, number of corrections, final quality and employee experience. It should also establish which information may be entered into the tool and who approves the final result.
+
+**The goal is not to introduce AI everywhere. It is to make an informed decision about where AI creates measurable value without introducing unnecessary risks.**
+
+This provides the foundation for our next handbook chapter, which examines practical AI use cases for small marketing agencies.
 
 ---
 
 ## How This Page Was Produced
 
-Our research platform supported the organisation of sources, source appraisal and drafting of this page. The team reviewed the resulting content, checked the important claims against the original sources and retained responsibility for the final version.
+Our research platform was used to support the research and drafting workflow. The page draws on institutional sources to identify possible knowledge gaps and separates those findings from assumptions that require field research.
 
-AI-generated content was treated as a draft rather than as evidence. Claims included in the page were checked against the original institutional sources before publication.
+The research team remains responsible for verifying individual claims, reviewing AI-generated content and approving the page before publication.
 
-## Sources
+## Sources and Appraisal
 
-**Eurostat — Digitalisation in Europe 2026**  
-Official EU statistical source used for evidence about AI adoption among European businesses and SMEs.
+**[Eurostat — Digitalisation in Europe 2026](https://ec.europa.eu/eurostat/en/web/interactive-publications/digitalisation-2026)**
 
-**Autoriteit Persoonsgegevens — Guidance and practical tool on generative AI and the GDPR, 2026**  
-Dutch data-protection regulator and primary source for privacy considerations when organisations implement generative AI.
+Official European statistical publication. Selected for comparable AI adoption data. Limitation: EU-wide statistics do not demonstrate the needs of individual marketing agencies.
 
-**European Commission — AI Literacy under the AI Act**  
-Primary EU source used to understand current AI-literacy requirements for organisations deploying AI systems.
+**[Autoriteit Persoonsgegevens — Dutch Data Protection Authority](https://autoriteitpersoonsgegevens.nl/)**
 
-**KVK — How to develop a clear AI policy, updated 2026**  
-Dutch Chamber of Commerce guidance aimed specifically at practical AI governance for SMEs.
+Official Dutch data-protection regulator. Relevant to privacy, personal information and responsible AI use. Limitation: regulatory guidance does not establish a specific SME's current compliance.
+
+**[European Commission — AI Literacy under the AI Act](https://digital-strategy.ec.europa.eu/en/policies/ai-literacy)**
+
+Official EU institutional guidance. Selected for its authority on AI-literacy requirements. Limitation: it does not measure individual employee capabilities.
+
+**[KVK — Dutch Chamber of Commerce](https://www.kvk.nl/)**
+
+Dutch business-support institution providing practical guidance for SMEs. Relevant to AI policies and organisational readiness. Limitation: general recommendations need to be adapted to the agency's actual circumstances.
