@@ -57,3 +57,29 @@ What did my build role produce?
 In this week, I made my major contribution to the creation of the handbook page and realization of our research. I assisted in transforming the somewhat broad subject of AI. knowledge gaps into specific questions that are relevant to small marketing agencies.
 
 This week helped me understand that an SME does not necessarily need more information about AI in general. It needs the right information for a specific business decision. The handbook should therefore help an owner understand the value, risks and requirements of AI before deciding whether a particular use case is worth adopting.
+
+# Portfolio Entry — Week 5
+
+## What did your team publish?
+
+This week, our team continued working on the AI handbook for small marketing and advertising agencies in the Netherlands. We prepared two handbook pages: an updated version of **SME Knowledge Gaps** and a new page about **AI Use Cases at SMEs**, focusing on AI-assisted content creation. The main goal was to provide practical information that could help SME owners make better decisions about adopting AI.
+
+## What did I contribute?
+
+My main contribution this week was working on both handbook pages. I improved the SME Knowledge Gaps page by making a clearer distinction between research findings and assumptions that still need to be confirmed through field research.
+
+For the AI Use Cases page, I focused on AI-assisted social media content creation. I described how AI could support content drafting, what information it would need, the potential benefits and risks, and how an agency could test whether the technology actually saves time without reducing quality.
+
+## What did the gates ask, and what did we change?
+
+One important issue we identified was that our research should not present possible problems at an SME as confirmed facts without evidence. Because of this, we revised the Knowledge Gaps page to separate findings supported by external sources from questions that still require an SME interview.
+
+We also recognised that demonstrating our V0 research tool does not automatically prove that it meets all the requirements in our PRD. The tool still needs to be evaluated through actual tests, particularly regarding source reliability, evidence traceability and Dutch-to-English processing.
+
+## What did my build role produce?
+
+My main outputs this week were the revised handbook page, the new AI Use Cases page and contributions to the **Decision Log and AEL First Evaluation preparation**.
+
+I documented several decisions relating to the platform, including evidence retrieval, data protection, human review and the need for testing. However, because other team members developed the agent, I left the actual evaluation results open for them to complete after testing.
+
+This week helped me understand that creating AI-generated content is only one part of the project. The more important challenge is making sure the information is useful, supported by evidence and connected to real business decisions. I also learned that an evaluation should be based on what the tool actually does rather than what we expect it to do.
