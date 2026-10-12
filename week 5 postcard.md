@@ -14,4 +14,4 @@ The main challenge is ensuring that AI-generated content remains accurate, origi
 
 **Our message from the future:** The most successful marketing agencies are not those that use AI for everything, but those that understand where AI creates value and where human judgement remains essential.
 
-![Postcard from 2035](postcard from 2035.png)
+![Postcard from 2035](postcard%20from%202035.png)
