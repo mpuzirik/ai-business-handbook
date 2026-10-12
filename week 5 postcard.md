@@ -13,3 +13,5 @@ One of the biggest changes is that even small agencies can now offer highly pers
 The main challenge is ensuring that AI-generated content remains accurate, original and trustworthy, while protecting client information.
 
 **Our message from the future:** The most successful marketing agencies are not those that use AI for everything, but those that understand where AI creates value and where human judgement remains essential.
+
+![Postcard from 2035](postcard-2035.png)
