@@ -1,0 +1,90 @@
+{
+  "about": "Project context used in the AI prompts. Derived from the project documents in ../Context (see 'derived_from'). The appraisal rubric is not copied here: it is read live from the search strategy (rubric_reference).",
+  "context_version": "v0.1",
+  "rubric_reference": {
+    "file": "../Context/week 2 search strategy.md",
+    "section": "1.1",
+    "expected_version": "1.0",
+    "derived_from": "Technical Blueprint section 3-4; Search Strategy section 1.1"
+  },
+  "target_sme": {
+    "sector": "Small marketing and advertising agencies: branding, digital marketing, graphic design, website development, campaigns and content creation for other businesses.",
+    "size": "Roughly 10 to 50 employees.",
+    "region": "The Netherlands, with Arnhem and the wider Gelderland region as the sampling region. Regional findings are reported as regional context, not as sector-wide conclusions.",
+    "case_company": "Reklaame, Arnhem (internal analysis). If Reklaame cannot participate, a comparable agency in the same size and service range is approached.",
+    "reader": "An owner or manager of a small marketing or advertising agency. The SME owner does not operate the research platform.",
+    "derived_from": "Research Proposal section 1; PRD section 1"
+  },
+  "business_decision": "Which parts of a marketing agency's workflow should use generative AI to improve productivity, and which parts should stay primarily human to protect quality, originality and client trust?",
+  "research_questions": {
+    "MAIN": "How can small marketing and advertising agencies in the Netherlands use generative AI to improve productivity while maintaining creative quality, originality and client trust?",
+    "E1": "Which generative AI applications are relevant to this sector, what level of technical and organisational complexity does each require, and where do the tools currently fail at agency-grade creative work?",
+    "E2": "How dependent are these tools on non-EU providers, models and infrastructure? Where is the provider established, where is data processed, and what does that mean for GDPR compliance, copyright position, client confidentiality and the agency's ability to switch or exit?",
+    "E3": "Who are the front-runners in this sector, in agencies, tools and sector initiatives, and what distinguishes them from the average agency? Are there European alternatives that a Dutch agency can realistically use?",
+    "E4": "How is AI adoption changing pricing, billable-hour models, client expectations and the services agencies sell?",
+    "E5": "What support exists nationally and in Gelderland for digitalisation in small creative firms (subsidies, vouchers, networks, knowledge partners), and is it accessible to a 10 to 50 person agency?",
+    "E6": "What is the labour market and skills picture for AI-capable marketing, copy and design staff, and which skills does the sector report lacking?",
+    "I1": "How does work move from client brief to delivered output, and which activities consume the most employee hours?",
+    "I2": "What AI use, data, tooling and infrastructure can the company show in practice, and what blocks adoption technically?",
+    "I3": "What budget and staff time exist for subscriptions, training and pilots, and how does the company judge return on that spend?",
+    "I4": "Who could own AI adoption internally, how much learning time is available, and what is staff attitude to AI-assisted creative work?",
+    "I5": "How much does the company care where data is processed, what do client contracts and NDAs allow, and how locked in is it to its current tooling?",
+    "I6": "Which use cases give the best balance of business value, implementation effort, creative quality and risk for this company?"
+  },
+  "handbook_topics": {
+    "T1": "Where AI plausibly creates productivity gains, and how large those gains are",
+    "T2": "Which tasks should not be automated, and why",
+    "T3": "What the tools require in skills, data and process maturity, against what the agency actually has",
+    "T4": "Which risks need controlling before adoption",
+    "T5": "What it costs in money and staff time, and how to test small before committing",
+    "T6": "What competitors and front-runners in the sector are already doing",
+    "derived_from": "Research Proposal section 2 ('An owner therefore needs to know')"
+  },
+  "responsible_ai_issues": {
+    "allowed": [
+      "accuracy",
+      "copyright",
+      "privacy",
+      "client confidentiality",
+      "brand consistency",
+      "vendor lock-in",
+      "erosion of creative skill",
+      "human oversight"
+    ],
+    "note": "Any other issue may be proposed as 'other: <label>' and is flagged for a researcher to confirm.",
+    "derived_from": "Research Proposal section 2 (risks list) and section 4 (human oversight)"
+  },
+  "handbook_quality_criteria": [
+    "Use clear, plain English suitable for a non-technical SME owner.",
+    "Answer a practical business question / business decision, not explain AI technology.",
+    "Use reliable and relevant evidence.",
+    "Provide traceable sources for important claims.",
+    "Distinguish (separate) facts, research findings and assumptions.",
+    "Include realistic examples for small marketing agencies.",
+    "Explain both opportunities and limitations, including privacy, copyright, accuracy and human oversight.",
+    "Address responsible-AI issues where relevant.",
+    "Avoid unsupported AI-generated claims.",
+    "Explain business implications / expected business value rather than only technology or feature lists.",
+    "Do not recommend AI where evidence is thin.",
+    "End with concrete actions, recommendations or decision questions for the owner.",
+    "Remain concise and easy to scan; short enough for a busy owner."
+  ],
+  "handbook_quality_criteria_derived_from": "PRD section 3; Research Proposal section 4",
+  "privacy_rules": {
+    "boundary": "Raw interview recordings, identifiable or unredacted interview transcripts and confidential company information must not be sent to an external or free-tier AI model service.",
+    "order": "The Eligibility / Privacy Check happens before translation or any other model-assisted processing. Translation does not create an exception.",
+    "allowed_in": "Only material that follows the agreed consent, anonymisation and privacy process may enter the model-assisted workflow.",
+    "unclear": "If privacy status is unclear, stop and ask the researcher.",
+    "derived_from": "PRD section 4; Technical Blueprint section 5; Search Strategy section 1.2; project instructions (Privacy)"
+  },
+  "scope_rules": [
+    "Regional findings are reported as regional context and are not generalised to the whole Dutch marketing sector unless the scope of the source supports that conclusion. (Research Proposal 1 and 5; Search Strategy 2.2)",
+    "The field research describes one company and is not used for claims about the sector. One marketing-company example cannot be generalised to all agencies. (Research Proposal 5; Search Strategy 2.2)",
+    "A provider's own statements about the quality or superiority of its product are not independent evidence of performance. Provider documentation can be used for the provider's own pricing, features and terms. (Search Strategy 2.1)",
+    "A named provider is a research candidate, not an automatic recommendation. (Search Strategy 2.1)",
+    "An official or government source is not automatically independent because it is authoritative. Authority does not automatically mean independence. (Search Strategy 1, 1.1; Technical Blueprint Q3)",
+    "Two publications repeating the same original dataset do not count as two independent confirmations. (Search Strategy 1)",
+    "Translation does not create a new source and does not make the original source more reliable. If an important Dutch claim cannot be checked adequately, it remains pending. (Search Strategy 1.2)",
+    "Do not recommend AI where evidence is thin. (Research Proposal 4)"
+  ]
+}
