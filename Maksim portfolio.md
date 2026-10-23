@@ -36,13 +36,19 @@ I also made the demo slides and the script for our presentation.
 This week our team focused on AI Use Cases at SMEs. The purpose was to understand which AI applications could provide real business value to small marketing agencies. Additionally, this week an interview with Reklaame was conducted and recorded. A voice recording of an interview was saved and published to the team.
 
 ## What did I contribute?
+During Week 5, my main focus was setting up our team's LLM Wiki, a repository (ael-llm-wiki) built from the course's wiki template. I added the three sources we had already appraised in our research agent. From them, the wiki now has a page per source, pages for the organisations and seven concept pages. It also records one disagreement between sources: the share of 10 to 50 person firms using AI differs between the OECD and CBS. I asked the wiki one question, "Which part of a small marketing agency's work should it test AI on first?", and filed the answer as a synthesis page. The wiki's check (tools/lint.py) confirms that every quote is word for word in its source. I did not connect the wiki to an AI chat yet, because I did not know how at that point.
 
+I also improved the research agent. I specified three upgrades, and they were built and tested:
+
+- The appraisal step now learns from researchers' corrections. Every time a researcher changes the AI's score, the reason is saved and shown in the next appraisal prompt.
+- A switch between manual mode (copy and paste the prompt) and automatic mode (Claude API), with AI settings per account.
+- Writing-style rules and a rewrite button, so drafted pages sound less AI-written without changing their citations.
 
 ## What did I do as Deployer?
-
+This week I created and published the LLM Wiki on GitHub.
 
 ## What do I not understand yet?
- 
+How to connect the LLM Wiki to an AI chat, so that we can ask it questions and get answers only from the wiki, with citations, instead of opening the pages by hand.
 
 
 # Personal Portfolio - Week 6
