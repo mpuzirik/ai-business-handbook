@@ -1,170 +1,253 @@
-# Individual Portfolio — Week 1
+Individual Portfolio — Week 1
+What did the team work on?
+In Week 1, our team decided to focus on small marketing and advertising agencies in the Netherlands. We selected Reklaame in Arnhem as our preferred case company.
 
-## What did I contribute?
+We developed our main research question:
 
-In Week 1, I contributed to choosing a possible target SME for our handbook project. I helped develop the idea of focusing on small marketing and advertising agencies in Arnhem and Gelderland. Our first possible company is Reklaame in Arnhem.
+How can small marketing and advertising agencies use generative AI to improve productivity while maintaining creative quality, originality and client trust?
 
-I contributed to defining the main business problem: marketing agencies may use generative AI to save time on research, brainstorming, first drafts, summaries of client briefs, and creating different versions of marketing content. However, they need to decide carefully which tasks can use AI and which tasks must remain mainly human to protect creative quality, originality, privacy, and client trust.
+We also prepared the first Research Proposal and Product Requirements Document. The Research Proposal explained what we wanted to investigate, while the PRD explained what our research platform should eventually do.
+What did I contribute?
+I participated in the team discussions about the target audience, the business problem and the main research question.
 
-I also helped prepare the first drafts of the AIBS research proposal and the AEL Product Requirements Document.
-
-## What did I do as Product Manager?
-
-My role in the team is Product Manager. In Week 1, my first task was to help make the project clear and focused. I helped describe who the handbook is for, what problem the handbook should help solve, and what the AI research platform should do.
-
-As Product Manager, I focused on the user journey: a team member adds a source, the platform processes Dutch or English information, translates Dutch material when needed, extracts useful evidence, creates a handbook-page draft, and then the team reviews it before publication.
-
-I also helped make sure that the platform will be easy enough for non-coders to use and that a human team member can check every important step. The AI tool should support the team, but it should not make final decisions or publish pages without human approval.
-
-## What do I not understand yet?
-
-I still do not fully understand how an agentic CLI works in practice. I understand that it is a tool used through commands, but I do not yet know how our team will connect it to sources, translations, AI models, and the GitHub wiki.
-
-I also want to learn more about how the platform will check whether a source is reliable and how it can avoid using incorrect AI-generated information. Another question I have is how we will make the system easy for a non-technical team member to use.
-
-# Week 2 Personal Reflection
-
-## What did our team publish?
-
-This week our team published the handbook page on **geopolitics and vendor models** for small marketing and advertising agencies in the Netherlands. The main idea of the page is that an SME should not only look at which AI tool performs best, but also understand which provider it depends on, where the provider operates, how data is handled, and what could happen if prices, access conditions, regulation or ownership change.
-
-We also completed the Week 2 search strategy and quality criteria and revised the technical blueprint for the research platform.
-
-## What did I contribute?
-
-My main contribution this week was working on the research structure and improving the documents after the Socratic feedback.
-
-I worked on the **Week 2 search strategy**, especially the quality criteria and the changes needed after the teacher questioned how our source appraisal actually worked. I helped make the criteria more specific by introducing a five-part scoring rubric and additional checks for Transparency, Comparability, Traceability and Cross-checking.
-
-I also helped revise the **technical blueprint** so that it matches the research method. One important change was the order for Dutch-language sources. The earlier version used:
-
-**Ingest → Appraise → Translate**
-
-After the feedback, we changed this to:
-
-**Ingest → Eligibility / Privacy Check → Translate if required → Human Appraise**
-
-This makes more sense because a researcher should not fully judge the evidence in a Dutch source if they cannot understand the source before translation.
-
-I also worked on making the research strategy more relevant to our SME by adding searches for European AI alternatives and Dutch, regional and sector-specific sources.
-
-## What did the gates ask, and what did we change?
-
-The Socratic feedback raised five main questions.
-
-First, it asked where our source-scoring rubric actually existed and which five criteria were used. We therefore created one explicit rubric in the Week 2 search strategy and made the technical blueprint refer to the same version.
-
-Second, it questioned how a Dutch source could be appraised before translation. We changed the pipeline so that translation happens before full appraisal when the reviewer cannot understand Dutch.
-
-Third, it questioned our treatment of bias. Our original wording mainly focused on AI vendors, but we changed it so that governments, state-funded organisations, universities and industry organisations are also assessed for relevant interests and possible bias.
-
-Fourth, it pointed out that our search strategy did not really answer E3 about realistic European alternatives. We added product-level searches for specific European providers and practical factors such as pricing, language support, data handling and export possibilities.
-
-Fifth, it pointed out that our search strategy did not include enough Dutch, regional or sector-specific searching for E5 and E6. We therefore added Dutch-language searches involving sources such as KVK, Oost NL, Dutch marketing-sector organisations and provincial sources.
-
-The most important lesson from this feedback was that it is not enough to write good-sounding quality criteria. The criteria must be specific enough that another researcher or the platform can actually apply them consistently.
-
-## What did my build role produce?
-
-My AEL build role was: Product Manager.
-
-This week my role contributed to the revision of the technical blueprint and the connection between the AIBS research method and the AEL platform.
-
-The revised blueprint now defines how sources move through the system, how Dutch-language material is handled, where the source-appraisal rubric lives, what information is stored in the source record, and which decisions still require human judgement.
-
-A key improvement is that the platform no longer treats a numerical score as proof that a source is trustworthy. A researcher assigns and explains the scores, while the script only performs the calculation. Human review is still required before evidence is used and before a handbook page is published.
-
-For Week 3, I want to make sure that the next document continues to use the same definitions and does not introduce a different version of the quality criteria or source-handling process.
-
-# Week 3 — Personal Reflection
-
-### 1. What did our team publish?
-
-This week our team worked on the handbook topic **Trust and AI Safety**. We explored how small marketing agencies can use AI responsibly, protect confidential information and check whether AI-generated answers are reliable.
-
-For AEL, our team worked on the Knowledge Architecture, explaining how the research agent stores and retrieves information.
-
-### 2. What did I contribute?
-
-I mainly focused on understanding our research questions and preparing the interview guide for Reklaame.
-
-I helped organise questions about current workflows, AI use, employee skills, privacy and possible AI opportunities.
-
-I also used AI assistance to review the questions and make them clearer and easier for a company employee to answer.
-
-### 3. What feedback did we receive, and what changed?
-
-An important issue from earlier feedback was how we evaluate sources, especially Dutch-language material. We needed clearer quality criteria and a process that allowed researchers to understand information before evaluating it.
-
-This helped me understand why AI-generated information cannot automatically be trusted and why human review is necessary.
-
-### 4. What did my build role produce?
-
-I did not personally build or program the research agent. My involvement was mainly on the research side, understanding the requirements and how source quality, privacy and human review should be reflected in the tool.
-
-This week I learned that using AI responsibly means more than protecting data. It also means checking information and taking responsibility for the final result.
-
-
-# Week 4 — Personal Reflection
-
-### 1. What did our team publish?
-
-This week our team focused on **SME Knowledge Gaps**. We investigated what small marketing agencies understand about AI and what information they may still need before adopting it.
-
-For AEL, our team worked on the Build Plan and prepared to demonstrate our research agent during the mini-CBI.
-
-### 2. What did I contribute?
-
-My main contribution was preparing for the mini-CBI and learning how our research agent works.
-
-At first, I did not fully understand what made our tool different from a normal AI chatbot.
-
-By reviewing our project, I learned about LLMs, Skills, Tools, Context and Memory, and how they work together in our agent.
-
-I also focused on understanding how our research questions connect to the Reklaame interview.
-
-### 3. What feedback did we receive, and what changed?
-
-The mini-CBI helped me understand that we should not only demonstrate our technical tool but also explain why we built it and how it supports our research.
-
-I realised that understanding the purpose of the agent is just as important as understanding its features.
-
-### 4. What did my build role produce?
-
-I was not responsible for programming the agent. My personal work focused on understanding the research requirements and preparing to explain the relationship between the AIBS research and the AEL tool.
-
-The most important thing I learned was that AI should support researchers rather than replace their judgement.
-
-# Week 5 — Personal Reflection
-
-### 1. What did our team publish?
-
-This week our team focused on **AI Use Cases at SMEs**. The purpose was to understand which AI applications could provide real business value to small marketing agencies.
-
-For AEL, our team worked on evaluating the research agent and documenting its performance and limitations.
-
-### 2. What did I contribute?
-
-My main contribution was working on the Reklaame interview guide and improving it following our teacher's feedback.
-
-Our first questions focused mainly on how AI could make existing tasks faster.
-
-The teacher explained that we also needed to explore new business opportunities, changing client expectations, AI knowledge gaps and the impact on employees.
-
-I helped revise the questions to cover these topics and make the interview more open and practical.
-
-### 3. What feedback did we receive, and what changed?
-
-The most useful feedback was that our interview focused too heavily on productivity.
-
-We therefore added questions about what the company does not know about AI, whether it is postponing decisions because of missing information, and how clients' expectations are changing.
-
-We also added questions about how employees learn new tools and what AI could mean for junior employees.
-
-This taught me that good research should allow unexpected answers rather than only confirm our original assumptions.
-
-### 4. What did my build role produce?
-
-I did not personally develop or code the research agent. My main contribution was to the research and interview preparation that would help us identify what information and use cases were important for the project.
-
-I learned that AI use cases should be selected according to real business needs, costs, risks and expected value, not simply because a technology is available.
+I helped review and organise the Research Proposal and PRD. My main interest was making sure that the project stayed understandable for a non-technical person and that the final output would be useful for a real SME owner.
+
+I contributed to the idea that AI should support tasks such as research, brainstorming and first drafts, while people should remain responsible for quality, creativity, privacy and final decisions.
+What did I do as Product Manager?
+My AEL role was Product Manager.
+
+For me, this role meant helping the team stay focused on:
+- who the user of the platform is;
+- what problem the platform should solve;
+- which functions are necessary;
+- which decisions should remain human;
+- and what is outside the scope of the project.
+I did not build or program the agent. My contribution was mainly to the requirements, documents and research side of the project.
+What did I not understand yet?
+At the end of Week 1, I honestly did not yet understand clearly what an agentic tool was or how our platform would work in practice.
+
+I understood the general idea that it would help us process sources and write handbook pages, but I did not understand how the LLM, tools, context and workflow would be connected.
+
+I also did not yet understand how the platform could check whether a source or AI-generated statement was reliable. These became important learning points during the following weeks.
+Week 2 — Personal Reflection
+1. What did our team publish?
+In Week 2, our team worked on the handbook page about Geopolitics and Vendor Models.
+
+The page explained that a marketing agency should not choose an AI tool only because of its features. The agency should also understand who provides the tool, where data may be processed and what could happen if the provider changes its price, terms or access.
+
+We also worked on the Week 2 Search Strategy and the Technical Blueprint.
+2. What did I contribute?
+I participated in reviewing and improving the research documents after the Socratic feedback.
+
+I helped the team discuss how we should judge sources more consistently. We had quality criteria, but at first they were too general. After the feedback, we made the criteria more practical by creating a scoring rubric and additional checks.
+
+I also helped review the Technical Blueprint and understand how it should connect to the Research Proposal and PRD.
+
+I was not involved in programming the workflow. My contribution was checking whether the documents made sense from the user and research perspective.
+3. What did the feedback ask, and what changed?
+The Socratic feedback showed that there were differences between our Search Strategy and Technical Blueprint.
+
+For example, the Search Strategy listed nine quality criteria, but the Blueprint mentioned five scores without clearly explaining which five were used. We therefore created one shared rubric.
+
+Another important question was how a researcher could appraise a Dutch source before understanding it. We changed the process from:
+
+Ingest → Appraise → Translate
+
+to:
+
+Ingest → Privacy and Eligibility Check → Translate if required → Human Appraise
+
+The feedback also made us think more carefully about bias. A government or official institution can be authoritative, but that does not automatically mean it is independent.
+
+We also added more specific searches for European AI tools and Dutch, regional and marketing-sector sources.
+4. What did my Product Manager role produce?
+As Product Manager, I helped keep the documents connected.
+
+The PRD described what the agent should do, while the Blueprint explained how the process should work. My responsibility was to understand whether the Blueprint still followed the requirements we had agreed on.
+
+I did not write the code. My contribution was mainly reviewing the requirements, research process and human decision points.
+
+The biggest lesson for me was that a source score does not prove that information is true. It only supports a more consistent review process, and a human researcher still needs to make the final decision.
+Week 3 — Personal Reflection
+1. What did our team publish?
+In Week 3, our team worked on the handbook page about Trust and AI Safety.
+
+The page focused on three questions:
+- what information an SME should or should not give to an AI tool;
+- when AI should only advise rather than act independently;
+- and what happens when employees use AI without clear company rules.
+For AEL, our team worked on the Knowledge Architecture. It explained where sources, evidence, drafts and other project information should be stored and how the agent should find them again.
+2. What did I contribute?
+My main contribution was on the research and interview-preparation side.
+
+I helped prepare questions for the Reklaame interview. We connected the questions to our Research Proposal and focused on topics such as:
+- the company’s current workflow;
+- which tasks require the most time;
+- how employees already use AI;
+- privacy and client information;
+- employee skills;
+- and possible AI opportunities.
+I also helped review the Trust and AI Safety topic and understand why AI-generated drafts must be separated from original evidence.
+3. What feedback did we receive, and what changed?
+One of the important lessons was that collecting a source is not the same as creating reliable evidence.
+
+The Knowledge Architecture therefore separated:
+- original sources;
+- appraised evidence;
+- AI-generated drafts;
+- and published pages.
+We also made the privacy boundary clearer. Raw interview recordings, consent forms and identifiable transcripts should remain outside the model-assisted workflow.
+
+This helped me understand that responsible AI is not only about avoiding personal data. It is also about preserving the original source, checking what the AI changed and keeping humans responsible.
+4. What did my Product Manager role produce?
+I did not build or program the Knowledge Architecture or agent.
+
+As Product Manager, my contribution was helping ensure that the architecture still supported the purpose defined in the PRD:
+- useful evidence should remain traceable;
+- drafts should not become sources;
+- private field-research material should be protected;
+- and a human should approve important decisions.
+At this point, I still did not understand every technical detail, but I understood much better why the agent needed structure, context and a safety boundary.
+Week 4 — Personal Reflection
+1. What did our team publish?
+In Week 4, our team focused on SME Knowledge Gaps.
+
+The handbook page explored what a small marketing agency may still need to understand before adopting AI. The main knowledge gaps included:
+- business value;
+- privacy and confidentiality;
+- reliability;
+- human oversight;
+- employee skills;
+- and total implementation costs.
+For AEL, the team worked on the Build Plan and prepared the first working version of the research agent for the mini-CBI.
+2. What did I contribute?
+My main contribution was preparing for the mini-CBI and learning how our agent worked.
+
+I did not build the agent. Samsul and Maksim worked mainly on the technical implementation. They demonstrated the system to the rest of the team and explained the workflow to us.
+
+Before this, I did not clearly understand why our project was described as agentic. During this week, I learned the basic structure:
+- LLM handles language tasks;
+- Skills are instructions for repeatable tasks;
+- Tools perform or check actions;
+- Context gives the agent our project information;
+- Memory saves previous research runs and decisions.
+I also helped connect the interview questions to our internal research questions.
+3. What feedback did we receive, and what changed?
+The mini-CBI showed that it was not enough to demonstrate what the agent could do.
+
+We also needed to explain:
+- why we built it;
+- why it was agentic;
+- how it supported our research;
+- and how field research could improve the tool.
+This feedback helped me understand the connection between the two modules.
+
+AIBS defined what good research and a useful handbook page should look like. AEL built the process that could support that work.
+4. What did my Product Manager role produce?
+As Product Manager, I focused on understanding whether the working agent still matched the project requirements.
+
+For example:
+- the tool should support non-coders;
+- AI should suggest rather than make final decisions;
+- evidence should remain traceable;
+- private interview material should not be sent to the AI;
+- and a human should approve the final output.
+I did not code these functions. My role was to understand and explain why they were needed from the user and business perspective.
+
+The most important thing I learned was the difference between a chatbot and an agent. A chatbot answers one prompt, while our agent follows a structured research workflow and stops when a human decision is needed.
+Week 5 — Personal Reflection
+1. What did our team publish?
+In Week 5, our team focused on AI Use Cases at SMEs.
+
+The handbook page explored AI-assisted social media content creation as a possible use case for small marketing agencies.
+
+The page recommended starting with a small, low-risk pilot and measuring:
+- total time;
+- editing effort;
+- content quality;
+- cost;
+- employee experience;
+- and client satisfaction.
+For AEL, the team worked on the First Evaluation and Decision Log.
+2. What did I contribute?
+My main contribution was helping prepare and revise the final interview guide for Reklaame.
+
+Our first guide focused strongly on how AI could make current tasks faster. The teacher explained that this was too narrow.
+
+We needed to ask about:
+- what Reklaame still did not know about AI;
+- decisions they might be postponing;
+- changes in client expectations;
+- completely new services or opportunities;
+- how employees learn to use AI;
+- and what AI could mean for junior employees.
+I helped review and shorten the guide so that it would work as a real conversation.
+
+During the actual Reklaame interview, we did not have fixed roles. All team members participated and asked questions. I was one of the team members asking questions and responding to the interviewee’s answers.
+3. What feedback did we receive, and what changed?
+The most useful feedback was that our interview guide looked mainly for productivity improvements inside existing tasks.
+
+The teacher wanted us to leave more room for unexpected findings.
+
+We therefore added questions such as:
+- How are clients’ expectations changing because of AI?
+- Do clients now do work themselves that they previously paid an agency to do?
+- Is Reklaame postponing an AI decision because information is missing?
+- What does the company want AI to provide: more output, lower prices or more time for creative work?
+- What happens to junior employees if AI produces the first drafts?
+This taught me that good field research should not only confirm our assumptions. It should also give the company space to show us that our assumptions may be wrong.
+4. What did my Product Manager role produce?
+I did not personally program or technically evaluate the agent.
+
+My contribution as Product Manager was helping connect the business need, interview questions and handbook recommendations to the requirements of the platform.
+
+The interview also helped us understand that Reklaame was already using AI more actively than we initially expected. The company used several AI tools for proposals, design execution, content and other work, but still considered ideation, client interaction and final judgement to be human responsibilities.
+
+The main lesson for me was that the best AI use case is not simply the most advanced one. It should solve a real business problem, fit the company’s skills and data rules, and create measurable value.
+Week 6 — Personal Reflection
+1. What did our team complete?
+In the final week, our team focused on bringing together the AIBS research and the AEL platform.
+
+We prepared:
+- the final version of the research agent;
+- the demo video;
+- the final handbook materials;
+- the interview transcript;
+- the GitHub repository;
+- and our preparation for the final CBI.
+The agent had developed from an idea in the PRD into a working research workflow.
+2. What did I contribute?
+My main contribution was reviewing and understanding the complete project so that I could explain it during the final interview.
+
+I reviewed:
+- the Research Proposal;
+- the PRD;
+- the handbook topics;
+- the Reklaame findings;
+- the agent workflow;
+- and the feedback that changed our project.
+Samsul and Maksim explained the final agent and demonstrated how it worked. I learned how a source moves through the system:
+
+Ingest → Privacy Check → Translate → Appraise → Extract Evidence → Organise → Draft → Check → Human Review
+
+I did not claim to have written the agent code. My responsibility was to understand the purpose, requirements and business value of the tool.
+3. What feedback changed my work most?
+Several forms of feedback were useful, but the most important changes came from the Socratic feedback, the mini-CBI and the teacher’s review of our interview guide.
+
+The Socratic feedback made our source-appraisal process clearer and more consistent.
+
+The mini-CBI showed that every team member needed to understand not only what the agent did, but why it was designed in that way.
+
+The interview-guide feedback made our field research more open and useful. It moved us from only looking for time savings to also considering knowledge gaps, clients, employees and new business opportunities.
+4. What did my Product Manager role produce?
+As Product Manager, I helped keep the project connected to its original purpose.
+
+I focused on questions such as:
+- Is the platform still solving the problem in the PRD?
+- Is the output useful for a small marketing-agency owner?
+- Are important decisions still made by humans?
+- Are limitations presented honestly?
+- Does the final recommendation follow from the evidence?
+I did not build the agent, but by the end of the project I could explain its purpose, workflow, strengths and limitations.
+
+The most important growth for me was that in Week 1 I saw AI mainly as a tool that could quickly produce text. By the end of the project, I understood that using AI professionally requires source checking, privacy controls, human responsibility, clear requirements and critical judgement.
