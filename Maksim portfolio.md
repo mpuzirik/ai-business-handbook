@@ -29,6 +29,22 @@ I built Agent v0, the working version of our technical blueprint. I used Claude 
 
 I also made the demo slides and the script for our presentation.
 
+# Personal Portfolio - Week 4
+
+## What did team publish?
+
+
+## What did I contribute?
+
+
+## What did I do as Deployer?
+
+
+## What feedback did we receive, and what changed?
+
+
+## What do I not understand yet?
+
 
 # Personal Portfolio - Week 5
 
@@ -44,6 +60,9 @@ During Week 5, my main focus was setting up our team's LLM Wiki, a repository (a
 
 ## What did I do as Deployer?
 This week I created and published the LLM Wiki on GitHub.
+
+## What feedback did we receive, and what changed?
+The most useful feedback was that our interview focused too heavily on productivity. We therefore added questions about what the company does not know about AI, whether it is postponing decisions because of missing information, and how clients' expectations are changing. We also added questions about how employees learn new tools and what AI could mean for junior employees.
 
 ## What do I not understand yet?
 How to connect the LLM Wiki to an AI chat, so that we can ask it questions and get answers only from the wiki, with citations, instead of opening the pages by hand.
@@ -65,6 +84,9 @@ As Deployer, my task is to get the work "published and reproducible," the page r
 - Published the platform. I uploaded the research agent to the team repository. Before uploading, I made sure private files stay out through .gitignore. It keeps out accounts and API keys.
 - Published our runs and pages to the wiki. RUN-001 to RUN-007 and the four approved handbook pages are in the shared wiki (ael-llm-wiki). 
 - Automated the check. A GitHub Action runs the wiki check on every push (links, index, and every quote compared word for word with its raw source), and the badge on the wiki README shows whether it passes.
+
+## What feedback did we receive, and what changed?
+The most useful feedback was on how to set up and connect LLM Wiki to the AI Chat interface through /wiki command. With this feedback and assitance the LLM Wiki is now succesfully connected to AI chat.
 
 ## What do I not understand yet?
 Whether evidence and handbooks should stay in the agent or in the wiki. Currently, they are stored in both places, locally in the agent and in the LLM Wiki
