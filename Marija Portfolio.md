@@ -66,7 +66,7 @@ The most important lesson from this feedback was that it is not enough to write 
 
 ## What did my build role produce?
 
-My AEL build role was **[WRITE YOUR ROLE HERE: Product Manager / Developer / Tester / Deployer]**.
+My AEL build role was: Product Manager.
 
 This week my role contributed to the revision of the technical blueprint and the connection between the AIBS research method and the AEL platform.
 
