@@ -7,7 +7,7 @@ Built first: the source record (Phase 1), because every later step reads it. A c
 | Field | Value |
 | --- | --- |
 | Platform | AEL Research Agent v0: one source in, one traceable handbook page out (`platform/` in the team repository), with the LLM wiki `ael-llm-wiki` as shared store |
-| Team and build roles | Marija: Product manager · Diana: Tester · Maksim: Deployer (built the platform by directing Claude; owns the wiki) · Md Samsul: Deployer (team repository) · Anastasia: Researcher |
+| Team and build roles | Marija: Product manager · Diana: Tester · Maksim: Deployer  · Md Samsul: Deployer  · Anastasia: Researcher |
 | Holds the pen | Md Samsul (Deployer) |
 | Ticks the boxes | Diana (Tester), at the end of every working session and at every merge |
 | Version | Build plan v1.1, 24 October 2026 (week 4 document; rewritten for the team platform after the final document review) |
