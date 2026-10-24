@@ -28,7 +28,7 @@ Team repository for the HAN course *AI in Business* (AIBS + AEL). We write an ev
 | 2 | [Geopolitics and vendor models](week%202%20AIBS%20Handbook%20Page%20%E2%80%94%20Geopolitics%20%26%20vendor%20models.md) |
 | 3 | [Trust and AI safety](week%203%20trust-and-ai-safety.md) |
 | 4 | [SME knowledge gaps](week%204%20sme%20knowledge%20gaps.md) |
-| 5 | [Theme 4: Where should a small marketing agency use AI first?](Handbook_Reklaame_Theme4_v1.1.docx) (replaces the earlier [AI use cases page](week%205%20ai%20use%20cases%20at%20smes.md), written before the interview) |
+
 
 ### Other
 
