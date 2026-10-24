@@ -1,4 +1,4 @@
-# Personal Portfolio — Week 1
+# Personal Portfolio - Week 1
 
 ## What did I contribute?
 During Week 1, I was not able to attend the session, and skipped the initial discussion. However, I caught up with the teammates after the class on their innitial proposal and I helped to draft the AIBS Research Proposal document. Additionally, I reviewed the final draft of week 1 AIBS Research Proposal and AEL Product requierments. 
@@ -10,14 +10,30 @@ My designated role in the team is Deployer, whose main task is to get the work "
 After the 1st week I still do not understand how agentic CLI works on the backend such as reading and editing the files, how it connects to the sources and etc. Frontend idea of agentic CLI is clear, as it is a chat-based interface.
 I am also unclear on the manual fallback requirement. The PRD states that if automatic extraction, translation or drafting fails, "the researcher must still be able to continue the workflow manually." However, how it would be implemented is still unclear to me. 
 
-# Personal Portfolio — Week 2
+# Personal Portfolio - Week 2
+
+## What did team publish?
+During Week 2, the team published our first handbook page, Geopolitics and vendor models (in the team repository on 14 September). For AIBS we also compared three AI-written articles claiming that the US, China and Europe each lead in AI, and wrote our search strategy, which holds the source-appraisal rubric (version 1.0) we still use. For AEL, we posted the first version of the Technical Blueprint.
 
 ## What did I contribute?
 This week, my focus was on advancing both our research and technical documentation:
 *Research Proposal:* I collaborated with the team to improve our AIBS research proposal. We incorporated insights from the in-class brainstorming session and answered the Socratic questions to sharpen our main problem statement.
 *Technical Blueprint:* I took over the initial draft of the AEL Technical Blueprint and heavily refined it. I focused on solidifying the system architecture, scoring matrices, and the technical workflow to ensure it was fully prepped for the development phase.
 
-# Personal Portfolio — Week 3
+## What did I do as Deployer?
+In Week 2 there was nothing for me to publish or deploy yet, because the agent did not exist. My work as Deployer was preparing for the build. In the Technical Blueprint I defined how the platform would be built and run, so that in the following weeks the agent could be built from it.
+
+## What feedback did we receive, and what changed?
+Our Technical Blueprint and search strategy went to the Socratic tutor, which came back with five questions:
+
+Where does our scoring rubric actually live, and which five criteria does it use? We wrote one explicit rubric in the search strategy (version 1.0) and made the blueprint refer to that same version, so the platform and the researchers score sources the same way.
+How can a reviewer appraise a Dutch source before it is translated? We changed the workflow from Ingest → Appraise → Translate to Ingest → Privacy check → Translate if needed → Human appraisal.
+Is bias only a problem for commercial AI vendors? No. Government, state-funded, academic and industry sources are now checked for interests and bias too, because authority does not automatically mean independence.
+
+# Personal Portfolio - Week 3
+
+## What did team publish?
+During Week 3, the team published the Trust and AI safety handbook page (21 September), with a tester check of the page. For AEL, we wrote the Knowledge Architecture (21 to 25 September), which describes where our sources and drafts live and how the platform finds them. We also prepared our interview guide for the firm visit.
 
 ## What did I contribute?
 I built Agent v0, the working version of our technical blueprint. I used Claude as a coding assistant to write the code, additionally Samsul helped. My part was deciding what the agent should do, checking every step against our PRD and blueprint, and testing it until it worked for the team. I tested it with real sources. BBC, Guardian and CNN articles were appraised and failed our rubric, which showed the appraisal step can reject weak sources. A Dutch CBS source went through translation, appraisal, evidence selection and review to an approved handbook page. My first version was too complex for the team: it had API connections, a command line and ten test suites. I decided to rebuild it as a simple control panel where each AI step is copy-paste, the manual fallback our PRD allows. After testing it myself, I added features the team needed:
@@ -28,6 +44,12 @@ I built Agent v0, the working version of our technical blueprint. I used Claude 
 - Account system, so every decision is recorded under a real name
 
 I also made the demo slides and the script for our presentation.
+
+## What did I do as Deployer?
+As Deployer, my task is to get the work "published and reproducible," someone else can run what I ran. This week I made the agent easy to start for the team by implementing a double-click start.bat opens the control panel in the browser, and manual mode needs no API key. The test was whether a teammate could use it without me. On 27 September Samsul ran two sources through the agent himself (RUN-003 and RUN-004, JPMorganChase Institute and CBS) and approved both pages under his own account. 
+
+## What feedback did we receive, and what changed?
+
 
 # Personal Portfolio - Week 4
 
