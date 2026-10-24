@@ -32,19 +32,19 @@ I also made the demo slides and the script for our presentation.
 # Personal Portfolio - Week 4
 
 ## What did team publish?
-
+During Week 4, the team published the SME Knowledge Gaps handbook page (in the team repository on 30 September) and our final interview guide for the Reklaame interview (28 September, revised 4 October). On 28 September we also had the mini-CBI, a short interview with the lecturers about our desk research tool, our new handbook page and our interview guide. For AEL, the fourth document of the week was the build plan.
 
 ## What did I contribute?
-
+During Week 4, my main focus was the mini-CBI demo of our research agent. The mini-CBI asked us to show the tool and say where it still falls short, explain why it is agentic (the LLM, skills, tools and context such as the PRD and blueprint), and say what we learned by getting something wrong. On the day of the mini-CBI (28 September) I ran the agent on the Dutch CBS source (RUN-005) as a demonstration. After the mini-CBI I kept working on the agent. On 1 October I saved the old version as a backup and moved to a new design of the control panel to implement features which were suggested during the mini-CBI interview.
 
 ## What did I do as Deployer?
-
+This I, as a Deploher, was making sure the agent ran reliably on my laptop for the live demo, with the handbook page and interview guide ready to show next to it. Every run is saved with an activity log, so the demo run can be traced and repeated later.
 
 ## What feedback did we receive, and what changed?
-
+The lecturers gave us two pieces of feedback on the agent. First, the appraisal step should learn from the researchers' decisions, using a form of machine learning. Second, the drafted pages sounded too AI-written, so they suggested a rewrite button to make the text sound more natural.
 
 ## What do I not understand yet?
-
+After the mini-CBI I did not yet know how to implement machine learning for the appraisal step. Retraining a model was not realistic for our project, so I still had to find a way for the agent to learn from the researchers' corrections without taking the final decision away from them.
 
 # Personal Portfolio - Week 5
 
