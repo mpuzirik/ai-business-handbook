@@ -10,14 +10,14 @@ Built first: the source record (Phase 1), because every later step reads it. A c
 | Team and build roles | Marija: Product manager · Diana: Tester · Maksim: Deployer  · Md Samsul: Deployer  · Anastasia: Researcher |
 | Holds the pen | Md Samsul, Marija |
 | Ticks the boxes | Diana (Tester), at the end of every working session and at every merge |
-| Version | Build plan v1.1, 24 October 2026 (week 4 document; rewritten for the team platform after the final document review) |
-| Builds from | PRD v1.1 · Technical Blueprint Rev 5 · Knowledge Architecture v1.1 · search strategy section 1.1, rubric v1.0 · decision log v2.0 (T-###) |
+| Version | Build plan v1, 12 October 2026 (week 4 document; rewritten for the team platform) |
+| Builds from | PRD  · Technical Blueprint  · Knowledge Architecture  · search strategy section , rubric  · decision log  (T-###) |
 | Code baseline | The platform as uploaded to the team repository on 13 October 2026; 42 tests |
 | Copy for the assistant | This file, in the team repository. The assistant reads it before any change |
 
 ## Where the build is now
 
-Phases 1 to 8 are built, tested and in `main` of the team repository (uploaded 13 October). All 42 tests passed on a clean copy on 24 October. Phase 9 is open: no time baseline, the raw transcript still in the repository, and no `.gitignore` for run folders.
+Phases 1 to 8 are built, tested and in `main` of the team repository (uploaded 13 October). All 42 tests passed on a clean copy on 23 October. Phase 9 is open: no time baseline, the raw transcript still in the repository, and no `.gitignore` for run folders.
 
 | Phase | What a person can do at the end | Test gate | Commit gate | Push gate |
 | --- | --- | --- | --- | --- |
