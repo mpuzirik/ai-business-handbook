@@ -1,0 +1,15 @@
+# Research runs, accounts and local settings stay on the researcher's computer
+platform/workspace/*
+!platform/workspace/README.txt
+platform/local_settings/
+
+# Interview material never goes in this repository
+*transcript*
+*.m4a
+*.mp3
+*.wav
+
+# Python
+__pycache__/
+.pytest_cache/
+.venv/
