@@ -1,6 +1,6 @@
 # AEL Product Requirements Document — Revised Draft
 
-*Revised after module-owner questions. The open questions in this document will be revisited in the Week 2 technical blueprint.*
+**Version 1.1** · 24 October 2026 · **Team 2:** Marija (Product manager), Diana (Tester), Maksim (Deployer), Md Samsul (Deployer), Anastasia (Researcher)
 
 *v1.0: revised after module-owner questions. v1.1: section 5 says how the platform is built and run (decision T-008); out-of-scope list added; privacy rule worded as in every other document; open questions now carry their status.*
 
