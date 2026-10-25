@@ -1,5 +1,9 @@
 # AEL Knowledge Architecture
 
+**Version 1.1** · 24 October 2026 · **Team 2:** Marija (Product manager), Diana (Tester), Maksim (Deployer), Md Samsul (Deployer), Anastasia (Researcher)
+
+*v1.0: 25 September 2026. v1.1: privacy rule worded as in every other document, section 5 answers the tutor's blueprint questions, section 6 adds the platform and the LLM wiki.*
+
 ## 1. What the Platform Has to Know
 
 Our platform supports the research team in producing evidence-based handbook pages for small marketing and advertising agencies in the Netherlands. To do this reliably, the platform needs to understand the project context, have access to reliable research sources, preserve information about the quality of those sources, and keep generated drafts separate from verified evidence.
@@ -26,7 +30,7 @@ The retrieval process begins with the research question. The platform first read
 
 The workflow can therefore be represented as:
 
-```text id="e4c6ad"
+```text
 Research Question
         ↓
 Project Context
@@ -68,7 +72,7 @@ The current file-based approach is appropriate for the relatively small amount o
 
 ## 4. The Safety Boundary
 
-The safety boundary established in our Technical Blueprint remains unchanged:
+The safety boundary is the same rule as technical blueprint section 5, worded identically in every document since v1.1:
 
 > **Raw interview recordings, consent documents, identifiable or unredacted transcripts, and confidential client or company information must not be sent to an external AI model service. Only reviewed, anonymised material may enter the AI-assisted workflow.**
 
@@ -78,7 +82,7 @@ Before field-research findings can enter the AI-assisted workflow, a team member
 
 The boundary can be represented as:
 
-```text id="bfxtsn"
+```text
 Raw Interview / Consent / Identifiable Information
                     ↓
              Protected Storage
