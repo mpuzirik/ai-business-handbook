@@ -17,7 +17,7 @@ Built first: the source record (Phase 1), because every later step reads it. A c
 
 ## Where the build is now
 
-Phases 1 to 8 are built, tested and in `main` of the team repository (uploaded 13 October). All 42 tests passed on a clean copy on 24 October. Phase 9 is open: no time baseline, the raw transcript still in the repository, and no `.gitignore` for run folders.
+Phases 1 to 8 are built, tested and in `main` of the team repository (uploaded 13 October). All 42 tests passed on a clean copy on 24 October. Phase 9 is partly done: the raw transcript was deleted from the repository (P9.1) and a root `.gitignore` keeps run folders, local settings and interview files out (P9.3), both on 25 October. Still open: the time baseline, the translation check and the non-coder problem log.
 
 | Phase | What a person can do at the end | Test gate | Commit gate | Push gate |
 | --- | --- | --- | --- | --- |
@@ -29,7 +29,7 @@ Phases 1 to 8 are built, tested and in `main` of the team repository (uploaded 1
 | 6 Teammate runs it alone | Start the panel with a double-click and run a source without help | Passed | In `main` | In `main` |
 | 7 Mini-CBI feedback | Appraisal learns from corrections; pages rewritten without AI wording; optional API mode | Passed | In `main` | In `main` |
 | 8 Shared and checked | Send a run to the wiki, have every quote re-checked, ask the wiki a question | Passed | In `main` | In `main` (wiki in its own repository) |
-| 9 Measured and cleaned up | Show time saved; transcript out of the repository; run folders ignored | Not started | Not started | Not started |
+| 9 Measured and cleaned up | Show time saved; transcript out of the repository; run folders ignored | P9.1, P9.3 passed | P9.1, P9.3 in `main` | P9.1, P9.3 in `main` |
 
 Commit evidence: the dates and test results are below. Commit hashes are in the repository history, which a ZIP download does not include.
 
@@ -52,7 +52,7 @@ A bug fix or new feature adds its own test to `platform/tests/` first. It passes
 
 - **Nothing is committed until its test gate has passed.**
 - One task = one commit. Message: `P<phase>.<task>: <what changed>`, for example `P9.3: ignore platform/workspace`.
-- Never commit run folders, accounts, API keys or interview material. API keys are kept out by their own folder rule; run folders need P9.3.
+- Never commit run folders, accounts, API keys or interview material. The root `.gitignore` keeps run folders, local settings and interview files out (P9.3). A file that is already committed must be deleted by hand, as the transcript was (P9.1).
 - Test fails: the change is not committed. Fix it and run the gate again.
 - Fails twice in a row: stop. Put the working copy back with `git restore .`, write both failures beside the box, and post them in the team chat to Marija (Product manager). A third attempt only after the team agrees a different approach, or the task is split.
 
@@ -168,9 +168,9 @@ Needs: Phase 6. Weeks 5 and 6. Can run beside Phase 7.
 
 Needs: Phases 7 and 8. Before the final assessment.
 
-- [ ] P9.1 Remove the raw interview transcript from the team repository; it goes only into the HandIn portfolio (T-017). *Deployer, Md Samsul* · repository root. Test: the file is gone from `main`; a search for "Reklaame interview" finds no transcript
+- [x] P9.1 Remove the raw interview transcript from the team repository; it goes only into the HandIn portfolio (T-017). *Deployer, Md Samsul* · repository root. Test: the file is gone from `main`; a search for "Reklaame interview" finds no transcript · 25 Oct: deleted from `main`. Older commits still hold it
 - [ ] P9.2 Compare one Dutch translation line by line with the original. *Tester, Diana* · RUN-005. Test: every qualification in the original is in the translation, or the gap is written down
-- [ ] P9.3 Add a `.gitignore` for `platform/workspace/`. *Deployer, Md Samsul* · `.gitignore`. Test: a new run folder does not show in `git status`
+- [x] P9.3 Add a `.gitignore` for `platform/workspace/`. *Deployer, Md Samsul* · `.gitignore`. Test: a new run folder does not show in `git status` · 25 Oct: passed; run folders, `platform/local_settings/` and transcript files are ignored
 - [ ] P9.4 A teammate runs one source from the README alone; Diana writes down every place they get stuck. *Tester, Diana* · `README.md`. Test: run reaches "Page approved"; problems listed
 - [ ] P9.5 Record the manual time per stage for one page and compare it with a platform run. *Product manager, Marija* · new `BASELINE.md`. Test: minutes per stage, manual against platform
 - [ ] **Test gate.** P9.1 to P9.5 pass. *Tester, Diana*
@@ -190,7 +190,7 @@ Every blueprint part is built in a phase except Publish, which stays manual on p
 | Ingest | P1 | |
 | Source-record contract (section 3) | P1, extended in P3 | Appraisal fields added in P3 |
 | Eligibility / Privacy Check | P2 | Eligibility folded into the privacy step (T-009) |
-| The line nothing may cross (section 5) | P2, P8.3, P9.1 | Interview material never sent to the wiki; transcript still to be removed from the repository |
+| The line nothing may cross (section 5) | P2, P8.3, P9.1 | Interview material never sent to the wiki; transcript deleted from the repository on 25 October (older commits still hold it) |
 | Shared context file (section 4) | P3 | `context/project_context.json`; the rubric is read live |
 | Translate if required | P3 | Line-by-line comparison still open (P9.2) |
 | Human Appraise, rubric v1.0 | P3, P7.1 | |
