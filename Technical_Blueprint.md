@@ -24,6 +24,7 @@
 | Publish | Publishes only after human approval. | Deployer |
 
 The Product Manager owns the PRD and quality criteria used across the whole workflow.
+Who holds these roles : Marija is Product Manager, Diana is Tester, Anastasia is Researcher. The team has no separate Developer: Maksim (Deployer) built the platform by directing Claude, and Md Samsul (Deployer) set up the team's GitHub repository.
 
 ## 2. Who decides what happens next?
 
@@ -107,7 +108,7 @@ The official rubric is stored in:
 
 ## 5. The line nothing may cross
 
-Raw interview recordings, unredacted transcripts and confidential company information must not be sent to an external AI model service.
+**Raw interview recordings, consent documents, identifiable or unredacted transcripts, and confidential client or company information must not be sent to an external AI model service. Only reviewed, anonymised material may enter the AI-assisted workflow.**
 
 The Eligibility / Privacy Check happens before translation or other model-assisted processing.
 
@@ -198,3 +199,18 @@ These sources use the same appraisal process as the other research sources.
 The platform also supports Dutch-language, regional and sector-specific sources such as KVK, Dutch marketing-sector organisations, Oost NL and provincial sources.
 
 These sources follow the same translation and appraisal process as English-language sources.
+
+# 7. How V0 implements the stages (added in Rev 5)
+
+The platform (`platform/` in the team repository) runs nine steps. The mapping is recorded in decision T-009.
+
+| Blueprint stage | V0 step | Note |
+|---|---|---|
+| Ingest | 1 Ingest | Reads link, PDF, Word or text; numbers every paragraph |
+| Eligibility / Privacy Check | 2 Privacy check | Eligibility folded in: source type chosen at intake; identifiable transcripts and recordings refused before reading |
+| Translate if required | 3 Translate | Dutch sources are translated before appraisal; English sources skip this step |
+| Human Appraise | 4 Appraise | Rubric v1.0 read live; AI suggests, the researcher decides; Tier C cannot be approved |
+| Extract Evidence | 5 Extract and 6 Organise | Organise (grouping under research questions) is a separate automatic step |
+| Draft | 7 Draft | Approved evidence only |
+| Check | 8 Check (automated) and 9 Human review | Section 6's two readers |
+| Publish | Not in the platform | Approved runs and pages are sent to the LLM wiki with "Send to Wiki"; publishing on the course site stays a manual step by a person |
