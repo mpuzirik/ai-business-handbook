@@ -1,4 +1,8 @@
-# AEL Decision Log — Weeks 3–5
+# AEL Decision Log, Weeks 3 to 6
+
+**Version 2.0** · 24 October 2026 · **Team 2:** Marija (Product manager), Diana (Tester), Maksim (Deployer), Md Samsul (Deployer), Anastasia (Researcher)
+
+*v1.0: decisions 001 to 007. v2.0: numbered T-001 to T-019, statuses updated, build decisions and the changes after the mini-CBI and interview feedback added, and the gaps found in the final document review added.*
 
 ## Purpose
 
