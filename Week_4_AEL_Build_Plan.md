@@ -7,17 +7,17 @@ Built first: the source record (Phase 1), because every later step reads it. A c
 | Field | Value |
 | --- | --- |
 | Platform | AEL Research Agent v0: one source in, one traceable handbook page out (`platform/` in the team repository), with the LLM wiki `ael-llm-wiki` as shared store |
-| Team and build roles | Marija: Product manager · Diana: Tester · Maksim: Deployer  · Md Samsul: Deployer  · Anastasia: Researcher |
+| Team and build roles | Marija: Product manager · Diana: Tester · Maksim: Deployer · Md Samsul: Deployer · Anastasia: Researcher |
 | Holds the pen | Md Samsul, Marija |
 | Ticks the boxes | Diana (Tester), at the end of every working session and at every merge |
-| Version | Build plan v1, 12 October 2026 (week 4 document; rewritten for the team platform) |
-| Builds from | PRD  · Technical Blueprint  · Knowledge Architecture  · search strategy section , rubric  · decision log  (T-###) |
+| Version | Build plan v1.1, 24 October 2026 (week 4 document; rewritten for the team platform) |
+| Builds from | PRD v1.1 · Technical Blueprint Rev 5 · Knowledge Architecture v1.1 · search strategy section 1.1, rubric v1.0 · decision log v2.0 (T-###) |
 | Code baseline | The platform as uploaded to the team repository on 13 October 2026; 42 tests |
 | Copy for the assistant | This file, in the team repository. The assistant reads it before any change |
 
 ## Where the build is now
 
-Phases 1 to 8 are built, tested and in `main` of the team repository (uploaded 13 October). All 42 tests passed on a clean copy on 23 October. Phase 9 is open: no time baseline, the raw transcript still in the repository, and no `.gitignore` for run folders.
+Phases 1 to 8 are built, tested and in `main` of the team repository (uploaded 13 October). All 42 tests passed on a clean copy on 24 October. Phase 9 is open: no time baseline, the raw transcript still in the repository, and no `.gitignore` for run folders.
 
 | Phase | What a person can do at the end | Test gate | Commit gate | Push gate |
 | --- | --- | --- | --- | --- |
@@ -81,7 +81,7 @@ Boxes for Phases 1 to 8 were ticked on 24 October from the tests, the code and t
 Needs: nothing. Week 3.
 
 - [x] P1.1 Read a link, PDF or pasted text into numbered paragraphs; refuse a scanned PDF with a manual fallback. *Deployer, Maksim* · `agent/text.py`, blueprint Ingest · tests `test_pdf_upload_is_read_with_pages_and_paragraphs`, `test_scanned_pdf_is_refused_with_a_manual_fallback`
-- [x] P1.2 Record title, author, date, language and material type in the run file. *Deployer, Maksim* · `agent/workflow.py`, blueprint source-record contract
+- [x] P1.2 Record title, organisation, date, language and material type in the run file. *Deployer, Maksim* · `agent/workflow.py`, blueprint source-record contract
 - [x] P1.3 Show an English title for a Dutch source. *Deployer, Maksim* · `agent/workflow.py` · test `test_dutch_title_is_translated_for_display`
 - [x] **Test gate.** Run pytest; then add a web link and a PDF; pass = each shows title, language and numbered paragraphs. *Tester, Diana* · 27 Sep: RUN-003 (JPMorganChase Institute) and RUN-004 (CBS) ingested · 24 Oct: 42/42 passed
 - [x] **Commit gate.** In `main` since 13 Oct (platform upload). A test run before that commit was not recorded
