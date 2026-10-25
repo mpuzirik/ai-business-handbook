@@ -1,5 +1,9 @@
 # AEL First Evaluation — Week 5
 
+**Version 1.0** · 24 October 2026 · **Team 2:** Marija (Product manager), Diana (Tester), Maksim (Deployer), Md Samsul (Deployer), Anastasia (Researcher)
+
+*Evaluates the team platform (`platform/` in the team repository, as uploaded on 13 October 2026) and the LLM wiki (`ael-llm-wiki`) against PRD v1.1. Goes with decision log v2.0.*
+
 ## 1. Result in one paragraph
 
 The platform keeps its promises on traceability and human control. Quotes and figures are checked against the source, every decision stays with a researcher, and restricted material is refused before any AI sees it. Since week 5 it also learns from appraisal corrections, offers an automatic API mode with the same checks, and sends approved work to a wiki that re-checks every quote on each change. It has not shown that it saves time: no manual baseline was recorded. Dutch translation ran once but was not compared line by line with the original. The final handbook chapter was written outside the platform (T-018).
