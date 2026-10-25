@@ -1,4 +1,4 @@
-# Portfolio Entry — Week 1
+# Portfolio Entry: Week 1
 
 ## What did I contribute?
 During Week 1, my primary focus was on establishing a strong foundation for our assignments and ensuring our team could collaborate effectively. My key contributions included:
@@ -24,14 +24,37 @@ This week, my focus was divided between refining our research foundation and lay
 *   **AI Maturity Assessment:** I took the AI maturity level test to understand where I am in terms of using AI effectively, and my progress is standing at the "integrating" stage.
 *   **Technical Blueprint (AEL):** I started working on the first version of our Technical Blueprint. A contribution was generating the visual workflow chart, which maps out exactly how each steps will flow through our system.
 
+**What did the team publish?**
+Our first handbook page, *Geopolitics and vendor models*, and the technical blueprint. For AIBS we also wrote the three AI articles (United States, China, Europe) and the search strategy with our quality criteria.
+
+**What did the gates ask, and what did we change?**
+The Socratic tutor sent five questions on the blueprint. We answered all five in blueprint Revision 4:
+*   one appraisal rubric (v1.0: five criteria, each scored 0 to 2), used by both our research method and the platform;
+*   translation before appraisal, so nobody judges a source in a language they cannot read;
+*   government and state-funded sources checked for bias too;
+*   product-level searches for European alternatives (E3);
+*   Dutch, regional and sector sources (E5, E6).
+
+**What did my build role produce?**
+Together with Maksim, the first version of the technical blueprint and its workflow chart, and the refined research proposal.
+
 ## Week 3 Portfolio
 
+**What did the team publish?**
+The *Trust and AI safety* handbook page (21 September) with a tester check, the knowledge architecture with the first entry of our decision log, and our interview guide.
+
+**What did the gates ask, and what did we change?**
+The knowledge architecture gives a short answer to each of the tutor's five blueprint questions: what we changed, or why we left it.
+
 **What did I contribute as Deployer?**
-In Week 3, the project transitioned from theoretical planning to active building, allowing me to fully step into my Deployer role alongside the Developer. 
+In Week 3, the project transitioned from theoretical planning to active building, allowing me to fully step into my Deployer role alongside Maksim. Our team has no separate Developer, so the two Deployers built the agent. 
 *   **Desk Research Agent Development:** Maksim and I took joint responsibility for actually building the automated tools we designed in the blueprint. 
 *   **Deploying Version 0 (v0):** We successfully developed and finished v0 of our desk research agent. This initial build establishes the core functionality for processing and extracting research data, and we have fully prepped it for a live demonstration this coming Monday.
 
 *   **Running it without the builder:** On 27 September I ran two sources through the agent myself (RUN-003, JPMorganChase Institute, and RUN-004, CBS) and approved both pages under my own account. That was our test of whether a teammate can use the agent without the person who built it.
+
+**What did my build role produce?**
+V0 of the desk research agent, ready for the mini-CBI demo, and the first runs by a teammate other than its main builder.
 
 ## Week 4 Portfolio
 
@@ -54,7 +77,7 @@ The build plan, which tells the team what is built first and what a change must 
 Two handbook pages, SME knowledge gaps and AI use cases at SMEs, the first evaluation with our decision log, and our postcard from 2035. Maksim set up our LLM wiki.
 
 **What did I contribute?**
-*   **Field research:** I visited Reklaame in Arnhem for the interview with the founder and creative director, together with Maksim, who demonstrated our agent during the visit. The interview was recorded with consent and transcribed locally.
+*   **Field research:** I visited Reklaame in Arnhem for the interview with the founder and creative director, we were all along with Maksim, who demonstrated our agent during the visit. The interview was recorded with consent and transcribed locally.
 
 **What did the gates ask, and what did we change?**
 The feedback on our interview guide was that it focused too much on productivity. Before the visit we added questions on what the company does not know about AI, decisions it postpones, changing client expectations, how staff learn new tools, and what AI means for junior employees (decision T-015).
@@ -62,10 +85,13 @@ The feedback on our interview guide was that it focused too much on productivity
 **What surprised me, and did I change my mind?**
 What surprised me was how far Reklaame already is: Claude prepares its commercial proposals from its purchasing platforms and redraws logos in Illustrator. It changed our recommendation. Our week 5 page proposed social media captions as the first pilot; after the interview the team chose proposal preparation, the work the company already does with AI (decision T-012).
 
+**What did my build role produce?**
+My Deployer work this week was the field visit. The LLM wiki and the agent upgrades were Maksim's work.
+
 ## Week 6 and Final Hand-in
 
 **What did the team publish?**
-The research agent in the team repository (13 October), every agent run and four approved pages in the LLM wiki, the interview transcript, and our final chapter, *Theme 4: Where Should a Small Marketing Agency Use AI First?*
+The research agent in the team repository (13 October), every agent run and four approved pages in the LLM wiki, the interview transcript (on HandIn only), and our final chapter, *Theme 4: Where Should a Small Marketing Agency Use AI First?*
 
 **What did I contribute?**
 *   **Final review of the whole project:** I checked every team document against the course pages for weeks 1 to 6, the chapter template and the build plan criteria, and against the agent's code, its 42 tests and the interview transcript.
@@ -77,7 +103,10 @@ The research agent in the team repository (13 October), every agent run and four
     *   some citations pointed to a homepage instead of the source.
     The decision log now has 19 entries (T-001 to T-019).
 *   **Build plan v1.1:** I rewrote the build plan for the platform as it now exists, with Phases 1 to 8 done and Phase 9 open.
-*   **Repository:** I prepared a root README with working links and the demo video link, and a `.gitignore` that keeps run folders and interview material out. I also flagged that the raw transcript must leave the repository (decision T-017).
+*   **Repository:** I prepared a root README with working links and the demo video link, and a `.gitignore` that keeps run folders and interview material out. I also flagged that the raw transcript must leave the repository and deleted it on 25 October (decision T-017).
+
+**What did the gates ask, and what did we change?**
+For the final hand-in the gate was the course's own criteria. I held every document against them; the changes are listed above.
 
 **How I used AI:** I used Claude to compare the documents and to draft corrections. I decided which corrections to keep, and I checked each fact against the code, the tests, the run records or the transcript before it went into a document.
 
