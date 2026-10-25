@@ -1,6 +1,8 @@
-# AEL Technical Blueprint — Revision 4
+# AEL Technical Blueprint, Revision 5
 
-*Revised after Week 2 Socratic feedback. This version aligns the platform with the source-appraisal rubric in `week 2 search strategy.md`, version 1.0.*
+**Revision 5** · 24 October 2026 · **Pen:** Maksim (Deployer) · **Team 2:** Marija (Product manager), Diana (Tester), Maksim (Deployer), Md Samsul (Deployer), Anastasia (Researcher)
+
+*Rev 4: revised after Week 2 Socratic feedback and aligned with rubric v1.0 in `week 2 search strategy.md`, section 1.1. Rev 5: roles named, privacy rule worded as in every other document, section 7 added on how the platform implements the stages.*
 
 ---
 
@@ -24,7 +26,7 @@
 | Publish | Publishes only after human approval. | Deployer |
 
 The Product Manager owns the PRD and quality criteria used across the whole workflow.
-Who holds these roles : Marija is Product Manager, Diana is Tester, Anastasia is Researcher. The team has no separate Developer: Maksim (Deployer) built the platform by directing Claude, and Md Samsul (Deployer) set up the team's GitHub repository.
+Who holds these roles (Rev 5): Marija is Product Manager, Diana is Tester, Anastasia is Researcher. The team has no separate Developer: Maksim (Deployer) built the platform by directing Claude, and Md Samsul (Deployer) set up the team's GitHub repository.
 
 ## 2. Who decides what happens next?
 
@@ -200,7 +202,7 @@ The platform also supports Dutch-language, regional and sector-specific sources 
 
 These sources follow the same translation and appraisal process as English-language sources.
 
-# 7. How V0 implements the stages (added in Final Rev )
+# 7. How V0 implements the stages (added in Rev 5)
 
 The platform (`platform/` in the team repository) runs nine steps. The mapping is recorded in decision T-009.
 
