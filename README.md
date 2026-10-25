@@ -19,6 +19,7 @@ Team repository for the HAN course *AI in Business* (AIBS + AEL). We write an ev
 | 1 | [PRD](week%201%20ael%20prd.md) |
 | 2 | [Technical blueprint](Technical_Blueprint.md) and [search strategy](week%202%20search%20strategy.md) (holds the appraisal rubric the agent uses) |
 | 3 | [Knowledge architecture](week%203%20ael%20knowledge%20architecture.md) |
+| 4 | [Build plan](Week_4_AEL_Build_Plan.md) |
 | 5 | [First evaluation](week%205%20ael%20first%20evaluation.md) and [decision log](week%205%20decision%20log.md) |
 
 ### Handbook pages
@@ -28,6 +29,7 @@ Team repository for the HAN course *AI in Business* (AIBS + AEL). We write an ev
 | 2 | [Geopolitics and vendor models](week%202%20AIBS%20Handbook%20Page%20%E2%80%94%20Geopolitics%20%26%20vendor%20models.md) |
 | 3 | [Trust and AI safety](week%203%20trust-and-ai-safety.md) |
 | 4 | [SME knowledge gaps](week%204%20sme%20knowledge%20gaps.md) |
+| 5 | [Theme 4: Where should a small marketing agency use AI first?](Handbook_Reklaame_Theme4.docx) (replaces the earlier [AI use cases page](week%205%20ai%20use%20cases%20at%20smes.md), written before the interview) |
 
 
 ### Other
