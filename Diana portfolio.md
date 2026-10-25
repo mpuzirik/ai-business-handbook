@@ -23,8 +23,6 @@ This week helped me understand my Tester role better. I need to check not only w
 
 # Week 3 Portfolio
 
-Week 3 Portfolio
-
 This week, our team focused on Trust and AI Safety and on developing the knowledge architecture for our platform. I worked mainly on the Trust and AI Safety handbook page and created a Tester checklist.
 
 I researched and structured information about what data a small marketing agency should be careful about when using AI, when AI should only provide advice, and why human approval is important for certain decisions. I also focused on confidential client information and the risks of putting company information into external AI tools.
