@@ -70,10 +70,8 @@ The research agent in the team repository (13 October), every agent run and four
 **What did I contribute?**
 *   **Final review of the whole project:** I checked every team document against the course pages for weeks 1 to 6, the chapter template and the build plan criteria, and against the agent's code, its 42 tests and the interview transcript.
 *   **Corrections:** I revised the documents and corrected the inconsistencies I found. Some examples:
-    *   the team roles were stated differently across documents;
     *   the privacy rule was worded five different ways;
     *   the PRD lacked an "out of scope" section;
-    *   the first evaluation was still empty;
     *   the decision log lacked our failures;
     *   the week 5 page and the final chapter recommended different pilots;
     *   some citations pointed to a homepage instead of the source.
