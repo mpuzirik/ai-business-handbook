@@ -200,7 +200,7 @@ The platform also supports Dutch-language, regional and sector-specific sources 
 
 These sources follow the same translation and appraisal process as English-language sources.
 
-# 7. How V0 implements the stages (added in Rev 5)
+# 7. How V0 implements the stages (added in Final Rev )
 
 The platform (`platform/` in the team repository) runs nine steps. The mapping is recorded in decision T-009.
 
