@@ -2,6 +2,8 @@
 
 *Revised after module-owner questions. The open questions in this document will be revisited in the Week 2 technical blueprint.*
 
+*v1.0: revised after module-owner questions. v1.1: section 5 says how the platform is built and run (decision T-008); out-of-scope list added; privacy rule worded as in every other document; open questions now carry their status.*
+
 ## 1. Problem and Users
 
 The purpose of the platform is to support our research team in researching, writing, reviewing and publishing an evidence-based handbook about the practical use of AI in small marketing and advertising agencies.
@@ -166,11 +168,11 @@ Important decisions remain human responsibilities, including:
 
 ### Interview and Confidential Material
 
-Raw interview recordings, identifiable interview transcripts and confidential company information must **not be sent to an external or free-tier AI model service**.
+**Raw interview recordings, consent documents, identifiable or unredacted transcripts, and confidential client or company information must not be sent to an external AI model service. Only reviewed, anonymised material may enter the AI-assisted workflow.**
 
 If interview evidence is later used in the research workflow, it must first follow the agreed consent, anonymisation and data-handling process.
 
-This boundary will be shown explicitly in the Week 2 technical blueprint.
+This boundary is set out in technical blueprint section 5 and enforced by the V0 privacy check.
 
 ### Manual Fallback
 
@@ -179,6 +181,17 @@ Important automated steps must have a manual alternative.
 For example, if automatic extraction, translation or drafting fails, the researcher must still be able to continue the workflow manually.
 
 ---
+
+### Out of Scope, for Now (added in v1.1)
+
+Deliberately not built in V0:
+
+* pages built from several sources at once: one run is one source (T-010);
+* checking claims against the world: the checks prove traceability to the source, not truth;
+* reading scanned PDFs (no OCR);
+* publishing to the wiki: a person copies the approved page;
+* accounts shared across computers, and password reset.
+
 
 ## 5. Why Use an Agentic CLI?
 
@@ -199,6 +212,9 @@ The important capabilities are not simply generating text. The platform needs to
 Tasks involving judgement, such as deciding whether a source is trustworthy or whether a claim is sufficiently supported, must not be delegated completely to the agent.
 
 The agent may make a recommendation, but a researcher must make the final decision.
+
+**Change in v1.1 (decision T-008).** The course constraint is that the team directs an agentic assistant instead of hand-coding. The platform was built that way: Maksim directed Claude to write it. It runs as a local web control panel (`platform/` in the team repository). The panel runs the nine-step workflow, builds each AI prompt from the project context, checks every answer and stops wherever a person must decide. Each AI step runs in one of two modes. Manual mode, the default, needs no API key: the researcher copies the prompt into Claude and pastes the answer back. This is the manual fallback this PRD requires. Automatic mode, added in week 5, sends the same prompt through the Claude API, and the answer passes the same checks. API keys stay on the researcher's own computer. Approved runs and pages are sent to the team's LLM wiki (`ael-llm-wiki`), which is checked automatically on every change (decisions T-011 and T-016).
+
 
 ---
 
@@ -263,16 +279,16 @@ The first measured workflow will establish the baseline. After that baseline exi
 
 ## 9. Open Questions and Next Steps
 
-| Open Question                                         | Next Step                                                                                                   | Responsible Role          | Target                                     |
-| ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------- | ------------------------------------------ |
-| Which agentic CLI will be used?                       | Compare the available option against the required workflow and choose the simplest suitable tool.           | Developer                 | Week 2                                     |
-| How will sources and extracted evidence be stored?    | Define a simple structured file format and show it in the technical blueprint.                              | Developer                 | Week 2                                     |
-| How will source reliability be assessed consistently? | Convert the AIBS quality criteria into a repeatable appraisal checklist.                                    | Research team             | Week 2                                     |
-| How will confidential interview material be handled?  | Define the consent, anonymisation and model-service boundary before field research is processed.            | Whole team                | Before SME interview material is processed |
-| How much translation should be automated?             | Test a Dutch source and compare the automated working summary with the original.                            | Research team             | Week 2–3                                   |
-| How will citations be generated and checked?          | Define how extracted evidence keeps its source reference and how humans verify it.                          | Developer + research team | Week 2                                     |
-| Which parts should be automated first?                | Prioritise the steps that remove repetitive work without removing human judgement.                          | Whole team                | Week 2                                     |
-| How will non-coder usability be tested?               | Have a non-coder team member complete the workflow using only the written instructions and record problems. | Non-coder tester          | Week 3                                     |
+| Open question | Next step | Owner | Target | Status (24 Oct 2026) |
+|---|---|---|---|---|
+| Which agentic CLI will be used? | Compare options against the workflow | Deployer (Maksim) | Week 2 | Decided: the platform is built by directing Claude; it runs as a local web panel in manual or automatic (Claude API) mode (T-008) |
+| How will sources and extracted evidence be stored? | Define a simple structured file format | Deployer (Maksim) | Week 2 | Decided: one `run.json` per source run on the researcher's computer; approved runs and pages go to the LLM wiki (T-011) |
+| How will source reliability be assessed consistently? | Turn the AIBS criteria into a checklist | Researcher (Anastasia) | Week 2 | Done: rubric v1.0, search strategy section 1.1 |
+| How will confidential interview material be handled? | Define consent, anonymisation and the model boundary | Whole team | Before interview material is processed | Done: boundary in blueprint section 5; written consent from Reklaame; recording transcribed locally (T-002). Open: anonymised transcript for AI use (T-017) |
+| How much translation should be automated? | Test a Dutch source against the original | Researcher (Anastasia) | Week 2 to 3 | Partly: a Dutch CBS source was run on 28 September (RUN-005); the translation was not yet compared line by line with the original |
+| How will citations be generated and checked? | Define how evidence keeps its reference | Deployer (Maksim) + Researcher (Anastasia) | Week 2 | Done: quotes and figures checked against the source in the platform, and quotes checked again in the wiki on every change |
+| Which parts should be automated first? | Prioritise repetitive steps | Whole team | Week 2 | Done: all nine steps built first in manual mode; automatic mode added in week 5 (T-008, T-009) |
+| How will non-coder usability be tested? | A teammate completes the workflow from the README | Tester (Diana) | Week 3 | Partly: Md Samsul ran and approved RUN-003 and RUN-004 without help on 27 September; no written problem log |
+| Has the manual time baseline been recorded? (section 6) | Time each stage for one page done by hand | Product manager (Marija) | Before the final assessment | Open |
 
-These open questions will be revisited in the technical blueprint and later project documents as decisions are made.
-
+Status is updated in every new document version.
