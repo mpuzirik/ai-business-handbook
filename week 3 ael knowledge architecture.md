@@ -70,7 +70,7 @@ The current file-based approach is appropriate for the relatively small amount o
 
 The safety boundary established in our Technical Blueprint remains unchanged:
 
-> **Raw interview recordings, consent documents and identifiable SME information must not be sent to an external AI model service.**
+> **Raw interview recordings, consent documents, identifiable or unredacted transcripts, and confidential client or company information must not be sent to an external AI model service. Only reviewed, anonymised material may enter the AI-assisted workflow.**
 
 Protected field-research material is stored separately from the information available to the AI-assisted platform. This includes raw recordings, consent documentation, identifiable transcripts and personal information.
 
@@ -102,7 +102,17 @@ This separation reduces the risk that an automated process accidentally reads id
 
 ## 5. Socratic Tutor Questions and Open Issues
 
-At the time this first draft was prepared, our team did not have Socratic Tutor questions available from the Week 2 Technical Blueprint. We have therefore not created responses to feedback that we did not receive. This section will be updated if the feedback becomes available.
+The Socratic tutor sent five questions on the Week 2 blueprint. Each is answered in blueprint Rev 4; in short:
+
+| Tutor question | What we changed |
+|---|---|
+| 1. Where does the scoring rubric live, and which five criteria does it use? | Changed: one rubric, v1.0 in search strategy section 1.1 (Authority, Evidence, Recency, Relevance, Independence and bias); blueprint and platform read that same file |
+| 2. How can a Dutch source be appraised before it is translated? | Changed: the order is now Ingest, privacy check, translate if required, then appraise |
+| 3. How are government and state-funded sources treated? | Changed: every source type is checked for interests; authority no longer means independence |
+| 4. How will E3 (European alternatives) be searched directly? | Changed: product-level searches added; those sources use the same appraisal |
+| 5. Where are the Dutch, regional and sector-specific searches? | Changed: KVK, Oost NL, provincial and Dutch sector sources added, with the same translation and appraisal |
+
+The tutor's questions on this knowledge architecture itself are not in this document set. They belong in a section of the build plan, which does not have it yet.
 
 There are still several questions that we need to test during development. In particular, we need to determine how accurately the platform can retrieve evidence as the research collection grows, how Dutch translations should be checked against the original text, and how the system should handle situations where two reliable sources disagree.
 
@@ -112,9 +122,27 @@ Another issue is preventing generated material from becoming circular evidence. 
 
 ---
 
+## 6. What the Platform Implements, and the LLM Wiki (added in v1.1)
+
+In week 5 the team adopted the course's LLM wiki template (`ael-llm-wiki` on GitHub, set up by Maksim). Knowledge now lives in two places (decision T-011):
+
+| Architecture | Platform and wiki | Decision |
+|---|---|---|
+| Original sources | The run keeps the unchanged source text on the researcher's computer. Approved sources are copied once into the wiki's `raw/` folder and never edited there | T-011 |
+| Source appraisal and evidence records | Each run is one `run.json`: source record, AI scores next to the researcher's decisions, evidence items with verbatim quotes. "Send to Wiki" writes a run page and a source page to the wiki | T-011, T-016 |
+| Drafts and published pages kept apart from evidence | Holds: the approved handbook page goes to its own wiki page and is never offered as a source | T-001 |
+| Drafting retrieves evidence from many sources | One run is one source (T-010). Across sources, the `/wiki` command answers a question from the wiki only, with a citation after every claim | T-010, T-016 |
+| Quotes are traceable | The platform checks quotes and figures against the source; the wiki check compares every quote word for word with its raw file on every push (GitHub Action) | T-016 |
+| Protected and anonymised field research | Restricted material (identifiable transcripts, recordings, confidential information) is refused at intake and never stored. Research notes and interview material are never sent to the wiki (tested) | T-002 |
+| Published pages | The wiki holds the approved pages; publishing on the course site stays a manual step | T-009 |
+
+**Open (raised by Maksim):** evidence and handbook pages are now stored twice, in the run on the researcher's computer and in the wiki. Which copy is leading has not been decided.
+
 # Decision Log
 
-## Decision 001 — Evidence Retrieval Architecture
+The full log is the team decision log (T-001 to T-019). Its first entry was made with this document:
+
+## T-001: Evidence Retrieval Architecture
 
 **Date:** 25 September 2026
 
@@ -129,4 +157,3 @@ Another issue is preventing generated material from becoming circular evidence. 
 **Connection to the PRD:** This architecture supports our requirements for reliable evidence, traceable sources, Dutch-language processing and human oversight.
 
 **When we would reconsider:** If the research collection becomes too large for reliable file-based retrieval, we would move the evidence records to a searchable index or database while keeping the same links to the original evidence.
-
