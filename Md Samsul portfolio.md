@@ -4,7 +4,7 @@
 During Week 1, my primary focus was on establishing a strong foundation for our assignments and ensuring our team could collaborate effectively. My key contributions included:
 *   **Drafting and Reviewing:** I actively participated in brainstorming and provided core ideas for both the AIBS research proposal and the AEL Product Requirements Document (PRD). I took charge of proofreading these documents and added several critical points after my review to ensure our project scope was comprehensive.
 *   **Target SME Research:** I collaborated with Anastasia to identify our target SMEs, conducting research to provide the team with a curated list of marketing and advertising companies operating in and around Arnhem.
-*   **Workspace Setup:** To ensure our team could hit the ground running with version control and documentation, I guided through the GitHub environment and helped them get accustomed to the platform.
+*   **Workspace Setup:** To ensure our team could hit the ground running with version control and documentation, I guided the team through the GitHub environment and helped them get accustomed to the platform.
 
 ## What did I do as Deployer?
 My designated role in the team is Deployer. During this first week, I have not yet needed to execute specific deployment-related tasks, as the project is still in the foundational research and requirements phase. However, by setting up the GitHub environment and refining the PRD, I am laying the groundwork to ensure our future deployment phases are smooth and well-documented.
